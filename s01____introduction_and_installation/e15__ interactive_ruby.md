@@ -1,0 +1,14 @@
+# Interactive Ruby (IRB)
+Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477442#overview) is the link to the video.
+
+## What is an IRB:
+* Automatically installed with ruby
+* Sandbox, playground
+* It's a REPL: **r**ead -> **e**valuate -> **p**rint -> **l**oop
+* Open by `$ irb`
+* Returned value indicates with `=>`
+* Exit by `> quit` or `> exit`
+* Once you closed IRB, all work is gone
+
+## Notes:
+* `$ irb` is not the same as `$ ruby`

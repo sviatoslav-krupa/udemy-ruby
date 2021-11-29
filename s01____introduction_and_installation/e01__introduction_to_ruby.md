@@ -5,6 +5,7 @@
 * Released in 1995 by Yukihiro Matsumoto ("Matz")
 * An object oriented programming language (everything is an object)
 * Open-source project in development today
+* [Official website](https://www.ruby-lang.org/en/)
 
 ## Design Principles
 * Ruby is a high-level language

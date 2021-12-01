@@ -31,10 +31,13 @@ print "blah blah blah"
 # P
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477568#overview) is the link to the video.
 # More literal output with additional details, it adds line break at the end.
+# The same as `puts <something>.inspect`
 p "Steven Seagal" # => "Steven Seagal"
 p "Hi there, this is a
 big line break"
 # => "Hi there, this is a\nbig line break"
+p "Hello, World!"
+puts "Hello, World!".inspect
 
 
 # Notes

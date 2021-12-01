@@ -6,7 +6,7 @@ Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/64
 * Sandbox, playground
 * It's a REPL: **r**ead -> **e**valuate -> **p**rint -> **l**oop
 * Open by `$ irb`
-* Returned value indicates with `=>`
+* Returned value indicates with `=>` (rocket)
 * Exit by `> quit` or `> exit`
 * Once you closed IRB, all work is gone
 

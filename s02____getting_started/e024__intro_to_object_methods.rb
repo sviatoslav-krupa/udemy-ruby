@@ -4,6 +4,7 @@
 # Notes:
 # * Methods are functionalities
 # * Method is a message sent to the object that instructs it to do something, gives some command
+# '.' - dot operator
 
 p "Hello, World!".length # => 13 (Integer)
 p "Hello, World!".upcase # => "HELLO, WORLD!" (String)

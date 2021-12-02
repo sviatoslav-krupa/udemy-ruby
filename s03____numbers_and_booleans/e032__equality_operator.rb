@@ -7,6 +7,8 @@ p 10 == 20 # => false
 p 10 == "10" # => false
 p 10 == 10.0 # => true (even here are Integer and Float)
 p 10 == 10.1 # => false
+p true == "true" # => false
+p false == "false" # => false
 
 a = 10
 b = 5

@@ -12,3 +12,6 @@ p 2.even? # => true
 # .odd? and .even? called only on Integer
 p 4.2.odd? # => undefined method `odd?' for 4.2:Float (NoMethodError)
 p "4.2".odd? # =>  undefined method `odd?' for "4.2":String (NoMethodError)
+
+# Notes
+# Predicate methods - return true or false

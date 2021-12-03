@@ -3,11 +3,11 @@
 
 # Iterates from 5 to 1 with step 1 (including 5 and 1)
 # Returns last value
-5.downto(1) { |count| puts count }
+5.downto(1) { |count| puts count } # => 1 (prints 5, 4, 3, 2, 1)
 
 # Iterates from 1 to 5 with step 1 (including 1 and 5)
 # Returns last value
-1.upto(5) { |count| puts count }
+1.upto(5) { |count| puts count } # => 5 (prints 1, 2, 3, 4, 5)
 
 # Edge cases:
 1.downto(5) { |count| puts count } # => 1 (no iterations here)

@@ -10,7 +10,7 @@
 # Variable syntax:
 # * Variables are pointed to an object with the equal sign "=".
 # * The right side of the equal sign is always evaluated first.
-# * Variable names should start with a lowercase letter ro underscore ("_").
+# * Variable names should start with a lowercase letter or underscore ("_").
 # * Spaces are not allowed (best practice to use underscore "_" instead).
 # * Variables names are case-sensitive (name != nAme).
 # * Don't use Ruby keywords (https://docs.ruby-lang.org/en/2.2.0/keywords_rdoc.html).

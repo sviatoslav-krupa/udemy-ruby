@@ -7,8 +7,8 @@
 # * Class is a blueprint.
 # * Starting with Ruby 2.4, Fixnum and Bignum are unified into Integer.
 # * Starting with Ruby 2.4, usage of Fixnum and Bignum constants is deprecated.
-1.class         # => Fixnum
-(2 ** 62).class # => Bignum
+1.class         # => Integer (old Fixnum)
+(2 ** 62).class # => Integer (old Bignum)
 Fixnum # => Integer
 Bignum # => Integer
 

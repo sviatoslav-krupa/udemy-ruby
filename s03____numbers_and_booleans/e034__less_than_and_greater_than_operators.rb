@@ -24,6 +24,8 @@ p 10 >= 10 # => true
 p 3 >= 7 # => false
 
 # Edge cases
+p 6 > 6.0 # => false
+p 6 >= 6.0 # => true
 
 # Here Integer, Float and String include Comparable module, so we can make a comparison even if the result is error
 p 12 > "qwe" # => comparison of Float with String failed (ArgumentError)

@@ -32,3 +32,6 @@ p 6 % 2 # => 0
 # Notes
 p 1 + 4 # (1 + 4) called expression
 # Multiplication operator '*' called asterisk
+
+# Edge cases
+p 4 + "qwe" # => String can't be coerced into Integer (TypeError)

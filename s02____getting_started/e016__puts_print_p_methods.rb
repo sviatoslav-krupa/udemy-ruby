@@ -41,6 +41,9 @@ puts "Hello, World!".inspect
 
 
 # Notes
+
+# :puts and :print return nil, :p returns passed value
+
 # It is a valid Ruby code, ';' is a terminator
 puts "Hello, World!"; puts "I'm alive and well!"
 

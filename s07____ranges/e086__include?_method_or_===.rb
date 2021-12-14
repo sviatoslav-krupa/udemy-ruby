@@ -21,6 +21,11 @@ p numbers === 75 # => true
 p numbers === 100 # => false
 
 # Edge cases
+p (14.2..20.7).include?(15) # => true
+p (14.2..20.7).include?(15.7) # => true
+p (14.2..20.7).include?(20.7) # => true
+p (14.2..20.7).include?(20.8) # => false
+
 p ("a".."m").include?("m") # => true
 p ("a".."m") === "m" # => true
 p "a".."m".include?("m") # => bad value for range (ArgumentError)

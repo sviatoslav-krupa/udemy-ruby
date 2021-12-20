@@ -43,3 +43,13 @@ The square of 3 is 9
 The square of 4 is 16
 The square of 5 is 25
 =end
+
+# Edge case
+list = [3, 5, 7]
+num = 10
+
+list.each { |num| p num } # shadowing :num on line 49
+# 3
+# 5
+# 7
+p num # => 10 (from line 49)

@@ -29,7 +29,7 @@ OPTION: A band shirt and a boring tie
 # Edge case
 shirts.each do |shirt|
   ties.each do |shirt| # the same block variable name
-    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 31) is used, overrides upper :shirt (line 30)
+    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 31) is used, shadows upper :shirt (line 30)
   end
 end
 =begin

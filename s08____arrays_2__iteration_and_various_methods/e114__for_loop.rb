@@ -4,6 +4,7 @@
 numbers = [3, 5, 7]
 num = 100
 
+# It doesn't need to initialize :num before, just an example to show overriding
 for num in numbers # overrides (not just shadows) :num on line 5
   p num
 end

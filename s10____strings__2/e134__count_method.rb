@@ -6,10 +6,10 @@
 p "Hello, World!".count("H") # => 1
 p "Hello, World!".count("l") # => 3
 
-# Taking each part of param separately
+# Taking each part of param separately, order doesn't matter, case sensitivity matters
 p "Hello, World!".count("lo") # => 5 (3 "l" and 2 "o")
 p "Hello, World!".count("lW") # => 4
-p "Hello, World!".count("Wl") # => 4 (order doesn't matter)
+p "Hello, World!".count("Wl") # => 4
 p "Hello, World!".count("lw") # => 3
 
 puts "An amazing aadvark appeared".count("Aa") # => 8

@@ -5,7 +5,7 @@
 
 numbers = [1, 2, 3, 4, 2, 3, 5, 5, 6, 7]
 
-numbers.uniq
+numbers.uniq #=> [1, 2, 3, 4, 5, 6, 7]
 p numbers #=> [1, 2, 3, 4, 2, 3, 5, 5, 6, 7]
 
 numbers.uniq!

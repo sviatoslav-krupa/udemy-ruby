@@ -2,7 +2,6 @@
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482432#overview) is the link to the video.
 
 # `&` (intersection) — returns a new array containing elements that common to the two arrays and then uniq.
-# The order is preserved from the original array.
 
 [1, 1, 3, 5] & [3, 2, 1] #=> [1, 3]
 [1, 1, 3, 5].&([3, 2, 1]) #=> [1, 3]

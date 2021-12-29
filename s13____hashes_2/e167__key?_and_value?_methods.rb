@@ -20,8 +20,8 @@ cars.has_key?(:bmw) #=> false
 # .value? - returns true if the given value is present for some key in hash.
 cars.value?("aveo") #=> true
 cars.value?(:aveo) #=> false (Symbol is not the same as String)
-cars.key?("civic") #=> false
+cars.value?("civic") #=> false
 
 cars.has_value?("aveo") #=> true
 cars.has_value?(:aveo) #=> false (Symbol is not the same as String)
-cars.has_key?("civic") #=> false
+cars.has_value?("civic") #=> false

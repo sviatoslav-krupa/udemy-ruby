@@ -13,7 +13,6 @@ cars.key?(:toyota) #=> true
 cars.key?("toyota") #=> false (String is not the same as Symbol)
 cars.key?(:bmw) #=> false
 
-# Deprecated
 cars.has_key?(:toyota) #=> true
 cars.has_key?("toyota") #=> false (String is not the same as Symbol)
 cars.has_key?(:bmw) #=> false
@@ -23,7 +22,6 @@ cars.value?("aveo") #=> true
 cars.value?(:aveo) #=> false (Symbol is not the same as String)
 cars.key?("civic") #=> false
 
-# Depreacted
 cars.has_value?("aveo") #=> true
 cars.has_value?(:aveo) #=> false (Symbol is not the same as String)
 cars.has_key?("civic") #=> false

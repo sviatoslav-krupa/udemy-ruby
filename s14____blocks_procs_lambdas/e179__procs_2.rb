@@ -27,3 +27,10 @@ hi = Proc.new { puts "Hi there" }
 
 # Call proc directly with .call
 hi.call #=> Hi there
+
+# Edge case
+test_proc = Proc.new { |name| puts name }
+test_proc.call #=> nil
+=begin
+
+=end

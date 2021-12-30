@@ -34,3 +34,8 @@ test_proc.call #=> nil
 =begin
 
 =end
+
+test_proc.call("Sviat") #=> nil
+=begin
+  Sviat
+=end

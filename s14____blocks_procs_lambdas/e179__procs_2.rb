@@ -6,7 +6,7 @@ phrase = Proc.new { puts "Inside a proc" }
 # no params for :greeter method
 def greeter
   puts "I'm inside the greeter method"
-  yield
+  yield # block_given? is true even if &proc is passed as an argument
 end
 
 greeter(&phrase) # Even if we didn't receive any parameters in a method

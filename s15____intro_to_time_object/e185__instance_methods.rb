@@ -11,4 +11,5 @@ today.hour #=> 9
 today.min #=> 58
 today.sec #=> 58
 today.yday #=> 3 (the day starting for the beginning of the year)
+today.mday #=> 3 (the day starting for the beginning of the month)
 today.wday #=> 1 (the day starting for the beginning of the week, starting from Sunday as 0 day)

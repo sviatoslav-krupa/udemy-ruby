@@ -1,0 +1,3 @@
+I'm creating this from Ruby
+No line break in th endPretty cool!
+This will be appended to the end

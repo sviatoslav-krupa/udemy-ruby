@@ -4,8 +4,8 @@
 # ARGV - const, array with all arguments passed through command line
 # Each item is String
 
-# Run by `ruby e195__command_line_arguments_argv.rb test_argument Test AnotherTest 1 2`
+# Run by `$ ruby e195__command_line_arguments_argv.rb test_argument Test AnotherTest 1 2`
 p ARGV #=> ["test_argument", "Test", "AnotherTest", "1", "2"]
 
-# Run by `ruby e195__command_line_arguments_argv.rb`
+# Run by `$ ruby e195__command_line_arguments_argv.rb`
 p ARGV #=> []

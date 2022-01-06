@@ -12,7 +12,9 @@ voicemail.scan(/Re/) #=> [] (case sensitive)
 voicemail.scan(/test/) #=> []
 
 voicemail.scan(/re/) #=> ["re", "re"] (specific sequence of symbols)
-voicemail.scan(/[re]/) #=> ["e", "r", "e", "e", "r", "r", "e", "e"] (`[]` any character in any sequence)
+
+# `[]` any character in any sequence
+voicemail.scan(/[re]/) #=> ["e", "r", "e", "e", "r", "r", "e", "e"]
 voicemail.scan(/[xg]/) #=> ["g", "x", "g"]
 voicemail.scan(/[test]/) #=> ["e", "e", "e", "t", "e", "e"]
 voicemail.scan(/[Rre]/) #=> ["e", "r", "e", "e", "r", "r", "e", "e"]

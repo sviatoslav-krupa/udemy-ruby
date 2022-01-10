@@ -30,3 +30,7 @@ Float.ancestors #=> [Float, Numeric, Comparable, Object, PP::ObjectMixin, Kernel
 String.ancestors #=> [String, Comparable, Object, PP::ObjectMixin, Kernel, BasicObject]
 NilClass.ancestors #=> [NilClass, Object, PP::ObjectMixin, Kernel, BasicObject]
 TrueClass.ancestors #=> [TrueClass, Object, PP::ObjectMixin, Kernel, BasicObject]
+
+# Edge cases:
+5.superclass #=> undefined method `superclass' for 5:Integer (NoMethodError)
+5.ancestors #=> undefined method `ancestors' for 5:Integer (NoMethodError)

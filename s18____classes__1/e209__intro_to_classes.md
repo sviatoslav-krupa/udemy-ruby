@@ -12,7 +12,7 @@
 * Instance variables (attributes) are variables that belong to the object.
 * Attributes provide information about the object's current state.
 * Instance methods interact with the object. They also belong to the object.
-* Encapsulation is a OOp concept that restricts direct access to an object.
+* Encapsulation is a OOP concept that restricts direct access to an object.
 
 ## Classes and Objects
 * A class is the blueprint, pattern, template or outline for an object.

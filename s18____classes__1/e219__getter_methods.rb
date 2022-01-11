@@ -1,7 +1,7 @@
 # Getter Methods
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482618#search) is the link to the video.
 
-# getters - for get instance variables from an object
+# getters - for getting instance variables from an object
 # instance methods have access to all instance variables and can call other instance methods
 
 class Gadget

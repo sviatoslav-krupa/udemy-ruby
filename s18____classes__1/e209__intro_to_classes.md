@@ -5,7 +5,7 @@
 * Ruby's built-in objets like Arrays or Hashes cannot represent everything.
 * What if we need to represent Users, Cars or Invoices?
 * The goal of object-oriented design is to use code to model real-life things as classes.
-* An object is a custom container for data. Ir us made from a class.
+* An object is a custom container for data.
 * Objects group functionalities into a single unit.
 
 ## Objects attributes and methods:

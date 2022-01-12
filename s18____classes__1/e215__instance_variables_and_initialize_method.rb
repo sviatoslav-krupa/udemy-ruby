@@ -15,7 +15,7 @@
 # The .initialize method
 # * The .initialize method is called immediately when an object is instantiated from a class with the .new method.
 # * The .initialize method offers an opportunity to assign values to instance variables in order to define the object's state.
-# * Id the .initialize method is not defined in the class, each object is initialized with no state.
+# * If the .initialize method is not defined in the class, each object is initialized with no state.
 # * The assignment of values to instance variables doesn't mean the values have to stay constant. The object's state can be altered later.
 
 class Gadget

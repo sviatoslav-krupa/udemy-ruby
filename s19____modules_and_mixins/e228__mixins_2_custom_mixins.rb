@@ -18,7 +18,7 @@ class Supermarket
   include Purchasable
 end
 walmart = Supermarket.new
-walmart.purchase("Ic cream") #=> "Ice cream has been purchased!"
+walmart.purchase("Ice cream") #=> "Ice cream has been purchased!"
 
 class CornerMart < Supermarket; end
 quickstop = CornerMart.new

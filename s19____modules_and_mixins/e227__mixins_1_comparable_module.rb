@@ -2,7 +2,7 @@
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482634#search) is the link to the video.
 
 # What is a mixin?
-# * A mixin isa  module that injects additional behaviour into a class.
+# * A mixin is a module that injects additional behaviour into a class.
 # * Mixins allow us to mimic inheritance from more than one class.
 # * A class that includes a module has access to its methods and constants.
 # * Constants and methods mixed into a class do not need to be prefixed with the module name.
@@ -28,7 +28,6 @@
 #   Neither class can be represented as a subclass of the other.
 # * Duplication of methods across classes violates the DRY principle.
 
-# Custom way to compare objects:
 class OlympicMedal
   include Comparable
 

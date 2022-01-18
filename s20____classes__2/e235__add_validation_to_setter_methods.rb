@@ -8,7 +8,7 @@ class Gadget
   def initialize(username:, password:)
     @username = username
     @password = password
-    @production_number = generate_production_number # private method is available inside the object
+    @production_number = generate_production_number
   end
 
   def to_s

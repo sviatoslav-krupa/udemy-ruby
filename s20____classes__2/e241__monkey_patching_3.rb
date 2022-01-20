@@ -1,6 +1,8 @@
 # Monkey Patching III
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482662#search) is the link to the video.
 
+# Ruby combines all class definitions into one, the order in the file doesn't matter
+
 class Book
   def initialize(title, author, pages)
     @title = title

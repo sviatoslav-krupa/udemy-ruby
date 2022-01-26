@@ -32,5 +32,5 @@ bob.is_a?(String) #=> false
 bob.instance_of?(Manager) #=> true
 bob.instance_of?(Employee) #=> false
 dan.instance_of?(Worker) #=> true
-dan.instance_of?(Employee) #=> true
+dan.instance_of?(Employee) #=> false
 dan.instance_of?(Manager) #=> false

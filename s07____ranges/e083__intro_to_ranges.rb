@@ -24,7 +24,7 @@ p nums.last # => 5 (Integer)
 p nums.last(2) # => [4, 5] (Array)
 p (1...5).last # => 5 (even if 5 is excluded)
 p (1...5).last(1) # => [4] (Array)
-p (1...5).last(3) # => [2, ,3 ,4] (without excluded value if use argument)
+p (1...5).last(3) # => [2, 3, 4] (without excluded value if use argument)
 
 # Edge cases
 p 1..5.first # => undefined method `first' for 5:Integer (NoMethodError)

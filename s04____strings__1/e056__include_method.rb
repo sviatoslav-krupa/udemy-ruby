@@ -22,4 +22,4 @@ p name.include?("sit") # => false
 # Edge cases
 p name.include?(123) # => no implicit conversion of Integer into String (TypeError)
 p name.include?('123') # => true
-p name.include?('nW') # => false (check ordering of characters)
+p name.include?('hW') # => false (check ordering of characters)

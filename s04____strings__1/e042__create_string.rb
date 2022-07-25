@@ -2,7 +2,7 @@
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481472#overview) is the link to the video.
 # String documentation (https://ruby-doc.org/core-2.3.3/String.html)
 
-# String - collection of characters. cn include letters, numbers, symbols, spaces.
+# String - collection of characters, can include letters, numbers, symbols, spaces.
 # We can create string with '', "", String.new, .to_s
 
 puts "Hi there, I am a string"

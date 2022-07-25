@@ -28,7 +28,7 @@ p 6 > 6.0 # => false
 p 6 >= 6.0 # => true
 
 # Here Integer, Float and String include Comparable module, so we can make a comparison even if the result is error
-p 12 > "qwe" # => comparison of Float with String failed (ArgumentError)
+p 12 > "qwe" # => comparison of Integer with String failed (ArgumentError)
 p "qwe" > 12 # => comparison of String with 12 failed (ArgumentError)
 p 6.1 < nil # => comparison of Float with nil failed (ArgumentError)
 

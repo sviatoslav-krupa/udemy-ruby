@@ -11,7 +11,7 @@ World!
 puts 'Hello,\nWorld!'
 # Hello,\nWorld!
 
-# String interpolation doesnt work with single quotes
+# String interpolation doesn't work with single quotes
 name = "Sviat"
 puts "Hi, #{name}" # => Hi, Sviat
 puts 'Hi, #{name}' # => Hi, #{name}

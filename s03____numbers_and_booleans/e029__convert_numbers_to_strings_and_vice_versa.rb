@@ -20,8 +20,8 @@ p "5.8".to_i # => 5 (Integer, just cutting digits after the comma)
 
 # Edge cases
 p "5.68qwe".to_i # => 5 (cuts all symbols after digits)
-p "5.68qwe".to_f # => 5.0 (cuts all symbols after digits)
-p "qwe5.68".to_i # => 0 (non-digit symbols go first, so uby can't convert it to numeric)
+p "5.68qwe".to_f # => 5.68
+p "qwe5.68".to_i # => 0 (non-digit symbols go first, so Ruby can't convert it to numeric)
 p "qwe5.68".to_f # => 0.0
 
 

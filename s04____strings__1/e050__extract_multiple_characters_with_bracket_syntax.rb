@@ -17,7 +17,6 @@ p story.slice(0, story.length) # => "Once upon a time in a land far, far away"
 
 # Edge cases
 p story[-4, 4] # => "away"
-p story[3, 100] # => "away" (just ends in a last character)
 p story[-4, 100] # => "away" (just ends in a last character)
 p story[3, -1] # => nil
 p story[100, 200] # => nil

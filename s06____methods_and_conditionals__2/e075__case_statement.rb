@@ -20,7 +20,7 @@ end
 
 p rate_my_food("Steak") # => "Pass the steak sauce! That's delicious!"
 p rate_my_food("Sushi") # => "Great choice! My favourite food!"
-p rate_my_food("Tofu") # => "Disgusting! Yuck!"
+p rate_my_food("Tofu") # => "Great choice! My favourite food!"
 p rate_my_food("Brussels Sprouts") # => "Disgusting! Yuck!"
 p rate_my_food("Yogurt") # => "I don't know about that food."
 

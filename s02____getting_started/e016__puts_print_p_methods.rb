@@ -10,6 +10,10 @@ puts "I bought 5 dollars at the store."
 puts "I made $65 dollars pr a profit of 25%."
 puts "Hi there, this is a
 big line break"
+=begin
+  Hi there, this is a
+  big line break
+=end
 puts 5
 puts 3.14159
 puts 3 + 4 # => 7

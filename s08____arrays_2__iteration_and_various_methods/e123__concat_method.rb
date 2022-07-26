@@ -13,7 +13,6 @@ p nums.concat([4, 5]) # => [1, 3, 3, 4, 5]
 p nums # => [1, 3, 3, 4, 5]
 
 # Edge case
-# p nums.concat([[4, 5]]) # => [1, 3, 3, [4, 5]]
 p nums.concat(4, 5) # => no implicit conversion of Integer into Array (TypeError)
 
 def custom_concat(arr1, arr2)

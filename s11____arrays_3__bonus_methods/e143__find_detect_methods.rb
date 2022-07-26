@@ -3,7 +3,7 @@
 
 # .find / .detect - identical, returns first value that fits condition
 # .find is preferable by Airbnb style guide
-# To get last element - user .reverse before
+# To get last element - use .reverse before
 
 words = %w[dictionary refrigerator platypus microwave]
 

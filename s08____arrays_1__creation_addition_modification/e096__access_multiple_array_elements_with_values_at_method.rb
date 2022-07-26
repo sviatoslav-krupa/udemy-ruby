@@ -1,7 +1,7 @@
 # Access Multiple Array Elements with the .values_at Method
 # Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482128#overview) is the link to the video.
 
-# .values returns always an array
+# .values_at returns always an array
 
 channels = %w[CBS FOX NBC ESPN UPN]
 

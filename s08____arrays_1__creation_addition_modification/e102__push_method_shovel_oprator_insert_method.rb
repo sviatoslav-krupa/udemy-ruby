@@ -35,7 +35,7 @@ numbers << [9, 10]
 p numbers # => [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]]
 
 
-# .insert (mode flexible, can insert values anywhere in the array)
+# .insert (more flexible, can insert values anywhere in the array)
 
 letters = %w[a b c d e]
 p letters # => ["a", "b", "c", "d", "e"]

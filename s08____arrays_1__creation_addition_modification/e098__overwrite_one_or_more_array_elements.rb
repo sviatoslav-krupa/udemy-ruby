@@ -59,5 +59,18 @@ p fruits # => [["Coconut", "Mandarin"], "Kiwi"]
 fruits[-1] = "Apple", "Orange"
 p fruits # => [["Coconut", "Mandarin"], ["Apple", "Orange"]]
 
-# .values_at method
+# .values_at method:
 fruits.values_at(0) = "Orange" # => syntax error, unexpected '=', expecting end-of-input (SyntaxError)
+
+# One more example:
+letters = %w[a b c d e f g h]
+p letters # => ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+# When changing 1 element - inserts elements as nested array
+letters[1] = %w[x y z]
+p letters # => ["a", ["x", "y", "z"], "c", "d", "e", "f", "g", "h"]
+
+# When changing array of elemets (even if length is 1) - inserts elements as a regular elements
+letters[3..3] = %w[x y z]
+p letters # => ["a", ["x", "y", "z"], "c", "x", "y", "z", "e", "f", "g", "h"]
+

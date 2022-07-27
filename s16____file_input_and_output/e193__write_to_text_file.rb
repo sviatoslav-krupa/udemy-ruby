@@ -11,7 +11,7 @@
 
 File.open('e193__my_first_file.txt', "w") do |file|
   file.puts "I'm creating this from Ruby"
-  file.write "No line break in th end"
+  file.write "No line break in the end"
   file.puts "Pretty cool!"
 end
 

@@ -17,7 +17,7 @@
 # 1. Modules included with :prepend keyword.
 # 2. Class definition.
 # 3. Included modules (the order that modules are included in class matters).
-#    Ruby looks at the last module included in the class first.
+#    First of all, Ruby looks at the last module included in the class.
 #    If multiple modules mix in methods with the same name, the last modules included in the class will be used first.
 # 4. Parent classes.
 # 5. Ruby will throw an error if the method is not found in the class, the modules or any superclasses (:method_missing).

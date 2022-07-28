@@ -31,7 +31,7 @@ class Bicycle
   end
 
   # Other way to define class method - prepend classname instead of `self`; `self` is preferred
-  # Need to create getters and setters for class variables as well as fo instance variables
+  # Need to create getters and setters for class variables as well as for instance variables
   def Bicycle.count
     @@count
   end

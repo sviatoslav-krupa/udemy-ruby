@@ -38,5 +38,5 @@ phone.instance_variables #=> [:@username, :@password, :@production_number]
 Gadget.initialize #=> private method `initialize' called for Gadget:Class (NoMethodError)
 phone.initialize #=> private method `initialize' called for #<Gadget:0x00007fa9060b67b8 @username="User 61", @password="topsecret", @production_number="w-177"> (NoMethodError)
 
-# cause there is not reader and writer
+# cause there are no reader and writer
 phone.username #=> undefined method `username' for #<Gadget:0x00007fa9060b67b8 @username="User 61", @password="topsecret", @production_number="w-177"> (NoMethodError)

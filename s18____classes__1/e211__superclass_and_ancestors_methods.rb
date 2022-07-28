@@ -8,9 +8,9 @@
 
 # The .superclass method on Classes
 # * A superclass is the class that a current class inherits from. Inheritance follows an "is-a" structure.
-# * The .superclass method is called on a class. It returns the parent c;ass that the current class inherits from.
+# * The .superclass method is called on a class. It returns the parent class that the current class inherits from.
 # * The class that inherits from the superclass is called the subclass.
-# Every class in Ruby (except BasicObject at the top of the hierarchy) has at least one superclass.
+# * Every class in Ruby (except BasicObject at the top of the hierarchy) has at least one superclass.
 
 Integer.superclass #=> Numeric
 Float.superclass #=> Numeric

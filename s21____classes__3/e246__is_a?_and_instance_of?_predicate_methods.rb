@@ -21,7 +21,7 @@ class Worker < Employee; end
 bob = Manager.new("Bob", 45)
 dan = Worker.new("Dan", 34)
 
-# .is_a? - true if object inherits from the class that passed in an argument
+# .is_a? - true if the class or module that passed in an argument exists in .ancestors method 
 bob.is_a?(Manager) #=> true
 bob.is_a?(Employee) #=> true
 bob.is_a?(Object) #=> true

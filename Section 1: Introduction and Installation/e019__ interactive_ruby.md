@@ -12,3 +12,6 @@ Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/64
 
 ## Notes:
 * `$ irb` is not the same as `$ ruby`
+
+## Additional materials
+[DigitalOcean: How To Use IRB to Explore Ruby](https://www.digitalocean.com/community/tutorials/how-to-use-irb-to-explore-ruby)

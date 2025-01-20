@@ -14,3 +14,4 @@
 
 ## Notes
 * `.bash-profile` - runs when terminal starting
+*  **PATH** is a collection of folders/directories where your command-line application (like Terminal or PowerShell) looks for software.

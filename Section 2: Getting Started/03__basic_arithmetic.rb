@@ -36,4 +36,3 @@ p 1 + 4 # (1 + 4) called expression
 # Edge cases
 p 4 + "qwe" # => String can't be coerced into Integer (TypeError)
 p .5 / 2 # => syntax error found (SyntaxError)
-p 0.5 / 2 # => 0.25

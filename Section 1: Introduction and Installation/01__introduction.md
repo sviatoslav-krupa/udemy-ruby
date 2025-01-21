@@ -4,7 +4,6 @@
 ![rails-history.png](images/rails-history.png)
 
 # Introduction to Ruby
-[Here](https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6476054#overview) is the link to the video.
 
 ## What is Ruby?
 * Released in 1995 by Yukihiro Matsumoto ("Matz")

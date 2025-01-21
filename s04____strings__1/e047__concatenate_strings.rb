@@ -1,5 +1,4 @@
 # Concatenate Strings
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481486#overview) is the link to the video.
 
 # Concatenation - combining strings together
 

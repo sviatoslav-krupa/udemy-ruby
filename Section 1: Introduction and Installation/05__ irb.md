@@ -1,5 +1,4 @@
 # Interactive Ruby (IRB)
-Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477442#overview) is the link to the video.
 
 ## What is an IRB:
 * Automatically installed with ruby

@@ -1,5 +1,4 @@
-# Install Homebrew, rbenv and Ruby
-[Here](https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477426#overview) is the link to the video.
+# Install Ruby
 
 ## Tools for installing Ruby:
 * [rvm](https://rvm.io/) (**R**uby **V**ersion **M**anager)

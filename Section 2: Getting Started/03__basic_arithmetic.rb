@@ -1,5 +1,7 @@
 # Basic arithmetic
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477570#overview) is the link to the video.
+
+# PEMDAS
+# Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
 
 # Addition
 p 1 + 4 # => 5
@@ -17,8 +19,6 @@ p 12 / 5 # => 2 (integer / integer => integer)
 p 12.0 / 5 # => 2.4 (float / integer => float)
 p 12 / 5.0 # => 2.4 (integer / float => float)
 p 12.0 / 5.0 # => 2.4 (float / float => float)
-# p .5 / 2 # => no .<digit> floating literal anymore; put 0 before dot p .5 / 2
-p 0.5 / 2 # => 0.25
 
 # Exponents (to the power of <number>)
 p 2 ** 4 # => 16
@@ -35,3 +35,5 @@ p 1 + 4 # (1 + 4) called expression
 
 # Edge cases
 p 4 + "qwe" # => String can't be coerced into Integer (TypeError)
+p .5 / 2 # => syntax error found (SyntaxError)
+p 0.5 / 2 # => 0.25

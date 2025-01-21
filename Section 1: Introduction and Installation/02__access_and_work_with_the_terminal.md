@@ -1,5 +1,4 @@
 # Access and Work with the Terminal
-[Here](https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477424#overview) is the link to the video.
 
 ## Useful terminal commands:
 * `$ pwd` - **p**rint **w**orking **d**irectory

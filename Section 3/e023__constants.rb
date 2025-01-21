@@ -9,6 +9,6 @@ NAME = "Sviatoslav"
 PI = 3.14159
 
 NAME = "John"
-# s02____getting_started/e023__constants.rb:11: warning: already initialized constant NAME
-# s02____getting_started/e023__constants.rb:8: warning: previous definition of NAME was here
+# Section 2: Getting Started/e023__constants.rb:11: warning: already initialized constant NAME
+# Section 2: Getting Started/e023__constants.rb:8: warning: previous definition of NAME was here
 # => anyway, NAME = "John"

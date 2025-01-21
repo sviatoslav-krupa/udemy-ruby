@@ -1,5 +1,4 @@
 # Escape Characters
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481478#overview) is the link to the video.
 
 puts "Hello, World!" # => Hello, World!
 puts 'Hello, World!' # => Hello, World!
@@ -12,18 +11,15 @@ puts "Juliet said \"Goodbye\" to Romeo" # => Juliet said "Goodbye" to Romeo
 puts 'Juliet said \'Goodbye\' to Romeo' # => Juliet said 'Goodbye' to Romeo
 
 result = "Let's add a line break\nright here"
-
 puts result
 =begin
 Let's add a line break
 right here
 =end
-
 p result # => "Let's add a line break\nright here"
 
 # Escaping (adding '\')
 escaped_result = "Let's add a line break\\nright here"
-
 puts escaped_result # => "Let's add a line break\nright here"
 p escaped_result # => "Let's add a line break\\nright here"
 

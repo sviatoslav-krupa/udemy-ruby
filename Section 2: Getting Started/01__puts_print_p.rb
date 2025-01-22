@@ -50,6 +50,10 @@ puts "Hello, World!".inspect
 # It is a valid Ruby code, ';' is a terminator
 puts "Hello, World!"; puts "I'm alive and well!"
 
+# Notes:
+
+# we can pass multiple variable by comma in p, puts and print methods
+
 puts 3, 4, 5
 =begin
   3

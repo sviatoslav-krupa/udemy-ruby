@@ -1,5 +1,4 @@
 # Assignment Operators
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477668#overview) is the link to the video.
 
 # Simple assignment
 a = 10

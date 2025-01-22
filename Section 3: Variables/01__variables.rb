@@ -1,5 +1,4 @@
 # Variables
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477574#overview) is the link to the video.
 
 # What is a variable:
 # * It's a reference (pointers, identifiers) to an object. That object is subject to change.

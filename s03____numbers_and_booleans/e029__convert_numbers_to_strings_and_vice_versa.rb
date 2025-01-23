@@ -1,6 +1,8 @@
 # Convert Numbers to Strings and Vice Versa
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477648#overview) is the link to the video.
 
+
+# Notes
+# * .to_i, .to_f, .to_s don't mutate (change) object, they just return value.
 
 # Convert Strings to Numbers
 str = "5"
@@ -64,6 +66,13 @@ p integer_from_float # => 5 (cuts all digits after the comma)
 p integer_from_float.class # => Integer
 
 
-# Notes
-# * .to_i, .to_f, .to_s don't mutate (change) object, they just return value
-# * converting to the same class returns the same object
+# Edge cases
+
+"5" == "5".to_s # => true
+"5".object_id == "5".to_s.object_id # => false (.to_s creates a new different object)
+
+5 == 5.to_i # => true
+5.object_id == 5.to_i.object_id # => true
+
+5.0 == 5.0.to_f # => true
+5.0.object_id == 5.0.to_f.object_id # => true

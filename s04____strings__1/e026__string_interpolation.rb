@@ -1,13 +1,12 @@
 # String Interpolation
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477584#overview) is the link to the video.
 
-# Interpolation - process of inserting a content within a string
+# Interpolation - process of inserting a content within a string.
 # "... #{variable or expression} ..."
 
 # Works only with double quotes, not single quotes
 name = "Sviat"
-p "Hello #{name}, how are you?" => "Hello Sviat, how are you?"
-p 'Hello #{name}, how are you?' => "Hello \#{name}, how are you?"
+p "Hello #{name}, how are you?" # => "Hello Sviat, how are you?"
+p 'Hello #{name}, how are you?' # => "Hello \#{name}, how are you?"
 
 # variable or result of expression will be automatically converter to String by .to_s method
 age = 24

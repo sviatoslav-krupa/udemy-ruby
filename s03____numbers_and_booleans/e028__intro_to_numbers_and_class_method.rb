@@ -2,7 +2,7 @@
 
 # Notes:
 # * Class hierarchy: Numeric -> Integer, Float.
-# * Class is a blueprint.
+# * alias - alternate name for the same method
 
 # * Starting with Ruby 2.4, Fixnum and Bignum are unified into Integer.
 # * Starting with Ruby 2.4, usage of Fixnum and Bignum constants is deprecated.
@@ -29,6 +29,8 @@ p -.8 # => syntax error found (SyntaxError)
 p 5.next # => 6 (5 is Integer)
 p 5.0.next # => undefined method 'next' for an instance of Float (NoMethodError)
 
-# .class available on all objects and returns the class of an object
+p 10.succ # => 11 (successor, :succ is alias for :next)
+p 10.pred # => 9 (predecessor)
+
 p 5.class # => Integer
 p 5.0.class # => Float

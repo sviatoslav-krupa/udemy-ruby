@@ -1,5 +1,4 @@
 # Less than (<) and Greater than (>) Operators
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477660#overview) is the link to the video.
 
 # Less than (<)
 p 1 < 8 # => true

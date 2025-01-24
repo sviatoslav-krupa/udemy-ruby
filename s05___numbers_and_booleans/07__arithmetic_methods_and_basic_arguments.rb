@@ -1,5 +1,4 @@
 # Arithmetic Methods and Basic Arguments
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477662#overview) is the link to the video.
 
 # These examples are the same but first is preferable if we don't pass any arguments into a method (values inside parentheses)
 p 1.next # => 2

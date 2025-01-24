@@ -1,5 +1,4 @@
 # Float Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477666#overview) is the link to the video.
 
 # .to_i
 # Just cuts decimal component. The result is Integer
@@ -16,7 +15,7 @@ p 10.8.ceil # => 11
 p 10.3.ceil # => 11
 
 # .round
-# Rounds a float by mathematical rule. Argument is optional, The result is Float
+# Rounds a float by mathematical rule. Argument is optional
 p 10.8.round # => 11
 p 10.3.round # => 10
 
@@ -31,6 +30,13 @@ p 3.14159.round(4) # => 3.1416
 # Always positive
 p 10.8.abs # => 10.8
 p -10.3.abs # => 10.8
+
 # For Integer works as well
 p 5.abs # => 5
 p -5.abs # => 5
+
+# Edge cases
+p 5.floor # => 5
+p 6.ceil # => 6
+p 5.round # => 5
+p 5.round(2) # => 5

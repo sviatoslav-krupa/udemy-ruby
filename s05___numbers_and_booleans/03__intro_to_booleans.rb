@@ -1,9 +1,9 @@
 # Intro to Booleans
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477650#overview) is the link to the video.
 
 # Notes:
 # * Only 2 values: true, false.
 # * Class hierarchy: Object -> TrueClass, FalseClass.
+# * The term 'bool' - from mathematician George Boole.
 
 p 5 < 10 # => true (statement of truthiness)
 p 10 > 12 # => false (statement of truthiness)

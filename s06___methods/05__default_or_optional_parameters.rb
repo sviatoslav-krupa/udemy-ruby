@@ -1,6 +1,6 @@
 # Default or Optional Parameters
 
-def make_phone_call(number, international_code = 1, area_code = 646) # => syntax error found (SyntaxError): unexpected parameter order
+def make_phone_call(number, international_code = 1, area_code = 646)
   puts "Calling #{international_code}-#{area_code}-#{number}"
 end
 

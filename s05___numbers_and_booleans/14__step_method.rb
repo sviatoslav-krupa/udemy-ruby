@@ -1,5 +1,5 @@
 # The .step Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6477674#overview) is the link to the video.
+# Docs: https://ruby-doc.org/core-3.1.0/Numeric.html#method-i-step
 
 # Iterates from 1 to 10 with step 2 (like .upto method)
 # Returns first value

@@ -1,5 +1,4 @@
 # Introduction to Blocks
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482518#overview) is the link to the video.
 
 # What is a block:
 # * A block is a collection of code to be executed.

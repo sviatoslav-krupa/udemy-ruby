@@ -1,10 +1,13 @@
 # Intro to Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481542#overview) is the link to the video.
 
 # What is a method:
 # * Grouped collection of Ruby statements that serves a purpose.
-# * Methods are designed to be reused. Follow the golder rule DRY (Don't Repeat Yourself).
+# * Methods are designed to be reused. Follow the golden rule DRY (Don't Repeat Yourself).
 # * Methods abstract the complexity (hide the complexity) of solving a problem.
+
+# Method definitions and calls:
+# * A method is first defined with a set of Ruby statements.
+# * The method is then called or invoked (run, executed).
 
 # Example - convert military time (1630) to standard time (04:30PM)
 # * Isolate first two numbers.
@@ -13,17 +16,8 @@
 # * Isolate last two numbers. Use them to determine the minutes component of final result.
 # * Concatenate hour component, a colon, the minutes component and the period.
 
-# Method definitions and calls:
-# * A method is first defined with a set of Ruby statements.
-# * The method is then called or invoked (run, executed).
-
 # Method calling before method was defined
 introduce_myself # => undefined local variable or method `introduce_myself' for main:Object (NameError)
-=begin
-I am handsome!
-I am talented!
-I am brilliant!
-=end
 
 def introduce_myself
   # Method body
@@ -43,6 +37,20 @@ I am brilliant!
 
 # Reusing a method
 introduce_myself()
+=begin
+I am handsome!
+I am talented!
+I am brilliant!
+=end
+
+
+# Edge case
+# Note: indentation is suggested, NOT required!
+  def introduce_myself_2
+puts "Indentation is suggested, NOT required!"
+  end
+
+introduce_myself_2
 =begin
 I am handsome!
 I am talented!

@@ -9,3 +9,6 @@ until i > 9
   puts i
   i += 1
 end # => nil (prints 1 2 3 4 5 6 7 8 9)
+
+# Inline syntax
+(puts i; i += 1) until i > 9 # => nil (prints 1 2 3 4 5 6 7 8 9)

@@ -1,8 +1,7 @@
 # Truthiness and Falsiness
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481574#overview) is the link to the video.
 
-# Falsey values: false, nil
-# Truthy values: everything else
+# Falsey values: false, nil.
+# Truthy values: everything else (whether good enough to be a boolean).
 
 if false
   puts "That is true"
@@ -30,8 +29,8 @@ end # => That is true (warning: string literal in condition)
 
 if []
   puts "That is true"
-end
+end # => That is true (warning: string literal in condition)
 
 if {}
   puts "That is true"
-end
+end # => That is true (warning: string literal in condition)

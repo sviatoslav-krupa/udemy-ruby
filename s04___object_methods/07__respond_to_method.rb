@@ -1,5 +1,4 @@
 # The .respond_to? Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481610#overview) is the link to the video.
 
 # .respond_to? checks if object can respond to a method (available for every single object)
 

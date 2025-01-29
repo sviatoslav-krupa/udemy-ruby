@@ -1,11 +1,11 @@
 # Conditional Assignment
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481766#overview) is the link to the video.
+
+# `y ||= x` the same as `y = y || x`
 
 y = nil
-p y # => nil
 
 # Set y to 5 if y is nil
-y ||= 5
+y ||= 5 # the same as `y = y || 5`
 p y # => 5
 
 y ||= 10 # y is not nil

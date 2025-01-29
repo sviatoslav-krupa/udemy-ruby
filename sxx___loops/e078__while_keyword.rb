@@ -13,6 +13,9 @@ while i < 10
 end # => nil (prints 1 2 3 4 5 6 7 8 9)
 puts i # => 10
 
+# Inline syntax
+(puts i; i += 1) while i < 10 # => nil (prints 1 2 3 4 5 6 7 8 9)
+
 status = true
 while status
   print "Please, enter username: "

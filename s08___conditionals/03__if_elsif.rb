@@ -1,5 +1,4 @@
 # if elsif
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481582#overview) is the link to the video.
 
 color = "Green"
 if color == "Red"
@@ -23,7 +22,17 @@ another_number = 55
 if another_number < 25
   puts "That's a low number"
 elsif true
-  puts "That's a number in a middle"
+  puts "That's a number in a middle" # Exit from if-end block after evaluating the first matching condition
 elsif another_number < 75
-  puts "That's a big number"
+  puts "That's a big number" # Will not be evaluated even if condition is true
 end # => That's a number in a middle (returns after evaluating body with condition == true)
+
+# Technically can check non-related conditions
+number = 10
+color = "Green"
+
+if number < 25
+  puts "First condition is true"
+elsif color == "Green"
+  puts "Second condition is true"
+end # => First condition is true

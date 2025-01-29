@@ -1,5 +1,4 @@
 # Ternary Operator
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481614#overview) is the link to the video.
 
 # Syntax:
 # condition ? execute if true : execute if false

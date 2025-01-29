@@ -1,5 +1,6 @@
 # The else Keyword
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481588#overview) is the link to the video.
+
+# Guarantee run a piece of code in if-end block.
 
 grade = "C"
 

@@ -1,5 +1,4 @@
 # The if Statement
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481570?start=15#overview) is the link to the video.
 
 # What is a conditional:
 # * Statement that controls if a piece of code executes.
@@ -23,7 +22,11 @@ end # => That math statement is true (returns nil - the result of last evaluatio
 
 if 5 < 2
   puts "That math statement is true"
-end # => (return nil - the result of last evaluation)
+end # => (return nil - if condition if false)
+
+if 5.odd?
+  p "The number is indeed odd"
+end # => The number is indeed odd (returns "The number is indeed odd" - the result of last evaluation in matching condition)
 
 password = "topsecret"
 if password == "topsecret"

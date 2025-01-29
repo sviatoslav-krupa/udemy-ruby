@@ -1,19 +1,6 @@
 # Call A Method from Another Method or Interpolated String
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481618#overview) is the link to the video.
 
-# The order of methods definition doesn't matter
-
-def add(a, b)
-  a + b
-end
-
-def subtract(a, b)
-  a - b
-end
-
-def multiply(a, b)
-  a * b
-end
+# The order of methods definition doesn't matter!
 
 def calculator(a, b, operation = "add")
   if operation == "add"
@@ -25,6 +12,18 @@ def calculator(a, b, operation = "add")
   else
     "That's not a real math operation, genius!"
   end
+end
+
+def add(a, b)
+  a + b
+end
+
+def subtract(a, b)
+  a - b
+end
+
+def multiply(a, b)
+  a * b
 end
 
 calculator(2, 3, "add") # => "The result of adding is 5"

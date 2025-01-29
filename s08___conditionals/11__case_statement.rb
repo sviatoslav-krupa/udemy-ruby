@@ -1,5 +1,4 @@
 # The case Statement
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481724#overview) is the link to the video.
 
 # case - replace for multiple if statements
 

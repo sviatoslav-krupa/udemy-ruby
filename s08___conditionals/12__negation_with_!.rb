@@ -1,5 +1,4 @@
 # Negation with !
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481734#overview) is the link to the video.
 
 user = "free"
 

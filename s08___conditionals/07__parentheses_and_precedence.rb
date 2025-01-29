@@ -1,7 +1,4 @@
 # Parentheses and Precedence
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481600#overview) is the link to the video.
-
-# Operator precedence in Ruby (https://www.geeksforgeeks.org/operator-precedence-in-ruby/)
 
 def authenticate_agent(rank, name, credentials)
   # Ruby firstly evaluates expression in parentheses

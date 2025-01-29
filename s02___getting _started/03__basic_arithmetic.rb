@@ -2,6 +2,7 @@
 
 # PEMDAS
 # Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+# Operator precedence in Ruby (https://www.geeksforgeeks.org/operator-precedence-in-ruby/)
 
 # Addition
 p 1 + 4 # => 5

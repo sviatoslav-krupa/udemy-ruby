@@ -1,5 +1,4 @@
 # Multiple Conditions with && Operator
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481590#overview) is the link to the video.
 
 # && - all conditions have to evaluate to true to give true in a result
 

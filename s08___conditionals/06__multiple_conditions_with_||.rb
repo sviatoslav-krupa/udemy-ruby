@@ -14,3 +14,7 @@ end # => I'm going to buy the item! (even if the first condition is falsey, the 
 # If one condition is truthy - other conditions won't be evaluated
 # In the example, `mood == "Happy"` won't be evaluated
 18 < 21 || mood == "Happy" # => true
+
+# Edge case
+# If all arguments are truthy:
+3 || 5 || 9 # => 3 (return evaluation of first expression)

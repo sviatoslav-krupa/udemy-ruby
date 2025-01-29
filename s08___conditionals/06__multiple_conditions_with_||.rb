@@ -17,4 +17,4 @@ end # => I'm going to buy the item! (even if the first condition is falsey, the 
 
 # Edge case
 # If all arguments are truthy:
-3 || 5 || 9 # => 3 (return evaluation of first expression)
+3 || 5 || 9 # => 3 (return evaluation of first expression that is true)

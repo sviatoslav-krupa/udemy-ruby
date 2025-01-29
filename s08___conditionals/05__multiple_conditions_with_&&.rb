@@ -19,4 +19,4 @@ end # => Congratulations, welcome to the show!
 
 # Edge case
 # If all arguments are truthy:
-3 && 5 && 8 # => 8 (return evaluation of last expression)
+3 && 5 && 8 # => 8 (return evaluation of last expression that is true)

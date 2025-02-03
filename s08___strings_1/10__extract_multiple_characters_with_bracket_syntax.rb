@@ -1,5 +1,4 @@
 # Extract Multiple Characters from String with Bracket Syntax
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481502#overview) is the link to the video.
 
 story = "Once upon a time in a land far, far away"
 

@@ -1,7 +1,6 @@
 # Bang Methods on Strings
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481520#overview) is the link to the video.
 
-# bang methods (may include '!' in the end) - has a side effect (modifies, mutates an original object)
+# Bang methods (may include '!' in the end) - has a side effect (modifies, mutates an original object).
 
 word = "hello"
 p word.capitalize # => "Hello"

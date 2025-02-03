@@ -1,5 +1,4 @@
 # Equality and Inequality Operators with Strings
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481482#overview) is the link to the video.
 
 a = "Hello"
 b = "hello"

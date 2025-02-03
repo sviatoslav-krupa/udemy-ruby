@@ -1,5 +1,4 @@
 # Extract Multiple Characters with Range Objects
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481504#overview) is the link to the video.
 
 # Range - sequence of numbers in order
 # a..b - b included

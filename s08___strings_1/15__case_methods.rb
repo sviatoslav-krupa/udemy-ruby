@@ -1,5 +1,4 @@
 # Case Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481510#overview) is the link to the video.
 
 # .capitalize - only first letter in a string is capital, others are lowercase
 # Returns String

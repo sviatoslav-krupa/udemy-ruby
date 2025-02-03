@@ -1,7 +1,6 @@
 # Multiline Strings
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481474#overview) is the link to the video.
 
-# In ruby it's called "here document", "heredoc"
+# In Ruby it's called "here document", "heredoc"
 # (https://ruby-doc.org/core-2.3.0/doc/syntax/literals_rdoc.html#label-Here+Documents)
 
 # MLS can be whatever you want, it is just an indicator that indicates a start of the string
@@ -37,3 +36,10 @@ The tabs will also be preserved.
 Just you watch.
 Goodbye!
 =end
+
+# Edge case
+new_words = <<MLS add text here # => syntax error found (SyntaxError)
+  This will be a multiline string
+  when it is output.
+MLS (again some text but Ruby doesn't recognise it as a string ending)
+MLS

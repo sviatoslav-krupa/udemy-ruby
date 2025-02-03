@@ -1,5 +1,4 @@
 # Overwrite Characters in String with Bracket Syntax
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481506#overview) is the link to the video.
 
 thing = "rocket ship"
 p thing # => "rocket ship"

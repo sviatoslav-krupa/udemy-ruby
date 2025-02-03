@@ -1,5 +1,4 @@
 # The .length and .size Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481490#overview) is the link to the video.
 
 # Documentation
 # * .length - https://ruby-doc.org/core-2.5.0/String.html#method-i-length

@@ -1,8 +1,7 @@
 # Extract Single Characters from String with Bracket Syntax
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481496#overview) is the link to the video.
 
-# Strings are mutable (can be changed)
-# Each character in a string has it's own index (starting from 0)
+# Strings are mutable (can be changed).
+# Each character in a string has its own index (starting from 0).
 
 #        0 1 2 3 4 5 6 7 8 9    ...    -4 -3 -2 -1
 story = "Once upon a time in a land far, far away"

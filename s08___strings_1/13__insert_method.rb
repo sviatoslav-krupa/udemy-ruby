@@ -1,8 +1,7 @@
 # The .insert Method on a String
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482390#overview) is the link to the video.
 
-# .insert - inserts character in an index position
-# It mutates object
+# .insert - inserts character in an index position (NOT replacing or removing).
+# It mutates object.
 
 typo = "GeorgWashington"
 typo.insert(5, "e ") # => "George Washington"

@@ -1,7 +1,6 @@
 # The until Keyword
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481740#overview) is the link to the video.
 
-# until = while not (the same as unless and if)
+# until = while not (the same as unless and if).
 
 i = 1
 until i > 9

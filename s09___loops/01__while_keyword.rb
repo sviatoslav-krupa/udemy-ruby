@@ -1,9 +1,8 @@
 # The while Keyword
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481738#overview) is the link to the video.
 
-# loop - repeating over and over
-# while - when we don't know how many iteration needs
-# infinite loop - when loop doesn't ending (infinity)
+# loop - repeating over and over.
+# while - when we don't know how many iteration needs.
+# infinite loop - when loop doesn't ending (infinity).
 
 i = 1
 while i < 10

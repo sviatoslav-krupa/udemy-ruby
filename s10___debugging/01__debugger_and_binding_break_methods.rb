@@ -2,6 +2,8 @@ require "debug" # bring this program to make it available in this file
 # Without `require` - undefined local variable or method 'debugger' for main (NameError).
 # The more you include when a ruby program starts, the more memory that consumes.
 
+# `debug` gem is included starting frm Ruby 3.1.
+
 # debugger | binding.break - set a breakpoint in the code.
 # continue | c - move to next breakpoint in terminal.
 # quit | q - exit the debugging

@@ -40,3 +40,4 @@ p 5.floor # => 5
 p 6.ceil # => 6
 p 5.round # => 5
 p 5.round(2) # => 5
+p 10.0.ceil # => 10

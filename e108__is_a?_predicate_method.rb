@@ -1,5 +1,4 @@
 # The .is_a? Predicate Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482160#overview) is the link to the video.
 
 # .is_a? - checks if an object is from specific class.
 # It checks also parent classes and modules, check with `class.ancestors` method (e.g. Integer.ancestors).

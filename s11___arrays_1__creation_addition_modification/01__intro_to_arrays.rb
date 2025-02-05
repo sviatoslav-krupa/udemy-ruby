@@ -1,5 +1,4 @@
 # Introduction to Arrays
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482078#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.3.3/Array.html)
 
@@ -9,6 +8,9 @@
 # * Itself is an object.
 # * It acts as a container for other objects.
 # * An array is created with a pair of square brackets `[]`.
+
+# Notes:
+# * Homogeneous array or homogeneous data - stores elements of the same data type.
 
 p [] # => [] (empty array)
 p [].class # => Array

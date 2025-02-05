@@ -1,5 +1,4 @@
 # The .pop Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482148#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.3.0/Array.html#method-i-pop)
 
@@ -27,3 +26,9 @@ returned_elements = new_arr.pop(10) # just removes all elements, no errors
 p new_arr # => []
 p new_arr.length # => 0
 p returned_elements # => [1, 2, 3]
+
+new_arr = [1, 2, 3]
+returned_elements = new_arr.pop(0)
+p new_arr # => [1, 2, 3]
+p new_arr.length # => 3
+p returned_elements # => []

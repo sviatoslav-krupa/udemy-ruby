@@ -1,5 +1,4 @@
 # The Spaceship Operator `<=>`
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482154#overview) is the link to the video.
 
 # Documentation for arrays (https://ruby-doc.org/core-2.7.0/Array.html#method-i-3C-3D-3E)
 # More explanation (https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)

@@ -1,5 +1,4 @@
 # The .shift and .unshift Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482150#overview) is the link to the video.
 
 # Documentation
 # * .shift - https://ruby-doc.org/core-2.3.0/Array.html#method-i-shift
@@ -33,7 +32,7 @@ p nums.length # => 0
 p extract # => [1, 2, 3]
 
 
-# .unshift - opposite to .shift (adds element in the strict order at the start)
+# .unshift - opposite to .shift (adds element in the strict order at the start); the same as .push only at the beginning of an array
 arr.unshift(12)
 p arr # => [12, 4, 5, 6, 7, 8, 9, 10]
 

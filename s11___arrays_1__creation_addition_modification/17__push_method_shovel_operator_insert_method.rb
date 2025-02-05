@@ -1,5 +1,4 @@
 # The .push Method, the Shovel Operator, and the .insert Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482146#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.7.0/Array.html#method-i-push)
 
@@ -48,3 +47,6 @@ p letters # => ["a", "-", "b", "!", ":", "c", "d", "e"]
 
 letters.insert(2, %w[A B C])
 p letters # => ["a", "-", ["A", "B", "C"], "b", "!", ":", "c", "d", "e"]
+
+# Edge case
+letters.insert(15, "Z") # => ["a", "-", ["A", "B", "C"], "b", "!", ":", "c", "d", "e", nil, nil, nil, nil, nil, nil, "Z"]

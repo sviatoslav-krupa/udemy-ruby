@@ -1,5 +1,4 @@
 # Equality and Inequality Operators with Arrays
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482152#overview) is the link to the video.
 
 # Equality check: the same length, the same items, the same order of items.
 

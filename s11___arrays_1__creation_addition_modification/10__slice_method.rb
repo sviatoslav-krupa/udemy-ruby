@@ -1,7 +1,6 @@
 # The .slice Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482130#overview) is the link to the video.
 
-# .slice is identical to Brackets syntax
+# .slice is identical to Brackets syntax (as for String)
 
 numbers = [0, 2, 4, 8, 10, 12, 14]
 

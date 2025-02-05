@@ -1,13 +1,8 @@
 # Overwrite One or More Array Elements
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482134#overview) is the link to the video.
 
 # There is no matter how many elements we want to remove and how many elements we need to insert.
 # fruits[1, 4] = ["Apple", "Banana"]
 # We just change left elements with right elements.
-
-# For inserting nested array:
-# * when remove 2 or more elements - we need to write nested array in the right side.
-# * when remove 1 element - we don't need to write nested array in the right side.
 
 fruits = %w[Apple Orange Grape Banana]
 p fruits # => ["Apple", "Orange", "Grape", "Banana"]
@@ -29,6 +24,12 @@ p fruits # => ["Apple", "Watermelon", "Grape", "Banana", "Raspberry", "Strawberr
 # In this case all elements between last and new value will be nil
 fruits[10] = "Kiwi"
 p fruits # => ["Apple", "Watermelon", "Grape", "Banana", "Raspberry", nil, nil, nil, nil, nil, "Kiwi"]
+
+fruits[6] = ["Pineapple", "Pear"]
+p fruits # => ["Apple", "Watermelon", "Grape", "Banana", "Raspberry", nil, ["Pineapple", "Pear"], nil, nil, nil, "Kiwi"]
+
+fruits[7] = "Strawberry", "Orange"
+p fruits # => ["Apple", "Watermelon", "Grape", "Banana", "Raspberry", nil, ["Pineapple", "Pear"], ["Strawberry", "Orange"], nil, nil, "Kiwi"]
 
 
 # Change multiple elements
@@ -56,9 +57,6 @@ p fruits # => ["Apple", "Banana", "Kiwi"]
 fruits[0..1] = [%w[Coconut Mandarin]]
 p fruits # => [["Coconut", "Mandarin"], "Kiwi"]
 
-fruits[-1] = "Apple", "Orange"
-p fruits # => [["Coconut", "Mandarin"], ["Apple", "Orange"]]
-
 # .values_at method:
 fruits.values_at(0) = "Orange" # => syntax error, unexpected '=', expecting end-of-input (SyntaxError)
 
@@ -70,7 +68,7 @@ p letters # => ["a", "b", "c", "d", "e", "f", "g", "h"]
 letters[1] = %w[x y z]
 p letters # => ["a", ["x", "y", "z"], "c", "d", "e", "f", "g", "h"]
 
-# When changing array of elemets (even if length is 1) - inserts elements as a regular elements
+# When changing array of elements (even if length is 1) - inserts elements as a regular elements
 letters[3..3] = %w[x y z]
 p letters # => ["a", ["x", "y", "z"], "c", "x", "y", "z", "e", "f", "g", "h"]
 

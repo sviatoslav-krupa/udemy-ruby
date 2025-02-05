@@ -1,5 +1,4 @@
 # Access Single Array Element by Index Position
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482120#overview) is the link to the video.
 
 # The first element has 0 index
 

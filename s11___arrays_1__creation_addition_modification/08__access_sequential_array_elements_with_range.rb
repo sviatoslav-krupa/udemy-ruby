@@ -1,5 +1,7 @@
 # Access Sequential Array Elements with a Range Object
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482126#overview) is the link to the video.
+
+# Notes:
+# * Works the same as for String.
 
 numbers = [1, 3, 5 ,7 ,9 ,15, 21, 18, 6]
 

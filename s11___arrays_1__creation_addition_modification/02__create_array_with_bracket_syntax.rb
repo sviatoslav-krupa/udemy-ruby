@@ -1,5 +1,4 @@
 # Create An Array with Bracket Syntax
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482080#overview) is the link to the video.
 
 # Array of integers
 numbers = [4, 8, 15, 16, 23, 42]
@@ -34,18 +33,16 @@ registrations = [true, true, false, true, false]
 p registrations # => [true, true, false, true, false]
 
 # Array in array (multidimensional array, inner arrays can have different sizes)
-students = [
-  ["Boris", 25, true],
-  ["Sviat", 24]
+spreadsheet = [
+  ["Student", "Class", "Grade"],
+  ["Sally", "Computer Science", 95],
+  ["Ingrid", "Physics", 45]
 ]
-p students
-# => [["Boris", 25, true], ["Sviat", 24]]
 
-puts students
-=begin
-Boris
-25
-true
-Sviat
-24
-=end
+p spreadsheet # => [["Student", "Class", "Grade"], ["Sally", "Computer Science", 95], ["Ingrid", "Physics", 45]]
+
+first_row, second_row, third_row = spreadsheet
+
+p first_row # => ["Student", "Class", "Grade"]
+p second_row # => ["Sally", "Computer Science", 95]
+p third_row # => ["Ingrid", "Physics", 45]

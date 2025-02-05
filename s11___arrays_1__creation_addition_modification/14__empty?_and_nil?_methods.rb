@@ -1,5 +1,4 @@
 # The .empty? and .nil? Methods on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482140#overview) is the link to the video.
 
 # .empty? - true if length == 0 (no elements)
 p [1, 2, 3].empty? # => false

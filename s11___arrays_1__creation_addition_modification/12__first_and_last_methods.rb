@@ -1,5 +1,8 @@
 # The .first and .last Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482142#overview) is the link to the video.
+
+# Documentation:
+# * .first: https://ruby-doc.org/core-2.7.0/Array.html#method-i-first
+# * .last: https://ruby-doc.org/core-2.7.0/Array.html#method-i-last
 
 arr = [1, 3, 5, 7, 9, 15, 21, 18, 6]
 
@@ -14,6 +17,19 @@ p arr.last(1) # => [6] (Array)
 p arr.last(2) # => [18, 6] (Array)
 p arr.last(0) # => [] (Array)
 p arr.last(100) # => [1, 3, 5, 7, 9, 15, 21, 18, 6] (Array)
+
+# Edge case
+
+arr = []
+
+arr.first # => nil
+arr.first(2) # => []
+
+arr.last # => nil
+arr.last(2) # => []
+
+arr.first(-1) # => negative array size (ArgumentError)
+arr.last(-1) # => negative array size (ArgumentError)
 
 def custom_first(arr, num = 0)
   return arr[0] if num == 0

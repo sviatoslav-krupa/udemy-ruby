@@ -1,5 +1,4 @@
 # Create an Array with Array.new Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482098#overview) is the link to the video.
 
 p Array.new # => []
 p Array.new(3) # => [nil, nil, nil]

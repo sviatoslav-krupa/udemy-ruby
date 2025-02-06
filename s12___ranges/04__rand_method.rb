@@ -12,4 +12,4 @@ rand(299.5) # => 61 (Integer)
 
 # .rand method with a Range selects a random value from that sequence of values
 rand(50..60) # => 52 (60 is included)
-rand(50.3..60) # => 59.536005293475746
+rand(50.3..60) # => 59.536005293475746 (Float)

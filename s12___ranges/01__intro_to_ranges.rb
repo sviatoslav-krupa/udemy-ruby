@@ -1,5 +1,4 @@
 # Intro to Ranges
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481772#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.3.3/Range.html)
 
@@ -29,13 +28,15 @@ p (1...5).last(3) # => [2, 3, 4] (without excluded value if use argument)
 # Edge cases
 p 1..5.first # => undefined method `first' for 5:Integer (NoMethodError)
 p (1..5).first # => 1
-p (1..5).first(100) # => [1, 2, 3, 4, 5] (no errors, returns all values)
+p (1..5).first(100) # => [1, 2, 3, 4, 5]
 
 p 1.2..9.6 # => 1.2...9.6
 p (1.2..9.6).first # => 1.2
 p (1.2..9.6).first(1) # => can't iterate from Float (TypeError)
 p (1.2..9.6).last # => 9.6
 p (1.2..9.6).last(1) # => can't iterate from Float (TypeError)
+
+(1..9.6).first(100) # => [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 p (true..true).class # => Range
 p (true..true).first # => true
@@ -46,7 +47,7 @@ p (true..true).last(1) # => can't iterate from TrueClass (TypeError)
 p true..true # => true..true
 p true..false # => bad value for range (ArgumentError)
 p false..true # => bad value for range (ArgumentError)
-p false..false # => false..
+p false..false # => false..false
 
 p (false..false).class # => Range
 p (false..false).first # => false

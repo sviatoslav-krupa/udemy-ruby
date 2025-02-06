@@ -1,5 +1,4 @@
-# Check if Value Exists in a Range with .include? Method or ===
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482026#overview) is the link to the video.
+# Check if Value Exists in a Range with .include?, .member? or ===
 
 half_alphabet = "a".."m"
 numbers = -14..79
@@ -12,6 +11,14 @@ p numbers.include?(-12) # => true
 p numbers.include?(75) # => true
 p numbers.include?(100) # => false
 
+# .member?
+p half_alphabet.member?("c") # => true
+p half_alphabet.member?("z") # => false
+p half_alphabet.member?("E") # => false
+p numbers.member?(-12) # => true
+p numbers.member?(75) # => true
+p numbers.member?(100) # => false
+
 # ===
 p half_alphabet === "c" # => true
 p half_alphabet === "z" # => false
@@ -19,6 +26,7 @@ p half_alphabet === "E" # => false
 p numbers === -12 # => true
 p numbers === 75 # => true
 p numbers === 100 # => false
+
 
 # Edge cases
 p (14.2..20.7).include?(15) # => true

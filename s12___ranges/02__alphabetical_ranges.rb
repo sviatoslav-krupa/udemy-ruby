@@ -1,5 +1,4 @@
 # Alphabetical Ranges
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6481778#overview) is the link to the video.
 
 lowercase_alphabet = "a".."z"
 p lowercase_alphabet.first(5) # => ["a", "b", "c", "d", "e"]

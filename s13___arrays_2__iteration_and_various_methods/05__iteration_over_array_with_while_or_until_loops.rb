@@ -1,5 +1,4 @@
 # Iteration over Array with while or until Loops
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482342#overview) is the link to the video.
 
 animals = %w[Lion Zebra Baboon Cheetah]
 

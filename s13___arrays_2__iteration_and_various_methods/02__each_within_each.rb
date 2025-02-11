@@ -1,5 +1,4 @@
 # .each within .each
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482328#overview) is the link to the video.
 
 # .each within .each - for multidimensional operations
 
@@ -27,9 +26,17 @@ OPTION: A band shirt and a boring tie
 =end
 
 # Edge case
+
+shirts.each do |shirt|
+  puts "OPTION: A #{shirt} shirt and a #{tie} tie" # undefined local variable or method 'tie' for main (NameError)
+
+  ties.each do |tie|
+  end
+end
+
 shirts.each do |shirt|
   ties.each do |shirt| # the same block variable name
-    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 31) is used, shadows upper :shirt (line 30)
+    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 31) is used, shadows upper :shirt (line 29)
   end
 end
 =begin

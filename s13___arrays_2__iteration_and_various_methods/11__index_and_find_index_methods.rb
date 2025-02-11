@@ -1,8 +1,10 @@
 # The .index and .find_index Methods on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482358#overview) is the link to the video.
 
 # .index and .find_index are the same methods
-# Returns index position by value
+# Returns the first index position by provided value
+
+# .index - https://ruby-doc.org/3.2.2/Array.html#method-i-index
+# .find_index - https://ruby-doc.org/3.2.2/Array.html#method-i-find_index
 
 colors = %w[Red Blue Green Red]
 

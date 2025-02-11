@@ -1,8 +1,7 @@
 # The .each Method on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482324#overview) is the link to the video.
 
-# .each - iterate over every single array element in order
-# returns an array itself
+# .each - iterate over every single array element in order.
+# Returns an array itself.
 
 candies = ["Sour Patch kids", "Milky Way", "Airheads"]
 candies.each do |candy|
@@ -48,8 +47,44 @@ The square of 5 is 25
 list = [3, 5, 7]
 num = 10
 
-list.each { |num| p num } # shadowing :num on line 49
+list.each { |num| p num } # shadowing :num on line 48
 # 3
 # 5
 # 7
-p num # => 10 (from line 49)
+p num # => 10 (from line 48)
+
+numbers = 1..5
+numbers.each do |number|
+  puts number
+end # => 1..5
+=begin
+1
+2
+3
+4
+5
+=end
+
+def print_odds_and_evens(array)
+  odds = []
+  evens = []
+
+  array.each do |number|
+    if number.odd?
+      odds << number
+    else
+      evens << number
+    end
+  end
+
+  p odds
+  p evens
+end
+
+fives = [5, 10, 15, 20, 25, 30, 35, 40]
+
+print_odds_and_evens(fives)
+=begin
+[5, 15, 25, 35]
+[10, 20, 30, 40]
+=end

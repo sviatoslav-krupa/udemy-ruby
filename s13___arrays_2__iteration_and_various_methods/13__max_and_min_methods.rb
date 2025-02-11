@@ -1,9 +1,15 @@
 # The .max and .min Methods on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482354#overview) is the link to the video.
+
+# .max: https://docs.ruby-lang.org/en/3.2/Array.html#method-i-max
+# .min: https://docs.ruby-lang.org/en/3.2/Array.html#method-i-min
 
 stock_prices = [723.99, 434.12, 100, 84.7, 649.92]
-p stock_prices.max # => 723.99
-p stock_prices.min # => 84.7
+
+stock_prices.max # => 723.99
+stock_prices.max(3) # => [723.99, 649.92, 434.12]
+
+stock_prices.min # => 84.7
+stock_prices.min(3) # => [84.7, 100, 434.12]
 
 fruits = %w[apple kiwi banana watermelon]
 fruits.max # => "watermelon"
@@ -27,6 +33,9 @@ def custom_max(arr)
   max_value
 end
 
+custom_max([1, 2, 6, 9, -1]) # => 9
+custom_max([]) # => nil
+
 def custom_min(arr)
   return nil if arr.empty?
 
@@ -41,7 +50,5 @@ def custom_min(arr)
   min_value
 end
 
-p custom_max([1, 2, 6, 9, -1]) # => 9
-p custom_max([]) # => nil
-p custom_min([1, 2, 6, 9, -1]) # => -1
-p custom_min([]) # => nil
+custom_min([1, 2, 6, 9, -1]) # => -1
+custom_min([]) # => nil

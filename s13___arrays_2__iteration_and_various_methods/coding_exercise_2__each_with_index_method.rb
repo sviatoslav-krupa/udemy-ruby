@@ -1,5 +1,4 @@
 # CHALLENGE: The .each_with_index Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482334#overview) is the link to the video.
 
 # First:
 # [1, 2, 3, 4, 5]

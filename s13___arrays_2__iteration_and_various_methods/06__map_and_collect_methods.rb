@@ -1,10 +1,9 @@
 # The .map and .collect Methods on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482338#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.5.0/Array.html#method-i-map)
 
-# .map and .collect the same methods with the same functionality
-# Creates a new array
+# .map and .collect the same methods with the same functionality.
+# Creates a new array.
 
 numbers = [1, 2, 3, 4, 5]
 squares_with_map = numbers.map { |number| number ** 2 }
@@ -28,4 +27,9 @@ p cubes(numbers) # => [27, 512, 1331, 3375, 704969]
 
 # Edge cases
 results = [1, 2, 3].map { |number| puts number ** 2 }
-p results # => [nil, nil, nil] (cause puts  returns nil)
+=begin
+1
+4
+9
+=end
+p results # => [nil, nil, nil] (cause puts returns nil)

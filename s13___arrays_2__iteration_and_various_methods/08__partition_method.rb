@@ -1,5 +1,4 @@
 # The .partition Method on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482370#overview) is the link to the video.
 
 # .partition - .select and .reject together
 # returns multidimensional array (with length 2): 1st - .select, 2nd - .reject

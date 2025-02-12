@@ -1,8 +1,7 @@
 # Coding Exercise 3: Longest word in a string
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/quiz/4422230#overview) is the link to the exercise.
 
 def longest_word(sentence)
-  sentence_arr = sentence.split(" ")
+  sentence_arr = sentence.split
   max_length_word = sentence_arr.first
   i = 1
 
@@ -14,5 +13,6 @@ def longest_word(sentence)
 
   max_length_word
 end
+
 p longest_word("Bobby loves big scary kangaroos") # => "kangaroos"
 p longest_word("Ruby is my favorite language") # => "language"

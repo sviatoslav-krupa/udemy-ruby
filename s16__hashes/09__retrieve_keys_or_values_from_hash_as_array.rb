@@ -1,5 +1,4 @@
 # Retrieve Keys or Values from Hash as an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482492#overview) is the link to the video.
 
 shopping_list = {
   bananas: 5,
@@ -8,5 +7,8 @@ shopping_list = {
   crackers: 15
 }
 
+# .keys - returns array of hash's keys.
 shopping_list.keys #=> [:bananas, :oranges, :carrots, :crackers]
+
+# .values - returns array of hash's values.
 shopping_list.values #=> [5, 10, 3, 15]

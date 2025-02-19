@@ -1,7 +1,6 @@
 # Multiply an Array with Asterisk Symbol
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482426#overview) is the link to the video.
 
-# returns a new array built by concatenating the int copies of self
+# returns a new array built by concatenating the number copies of self
 [1, 2, 3] * 3 #=> [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
 # with a String argument, equivalent to ary.join(str)
@@ -9,6 +8,8 @@
 
 # Edge cases
 [1, [2, 3]] * 3 #=> [1, [2, 3], 1, [2, 3], 1, [2, 3]] (with nesting)
+[1, 2, 3] * true #=> no implicit conversion of true into Integer (TypeError)
+[1, 2, 3] * nil #=> no implicit conversion from nil to integer (TypeError)
 
 def custom_multiply(array, number)
   new_array = []
@@ -19,5 +20,6 @@ def custom_multiply(array, number)
 
   new_array
 end
+
 custom_multiply([1, 2, 3], 3) #=> [1, 2, 3, 1, 2, 3, 1, 2, 3]
 custom_multiply([1, [2, 3]], 3) #=> [1, [2, 3], 1, [2, 3], 1, [2, 3]]

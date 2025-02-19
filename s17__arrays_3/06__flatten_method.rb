@@ -1,8 +1,8 @@
 # The .flatten Method on an Array
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482420#overview) is the link to the video.
 
 # Documentation (https://ruby-doc.org/core-2.4.0/Array.html#method-i-flatten)
-# Returns one dimensional array (by default)
+
+# Returns one dimensional array (by default).
 # The optional level argument determines the level of recursion to flatten (from the deepest array, bottom -> up)
 # .flatten! - modifies existing array
 

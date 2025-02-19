@@ -1,7 +1,6 @@
 # Array Intersection with the Ampersand Symbol
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482432#overview) is the link to the video.
 
-# `&` (intersection) — returns a new array containing elements that common to the two arrays and then uniq.
+# `&` (intersection) — returns a new array containing elements that common to the two arrays and removes duplicates
 
 [1, 1, 3, 5] & [3, 2, 1] #=> [1, 3]
 [1, 1, 3, 5].&([3, 2, 1]) #=> [1, 3]
@@ -21,5 +20,6 @@ def custom_intersection(arr1, arr2)
 
   new_arr
 end
+
 custom_intersection([1, 1, 3, 5], [3, 2, 1]) #=> [1, 3]
 custom_intersection(%w[a b b z], %w[a b c]) #=> ['a', 'b']

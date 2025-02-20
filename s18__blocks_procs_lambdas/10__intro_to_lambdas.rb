@@ -24,6 +24,16 @@ squares_alternative_proc.call(4) #=> 16
 squares_lambda.call(4) #=> 16
 squares_alternative_lambda.call(4) #=> 16
 
+# Edge case
+
+parameterless_lambda = ->() { "Testing!)" }
+parameterless_lambda.call #=> "Testing!)"
+
+alternative_parameterless_lambda = -> { "Testing!)" }
+alternative_parameterless_lambda.call #=> "Testing!)"
+
+one_more_parameterless_lambda = { "Testing!)" } #=> syntax errors found (SyntaxError)
+
 # The differences between Proc and lambda:
 
 # 1. How they handle the wrong number of arguments:

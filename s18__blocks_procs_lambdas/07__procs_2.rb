@@ -1,5 +1,4 @@
 # Procs II
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482530#overview) is the link to the video.
 
 phrase = Proc.new { puts "Inside a proc" }
 
@@ -29,7 +28,7 @@ hi = Proc.new { puts "Hi there" }
 hi.call #=> Hi there
 
 # Edge case
-test_proc = Proc.new { |name| puts name }
+test_proc = proc { |name| puts name }
 test_proc.call #=> nil
 =begin
 

@@ -1,9 +1,8 @@
 # Intro to Lambdas
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482538#overview) is the link to the video.
 
 # lambda - anonymous method, almost identical to Proc
 # lambda is an object
-# it's a more popular than Proc
+# it's more popular than Proc
 
 squares_proc = Proc.new { |num| num ** 2 }
 squares_lambda = lambda { |num| num ** 2 }
@@ -22,8 +21,6 @@ squares_lambda.call(4) #=> 16
 # 1. How they handle the wrong number of arguments:
 #   * lambda is like anonymous method, method cares about received parameters
 #   * Proc just assign :nil to block variables if they are not passed
-squares_proc.call #=> undefined method `**' for nil:NilClass (NoMethodError)
-squares_lambda.call #=> wrong number of arguments (given 0, expected 1) (ArgumentError)
 
 some_proc = Proc.new { |name, age| "Your name is #{name} and age is #{age}" }
 some_proc.call("Sviat", 24) #=> "Your name is Sviat and age is 24"

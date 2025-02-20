@@ -1,5 +1,4 @@
 # Methods with Proc Parameters
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482536#overview) is the link to the video.
 
 def talk_about(name, &myprc)
   puts "Let me tell you about #{name}"
@@ -7,7 +6,7 @@ def talk_about(name, &myprc)
 end
 
 good_thing = Proc.new { |name| puts "#{name} is a genius" }
-bad_thing = Proc.new { |name| puts "#{name} is a bad" }
+bad_thing = proc { |name| puts "#{name} is a bad" }
 
 talk_about("Sviat", &good_thing)
 =begin
@@ -38,3 +37,7 @@ another_talk_about("Sviat", &bad_thing)
   Let me tell you about Sviat
   Sviat is a bad
 =end
+
+
+# Proc argument should be at the end of parameters list
+def one_more_talk_about(&myprc, name); end # syntax error found (SyntaxError)

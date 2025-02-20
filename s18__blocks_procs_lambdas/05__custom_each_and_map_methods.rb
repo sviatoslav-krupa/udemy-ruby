@@ -1,6 +1,4 @@
 # A Custom .each Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482526#overview) is the link to the video.
-
 def custom_each(array)
   i = 0
 
@@ -23,3 +21,20 @@ custom_each(%w[Sviat Arnold Melissa]) { |name| p "#{name} is #{name.length}" }
   "Arnold is 6"
   "Melissa is 7"
 =end
+
+
+# A Custom .map Method
+def custom_map(array)
+  i = 0
+  result = []
+
+  while i < array.length
+    result << yield(array[i])
+    i += 1
+  end
+
+  result
+end
+
+custom_map([1, 2, 3]) { |num| num ** 2 } # => [1, 4, 9]
+custom_map(%w[Sviat Arnold Melissa]) { |name| name.upcase } # => ["SVIAT", "ARNOLD", "MELISSA"]

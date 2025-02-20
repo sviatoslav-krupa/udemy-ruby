@@ -11,13 +11,13 @@
 
 # Method vs Block:
 # * Methods can be invoked over and over.
-# * A block will only be called once, then disappear.
+# * A block will only be called once, then disappear (it's temporary construct).
 # * A block isolates actions away from the method.
 
 # Example: .each
 [3, 5, 7, 9].each { |num| p num ** 2 }
 # .each - iterate through items is a core functionality
-# block specifies what we want to do each each item
+# block specifies what we want to do each item
 
 # Edge case
-{ |num| p num }.class #=> syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+{ |num| p num }.class # => syntax error, unexpected local variable or method, expecting `do' or '{' or '('

@@ -1,5 +1,4 @@
 # Lambda Efficiency Example
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482540#overview) is the link to the video.
 
 def convert(dollars, &convertor)
   convertor.call(dollars) if dollars.is_a?(Numeric)

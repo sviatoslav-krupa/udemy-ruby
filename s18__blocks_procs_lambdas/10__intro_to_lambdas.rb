@@ -5,16 +5,24 @@
 # it's more popular than Proc
 
 squares_proc = Proc.new { |num| num ** 2 }
+squares_alternative_proc = proc { |num| num ** 2 }
 squares_lambda = lambda { |num| num ** 2 }
+squares_alternative_lambda = ->(num) { num ** 2 }
 
 squares_proc.class #=> Proc
+squares_alternative_proc.class #=> Proc
 squares_lambda.class #=> Proc
+squares_alternative_lambda.class #=> Proc
 
 [1, 2, 3].map(&squares_proc) #=> [1, 4, 9]
+[1, 2, 3].map(&squares_alternative_proc) #=> [1, 4, 9]
 [1, 2, 3].map(&squares_lambda) #=> [1, 4, 9]
+[1, 2, 3].map(&squares_alternative_lambda) #=> [1, 4, 9]
 
 squares_proc.call(4) #=> 16
+squares_alternative_proc.call(4) #=> 16
 squares_lambda.call(4) #=> 16
+squares_alternative_lambda.call(4) #=> 16
 
 # The differences between Proc and lambda:
 

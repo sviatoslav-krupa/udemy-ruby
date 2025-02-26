@@ -1,5 +1,4 @@
 # Instance Variables and the .initialize Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482610#search) is the link to the video.
 
 # What is an instance variable?
 # * Instance variables are variables that belong to a specific object.
@@ -7,12 +6,13 @@
 # * The instance variables make up the object's state.
 # * Each object can have a custom state.
 # * The state of an object can change over time.
+# * Instance variables are PRIVATE. We can't read it directly outside the object.
 
-# Define an instance variable
+# Define an instance variable:
 # * Instance variables begin with the `@` symbol (sigil).
 # * Without the `@`, the variable would be interpreted as a local variable to the method it is used in.
 
-# The .initialize method
+# The .initialize method:
 # * The .initialize method is called immediately when an object is instantiated from a class with the .new method.
 # * The .initialize method offers an opportunity to assign values to instance variables in order to define the object's state.
 # * If the .initialize method is not defined in the class, each object is initialized with no state.
@@ -23,6 +23,8 @@ class Gadget
     @username = "User #{rand(1..100)}"
     @password = "topsecret"
     @production_number = "#{("a".."z").to_a.sample}-#{rand(1..999)}"
+
+    type = "smartphone" # just a local variable for :initialize method
   end
 end
 
@@ -40,3 +42,5 @@ phone.initialize #=> private method `initialize' called for #<Gadget:0x00007fa90
 
 # cause there are no reader and writer
 phone.username #=> undefined method `username' for #<Gadget:0x00007fa9060b67b8 @username="User 61", @password="topsecret", @production_number="w-177"> (NoMethodError)
+phone.@username #=> syntax error found (SyntaxError)
+phone.type #=> undefined method 'type' for #<Gadget:0x00007fa9060b67b8> (NoMethodError)

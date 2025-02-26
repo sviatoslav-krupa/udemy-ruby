@@ -1,7 +1,6 @@
 # Setter Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482620#search) is the link to the video.
 
-# setters - for setting instance variables for an object
+# setters - for setting instance variables for an object.
 
 class Gadget
   def initialize
@@ -41,6 +40,6 @@ phone.username = "New Username"
 phone.username #=> "New Username"
 
 phone.password = "new password"
-phone.password #=>  undefined method `password' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  password=
+phone.password #=> undefined method `password' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  password=
 
 phone.production_number = "New production number" #=> undefined method `production_number=' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  production_number

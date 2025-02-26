@@ -1,7 +1,6 @@
 # The self Keyword in an Instance Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482616#search) is the link to the video.
 
-# self - refers to a current object
+# self - refers to a current object.
 
 class Gadget
   def initialize
@@ -13,6 +12,21 @@ class Gadget
   def to_s
     "Gadget #{@production_number} has the username #{@username}. It is made from the #{self.class} class and it has the id #{self.object_id}"
   end
+
+  def details
+    # For methods, if you omit .self, Ruby will try find it in the current object.
+    nil_details #=> the same as `self.nil_details`
+    class_details #=> the same as `self.class_details`
+  end
+
+  def nil_details
+    puts "Is it nil? #{nil?}"
+  end
+
+  def class_details
+    # We need to set .self explicitly cause :class is a keyword (Expected class name)
+    puts "It is made from the #{self.class} class."
+  end
 end
 
 phone = Gadget.new
@@ -20,3 +34,9 @@ phone.to_s #=> "Gadget z-18 has the username User 49. It is made from the Gadget
 
 laptop = Gadget.new
 laptop.to_s #=> "Gadget o-251 has the username User 24. It is made from the Gadget class and it has the id 1120"
+
+phone.details
+=begin
+  Is it nil? false
+  It is made from the Gadget class.
+=end

@@ -1,9 +1,10 @@
 # Create A Class
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482606#search) is the link to the video.
 
-class Gadget; end
+class Gadget
+  # Body of the class
+end
 
-Gadget.ancestors #=> [Gadget, Object, PP::ObjectMixin, Kernel, BasicObject]
+Gadget.ancestors #=> [Gadget, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
 
 phone = Gadget.new #=> #<Gadget:0x00007f80ef0d5c60>
 laptop = Gadget.new #=> #<Gadget:0x00007f80f006e398>
@@ -19,16 +20,15 @@ phone.is_a?(BasicObject) #=> true
 
 phone.methods
 =begin
-[:pretty_print_cycle,
- :pretty_print,
+[:to_yaml,
+ :to_json,
  :pretty_print_inspect,
+ :pretty_print_cycle,
+ :pretty_print,
  :pretty_print_instance_variables,
- :taint,
- :tainted?,
- :untaint,
- :untrust,
- :untrusted?,
- :trust,
+ :singleton_class,
+ :dup,
+ :itself,
  :methods,
  :singleton_methods,
  :protected_methods,
@@ -42,44 +42,42 @@ phone.methods
  :instance_of?,
  :kind_of?,
  :is_a?,
- :method,
- :public_method,
+ :display,
+ :frozen?,
+ :class,
+ :yield_self,
+ :then,
+ :tap,
+ :Namespace,
  :public_send,
- :singleton_method,
- :define_singleton_method,
  :extend,
- :pretty_inspect,
  :clone,
- :to_enum,
- :enum_for,
  :<=>,
  :===,
- :=~,
  :!~,
  :nil?,
+ :method,
+ :public_method,
  :eql?,
  :respond_to?,
+ :singleton_method,
+ :define_singleton_method,
+ :TypeName,
+ :hash,
  :freeze,
  :inspect,
  :object_id,
  :send,
  :to_s,
- :display,
- :class,
- :frozen?,
- :tap,
- :then,
- :yield_self,
- :hash,
- :singleton_class,
- :dup,
- :itself,
+ :to_enum,
+ :enum_for,
+ :pretty_inspect,
+ :equal?,
  :!,
+ :__send__,
  :==,
  :!=,
  :__id__,
- :equal?,
  :instance_eval,
- :instance_exec,
- :__send__]
+ :instance_exec]
 =end

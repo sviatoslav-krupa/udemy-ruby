@@ -1,7 +1,7 @@
 # Override the .to_s Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482614#search) is the link to the video.
 
-# .to_s - String-like representation of an object, calls when .print or .puts object, but not .p
+# .to_s - String-like representation of an object.
+# Calls with .print or .puts methods, but not .p.
 
 class Gadget
   def initialize
@@ -17,7 +17,7 @@ end
 
 phone = Gadget.new
 
-# Without .to_s method overriding
+# Without .to_s method overriding (Object class and a location in the memory)
 phone.to_s #=> "#<Gadget:0x00007fa9060c4070>"
 print phone #=> #<Gadget:0x00007fa9060c4070>
 puts phone #=> #<Gadget:0x00007fa9060c4070>

@@ -1,5 +1,4 @@
 # Add Parameters to initialize Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482624#search) is the link to the video.
 
 class Gadget
   attr_accessor :username

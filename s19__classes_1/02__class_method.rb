@@ -1,5 +1,4 @@
 # Review of the .class Method on Ruby Objects
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482600#search) is the link to the video.
 
 5.class #=> Integer
 8.class #=> Integer

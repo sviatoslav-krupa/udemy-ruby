@@ -1,5 +1,7 @@
 # Instance Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482612#search) is the link to the video.
+
+# Encapsulation refers to a design paradigm where we restrict direct access to an object's data.
+# Instead, we use methods to access and write that data, which hides away the complexity of the implementation and reduces the chance of bugs.
 
 class Gadget
   def initialize
@@ -22,3 +24,6 @@ laptop.info #=> "Gadget z-118 has the username User 19"
 # Edge case
 # `phone.methods` shows also instance methods
 phone.methods - Gadget.methods #=> [:info]
+
+# Instance methods are available on objects but NOT classes
+Gadget.info #=> undefined method 'info' for class Gadget (NoMethodError)

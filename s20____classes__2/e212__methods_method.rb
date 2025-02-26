@@ -1,5 +1,4 @@
 # The .methods Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482604#search) is the link to the video.
 
 # .methods - returns an array of all available methods of an object
 

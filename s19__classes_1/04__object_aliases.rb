@@ -1,10 +1,10 @@
 # Object Aliases
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482608#search) is the link to the video.
 
 # alias - another name for the same thing
 
 class Gadget; end
 
+# Different objects, not aliases
 shiny = Gadget.new
 flashy = Gadget.new
 

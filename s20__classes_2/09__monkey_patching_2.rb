@@ -1,5 +1,4 @@
 # Monkey Patching II
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482660#search) is the link to the video.
 
 class Hash
   def identify_duplicate_values

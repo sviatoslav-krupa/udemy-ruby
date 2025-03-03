@@ -1,7 +1,6 @@
 # Monkey Patching I
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482658#search) is the link to the video.
 
-# Monkey Patching - adding features to predefined, existing class
+# Monkey Patching - adding features to predefined, existing class.
 
 [1, 2, 3, true, "Hello", :ok].custom_sum #=> undefined method `custom_sum' for [1, 2, 3, true, "Hello", :ok]:Array (NoMethodError)
 

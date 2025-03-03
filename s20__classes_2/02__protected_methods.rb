@@ -1,8 +1,7 @@
 # Protected Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482648#search) is the link to the video.
 
 # public - allows interaction with an object. Can be called by any other object.
-# protected - can be called outside te object the ONLY if another object (where protected method calls) has the same class family.
+# protected - can be called outside the object ONLY if another object (where protected method calls) has the same class family.
 # private - can be called within the object, by another instance methods. Can't be called with an explicit receiver - only the current object is able to receive the method.
 
 class Car

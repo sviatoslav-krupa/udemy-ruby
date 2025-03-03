@@ -1,5 +1,4 @@
 # Calling Multiple Setter Methods within one Method
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482654#search) is the link to the video.
 
 class Gadget
   attr_accessor :username, :password

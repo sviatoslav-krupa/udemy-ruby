@@ -1,7 +1,6 @@
 # Private Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482646#search) is the link to the video.
 
-# private - can't be called outside the object, can be called by another instance methods
+# private - can't be called outside the object, can be called by another instance methods.
 
 class Gadget
   attr_accessor :username

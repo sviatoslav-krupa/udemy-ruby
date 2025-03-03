@@ -1,8 +1,7 @@
 # Structs
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482656#search) is the link to the video.
 
-# Struct - mini class with only instance variables
-# Example of usage: `class_name` = Struct.new(<names of instance variables>)
+# Struct - mini class with only instance variables.
+# Example of usage: `class_name` = Struct.new(<names of instance variables>).
 
 module AppStore
   # Now we can use App as a class, e.g. `App.new(...)`

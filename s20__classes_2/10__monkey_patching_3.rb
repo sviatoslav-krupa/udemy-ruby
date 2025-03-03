@@ -1,7 +1,6 @@
 # Monkey Patching III
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482662#search) is the link to the video.
 
-# Ruby combines all class definitions into one, the order in the file doesn't matter
+# Ruby combines all class definitions into one.
 
 class Book
   def initialize(title, author, pages)
@@ -12,6 +11,7 @@ class Book
 end
 
 goosebumps = Book.new("Night of the Living Dummy", "R.L. Sting", 100)
+goosebumps.read #=> undefined method 'read' for #<Book:0x00000001210c4708> (NoMethodError)
 
 class Book
   def read

@@ -1,6 +1,4 @@
-# Access and Work with the Terminal
-
-## Useful terminal commands:
+## Useful terminal commands
 * `$ pwd` - **p**rint **w**orking **d**irectory
 * `$ ls` - allows to list all files or directories in the current directory
 * `$ cd <directory name>` - navigates to the directory

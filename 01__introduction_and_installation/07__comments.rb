@@ -1,4 +1,3 @@
-# Comments
 # Comments are ignored by interpreter
 
 # Single line comment (everything after '#' is ignored), preferred even for multiline comments

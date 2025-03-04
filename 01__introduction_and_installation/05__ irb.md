@@ -1,6 +1,4 @@
-# Interactive Ruby (IRB)
-
-## What is an IRB:
+## What is an IRB (Interactive Ruby)
 * Automatically installed with ruby
 * Sandbox, playground
 * It's a REPL: **r**ead -> **e**valuate -> **p**rint -> **l**oop
@@ -9,7 +7,7 @@
 * Exit by `> quit` or `> exit`
 * Once you closed IRB, all work is gone
 
-## Notes:
+## Notes
 * `$ irb` is not the same as `$ ruby`
 
 ## Additional materials

@@ -1,14 +1,11 @@
-# Assignment Operators
-
 # Simple assignment
 a = 10
-p a # => 10
+a #=> 10
 
-a = a + 5 # => a = 10 + 5  => a = 15 (right side evaluates first)
-p a # => 15
+a = a + 5 # first `a = 10 + 5`, then `a = 15` (right side evaluates first)
+a #=> 15
 
-# Shorthands:
-
+# Shorthands
 a = a + 5
 a += 5 # shorthand
 

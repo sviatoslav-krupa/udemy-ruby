@@ -1,5 +1,4 @@
 # Mixins I - The Comparable Module
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482634#search) is the link to the video.
 
 # What is a mixin?
 # * A mixin is a module that injects additional behaviour into a class.

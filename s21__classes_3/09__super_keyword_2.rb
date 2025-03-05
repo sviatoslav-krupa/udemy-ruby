@@ -1,5 +1,4 @@
 # The super Keyword II
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482684#search) is the link to the video.
 
 # .super - (without parentheses), passes all arguments to superclass method.
 # .super() - (with empty parentheses, no arguments), call superclass method without any arguments.

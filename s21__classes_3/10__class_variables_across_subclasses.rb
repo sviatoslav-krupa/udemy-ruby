@@ -1,5 +1,4 @@
 # Class Variables across Subclasses
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482686#search) is the link to the video.
 
 class Product
   @@product_counter = 0
@@ -47,7 +46,7 @@ Widget.widget_counter #=> 1
 Thingamajig.thingamajig_counter #=> 1
 
 # Edge cases
-Widget.product_counter #=> 2 (Widget has access to :product_counter - class variable of super class)
-Thingamajig.product_counter #=> 2
+Widget.product_counter #=> 2 (Widget has access to :product_counter - class variable of superclass)
+Thingamajig.product_counter #=> 2 (Thingamajig has access to :product_counter - class variable of superclass)
 Product.widget_counter #=> undefined method `widget_counter' for Product:Class (NoMethodError)
 Product.thingamajig_counter #=> undefined method `thingamajig_counter' for Product:Class (NoMethodError)

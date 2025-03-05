@@ -1,5 +1,4 @@
 # Singleton Classes and Singleton Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482688#search) is the link to the video.
 
 # singleton method - method that only exists on one single instance
 
@@ -30,7 +29,7 @@ end
 
 john.play_game #=> "Winner!" (always)
 
-# It creates anonymous singleton class that stores singleton method.
+# It creates an anonymous singleton class that stores singleton method.
 # Anonymous singleton class is a subclass of Player here.
 
 bob.class.ancestors #=> [Player, Object, PP::ObjectMixin, Kernel, BasicObject]

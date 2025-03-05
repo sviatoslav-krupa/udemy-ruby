@@ -1,7 +1,6 @@
 # The super Keyword I
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482682#search) is the link to the video.
 
-# .super - execute the same superclass method
+# .super - execute the method of a superclass with the same name
 
 class Employee
   attr_accessor :age

@@ -1,6 +1,3 @@
-# Review of Inheritance
-Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482668#search) is the link to the video.
-
 ## What is inheritance?
 * Inheritance is a way for a class to obtain all methods from another class.
 * Inheritance avoids duplicate code across multiple classes.

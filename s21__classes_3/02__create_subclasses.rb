@@ -1,5 +1,4 @@
 # Create Subclasses
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482670#search) is the link to the video.
 
 class Employee
   attr_accessor :age

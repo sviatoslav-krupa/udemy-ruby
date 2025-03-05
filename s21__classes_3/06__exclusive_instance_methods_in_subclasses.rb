@@ -1,5 +1,4 @@
 # Exclusive Instance Methods in Subclasses
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482678#search) is the link to the video.
 
 class Employee
   attr_accessor :age

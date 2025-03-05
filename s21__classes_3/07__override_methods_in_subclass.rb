@@ -1,5 +1,4 @@
 # Override Methods in a Subclass
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482680#search) is the link to the video.
 
 class Employee
   attr_accessor :age

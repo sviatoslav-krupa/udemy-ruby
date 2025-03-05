@@ -1,5 +1,4 @@
 # Check Inheritance Hierarchy
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482672#search) is the link to the video.
 
 class Employee
   attr_accessor :age
@@ -18,8 +17,8 @@ end
 class Manager < Employee; end
 class Worker < Employee; end
 
-Manager.ancestors #=> [Manager, Employee, Object, PP::ObjectMixin, Kernel, BasicObject]
-Worker.ancestors #=> [Worker, Employee, Object, PP::ObjectMixin, Kernel, BasicObject]
+Manager.ancestors #=> [Manager, Employee, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
+Worker.ancestors #=> [Worker, Employee, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
 
 Manager.superclass #=> Employee
 Worker.superclass #=> Employee

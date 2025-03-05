@@ -1,5 +1,4 @@
 # The .is_a? and .instance_of? Predicate Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482674#search) is the link to the video.
 
 class Employee
   attr_accessor :age
@@ -21,12 +20,17 @@ class Worker < Employee; end
 bob = Manager.new("Bob", 45)
 dan = Worker.new("Dan", 34)
 
-# .is_a? - true if the class or module that passed in an argument exists in .ancestors method 
+# .is_a? - checks if an object is from specific class.
+# It checks also parent classes and modules, check with `class.ancestors` method (e.g. Integer.ancestors).
+# Class hierarchy: BasicObject -> Object ...
 bob.is_a?(Manager) #=> true
 bob.is_a?(Employee) #=> true
 bob.is_a?(Object) #=> true
-dan.is_a?(Manager) #=> false
 bob.is_a?(String) #=> false
+bob.is_a?(Object) #=> true
+bob.is_a?(Kernel) #=> true
+bob.is_a?(BasicObject) #=> true
+dan.is_a?(Manager) #=> false
 
 # .instance_of? - true if object directly inherits from the class that passed in an argument (more strict)
 bob.instance_of?(Manager) #=> true

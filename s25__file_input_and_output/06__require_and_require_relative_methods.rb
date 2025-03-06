@@ -2,6 +2,7 @@
 #   .require, .require_relative - executes file only once
 #   .require - by default look for a file in Ruby installation folder
 #   .require_relative - by default look for a file in current directory of the file
+#   .require_relative "..." == require "./..."
 #   Should not have an extension of the file in the end of the file path
 #   Use to import some functionality (class, method)
 

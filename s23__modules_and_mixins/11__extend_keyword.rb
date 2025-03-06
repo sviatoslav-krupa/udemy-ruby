@@ -1,7 +1,6 @@
 # The extend Keyword
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482642#search) is the link to the video.
 
-# extend - add module methods as a class methods
+# extend - adds module methods as class methods
 
 module Announcer
   def who_am_i

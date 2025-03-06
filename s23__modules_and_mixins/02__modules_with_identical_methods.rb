@@ -1,5 +1,4 @@
 # Modules with Identical Methods
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482628#search) is the link to the video.
 
 module Square
   def self.area(side)

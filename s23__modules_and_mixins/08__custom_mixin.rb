@@ -1,7 +1,7 @@
-# Mixins II - Custom Mixins
-# Here (https://www.udemy.com/course/learn-to-code-with-ruby-lang/learn/lecture/6482636#search) is the link to the video.
+# Notes
+#   Best practice: modules end with "-able"
+#   If you're defining methods that will eventually be mixed in as instance methods do not include the self keyword
 
-# Good practice: modules end with "-able"
 module Purchasable
   def purchase(item)
     "#{item} has been purchased!"

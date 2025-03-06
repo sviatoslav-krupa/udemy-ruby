@@ -1,5 +1,3 @@
-# Mixins I - The Comparable Module
-
 # What is a mixin?
 # * A mixin is a module that injects additional behaviour into a class.
 # * Mixins allow us to mimic inheritance from more than one class.
@@ -27,40 +25,39 @@
 #   Neither class can be represented as a subclass of the other.
 # * Duplication of methods across classes violates the DRY principle.
 
-class OlympicMedal
-  include Comparable
+class ConvenienceStore
+  include Enumerable
 
-  MEDAL_TYPES = {
-    gold: 3,
-    silver: 2,
-    bronze: 1
-  }
+  attr_reader :snacks
 
-  attr_reader :type
-
-  def initialize(type)
-    @type = type
+  def initialize
+    @snacks = []
   end
 
-  # Need to create spaceship operator method (`<=>`) to tell Ruby how to compare objects
-  def <=>(other)
-    MEDAL_TYPES[type] <=> MEDAL_TYPES[other.type]
+  def add_snack(snack)
+    snacks << snack
+  end
+
+  # Need to create each method to tell Ruby how to iterate objects
+  def each
+    snacks.each { |snack| yield(snack) }
   end
 end
 
-gold_medal = OlympicMedal.new(:gold)
-silver_medal = OlympicMedal.new(:silver)
-bronze_medal = OlympicMedal.new(:bronze)
+bodega = ConvenienceStore.new
 
-gold_medal > silver_medal #=> true
-gold_medal > bronze_medal #=> true
-silver_medal < gold_medal #=> true
-silver_medal < bronze_medal #=> false
-bronze_medal < silver_medal #=> true
-bronze_medal < gold_medal #=> true
-bronze_medal > gold_medal #=> false
-gold_medal == silver_medal #=> false
-gold_medal == bronze_medal #=> false
-silver_medal == bronze_medal #=> false
-silver_medal.between?(gold_medal, bronze_medal) #=> false
-silver_medal.between?(bronze_medal, gold_medal) #=> true
+bodega.add_snack("Doritos")
+bodega.add_snack("Jolly Ranchers")
+bodega.add_snack("Slim Jim")
+
+bodega.snacks #=> ["Doritos", "Jolly Ranchers", "Slim Jim"]
+bodega.each { |snack| p "#{snack} is delicious" }
+# OUTPUT:
+#   "Doritos is delicious"
+#   "Jolly Ranchers is delicious"
+#   "Slim Jim is delicious"
+
+bodega.any? { |snack| snack.length > 10 } #=> true
+bodega.all? { |snack| snack.length > 10 } #=> false
+bodega.map { |snack| snack.upcase }       #=> ["DORITOS", "JOLLY RANCHERS", "SLIM JIM"]
+bodega.sort                                     #=> ["Doritos", "Jolly Ranchers", "Slim Jim"]

@@ -43,7 +43,7 @@ The square of 4 is 16
 The square of 5 is 25
 =end
 
-# Edge case
+# Edge cases
 list = [3, 5, 7]
 num = 10
 

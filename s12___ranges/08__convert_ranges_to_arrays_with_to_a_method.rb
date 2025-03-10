@@ -20,7 +20,7 @@ numbers_array # => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers_array.class # => Array
 numbers_array[2] # => 3
 
-# Edge cases
+# Edge cases:
 1...10.to_a # => undefined method `to_a' for 10:Integer (NoMethodError)
 (3.14..10).to_a # => can't iterate from Float (TypeError)
 (3.14..10.1).to_a # => can't iterate from Float (TypeError)

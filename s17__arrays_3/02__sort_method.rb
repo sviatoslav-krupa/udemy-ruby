@@ -23,7 +23,7 @@ words # => ["apple", "caterpillar", "kangaroo", "zebra"]
 nums = [3, 4, 1, -10, 0, 6]
 nums.sort.reverse # => [6, 4, 3, 1, 0, -10]
 
-# Edge cases
+# Edge cases:
 [1, 2.4, 6, 5.7, 10, -3.5].sort # => [-3.5, 1, 2.4, 5.7, 6, 10]
 %w[a A z Z c C].sort # => ["A", "C", "Z", "a", "c", "z"]
 ["qwe", 3, 5, "hello"].sort # => comparison of String with 3 failed (ArgumentError)

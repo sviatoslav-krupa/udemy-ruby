@@ -13,5 +13,5 @@ removed = hash.delete(:z) # => nil
 hash # => {b: 200}
 removed # => nil
 
-# Edge case
+# Edge cases
 hash.delete(:b, :z) #=> wrong number of arguments (given 2, expected 1) (ArgumentError)

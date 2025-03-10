@@ -22,7 +22,7 @@ another_hash = { a: "qwe", b: "another_qwe" }
 another_hash # => {a: "qwe", b: "another_qwe"}
 another_hash.class # => Hash
 
-# Edge case
+# Edge cases
 one_more_hash = { a: "qwe", a: "another_qwe" } # warning: key :a is duplicated and overwritten on line <...> (no errors)
 one_more_hash # => {a: "another_qwe"}
 one_more_hash.class # => Hash

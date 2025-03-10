@@ -29,6 +29,6 @@ phrase =~ / / #=> 3 (whitespace works as well)
 /!/ =~ phrase #=> 40
 / / =~ phrase #=> 3
 
-# Edge case
+# Edge cases
 phrase = "The Ruby programming language is amazing."
 phrase =~ /./ #=> 0 (`.` means any character, "T" satisfies this condition)

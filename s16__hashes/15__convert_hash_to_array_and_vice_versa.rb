@@ -23,7 +23,7 @@ power_rangers = [
 power_rangers.to_h # => {red: "Jason", black: "Zack", blue: "Billy", pink: "Kimberly", yellow: "Trini"}
 
 
-# Edge case
+# Edge cases
 [].to_a # => []
 {}.to_h # => {}
 [1, 2, 3].to_h # => wrong element type Integer at 0 (expected array) (TypeError)

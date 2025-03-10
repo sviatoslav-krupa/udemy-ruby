@@ -11,7 +11,7 @@ nums # => [1, 2, 3]
 nums.concat([4, 5]) # => [1, 3, 3, 4, 5]
 nums # => [1, 3, 3, 4, 5]
 
-# Edge case
+# Edge cases
 nums.concat(4, 5) # => no implicit conversion of Integer into Array (TypeError)
 
 def custom_concat(arr1, arr2)

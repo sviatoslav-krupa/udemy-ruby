@@ -1,6 +1,6 @@
-# Notes
-#   .respond_to? checks if object can respond to a method (available for every single object)
-#   # Symbol - lightweight String (label, doesn't have a lot of String methods)
+# Notes:
+#   * .respond_to? checks if object can respond to a method (available for every single object)
+#   * Symbol - lightweight String (label, doesn't have a lot of String methods)
 
 num = 1000
 num.respond_to?(:next)        #=> true (Integer object can respond to :next method, :next is a symbol, not string)
@@ -14,7 +14,7 @@ p num.next if num.respond_to?(:next) #=> 1001
 #   1001
 
 p num.next if num.respond_to?(:length) #=> nil
-# OUTPUT (outputs nothing):
+# OUTPUT: (outputs nothing)
 
 str = "Hello"
 str.respond_to?(:length)  #=> true

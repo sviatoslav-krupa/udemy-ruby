@@ -1,6 +1,6 @@
-# Notes
-#   .gets - (get String) collects input from a user, output value is always String
-#   .chomp - remove new line character at the end of the string
+# Notes:
+#   * .gets - (get String) collects input from a user, OUTPUT: value is always String
+#   * .chomp - remove new line character at the end of the string
 
 name = gets # enter Sviat
 

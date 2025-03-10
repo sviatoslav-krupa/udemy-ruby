@@ -9,7 +9,7 @@ flavors.sample(3) # => ["Strawberry", "Milk", "Chocolate"]
 flavors.sample(4) # => ["Milk", "Chocolate", "Strawberry", "Vanilla"] (just random ordering)
 flavors.sample(flavors.length) # => ["Milk", "Chocolate", "Strawberry", "Vanilla"] (just random ordering)
 
-# Edge case
+# Edge cases
 flavors.sample(100) # => ["Milk", "Chocolate", "Strawberry", "Vanilla"] (just random ordering)
 flavors.sample(-2) # => negative sample number (ArgumentError)
 flavors.sample(0) # => []

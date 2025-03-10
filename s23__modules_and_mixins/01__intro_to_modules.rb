@@ -51,7 +51,7 @@ LengthConversions.miles_to_feet(100) #=> 528000
 LengthConversions.miles_to_inches(100) #=> 6336000
 LengthConversions.miles_to_centimeters(100) #=> 16093440.0
 
-# Edge case
+# Edge cases
 LengthConversions.new #=> undefined method `new' for LengthConversions:Module (NoMethodError)
 LengthConversions.method_without_self #=> undefined method 'method_without_self' for module LengthConversions (NoMethodError)
 LengthConversions.wrapper_for_method_without_self #=> undefined method 'method_without_self' for module LengthConversions (NoMethodError)

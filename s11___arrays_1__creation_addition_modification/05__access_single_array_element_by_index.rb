@@ -20,7 +20,7 @@ p fruits[-3] # => "Orange"
 p fruits.[](0) # => "Apple"
 p fruits.[](1) # => "Orange"
 
-# Edge cases
+# Edge cases:
 p fruits[100] # => nil
 p fruits[-100] # => nil
 p fruits[3.96] # => "Banana"

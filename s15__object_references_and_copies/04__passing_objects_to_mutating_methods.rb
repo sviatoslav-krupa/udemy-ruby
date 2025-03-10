@@ -20,7 +20,7 @@ uppercase(new_name) # => can't modify frozen String: "Sviat" (FrozenError)
 new_name # => "Sviat"
 
 
-# Edge case
+# Edge cases
 
 new_values = [1, 2, 3, 4]
 def new_example(elements) # `elements` is an alias (one more pointer) to `values` in this case

@@ -14,5 +14,5 @@ p numbers[0].class # => Integer
 p numbers[0, 1] # => [1]
 p numbers[0, 1].class # => Array
 
-# Edge cases
+# Edge cases:
 p numbers[4, 100] # => [9, 15, 21] (just cut array at the end)

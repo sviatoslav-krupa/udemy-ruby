@@ -13,7 +13,7 @@ p names.join(" - ") # => "Joe - Moe - Bob
 
 p %w[h e l l o].join # => "hello"
 
-# Edge cases
+# Edge cases:
 p names.join(" - ", 1) # => wrong number of arguments (given 2, expected 0..1) (ArgumentError)
 p ["qwe", 1, 4, true, nil, "hello", 3.14, [], [1, 3], {}].join # => "qwe14truehello3.1413{}"
 

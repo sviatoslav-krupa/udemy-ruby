@@ -25,7 +25,7 @@ end
 numbers = [3, 8, 11, 15, 89]
 p cubes(numbers) # => [27, 512, 1331, 3375, 704969]
 
-# Edge cases
+# Edge cases:
 results = [1, 2, 3].map { |number| puts number ** 2 }
 =begin
 1

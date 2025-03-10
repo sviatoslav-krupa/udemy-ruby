@@ -16,5 +16,5 @@ vegan_shopping_list.length # => 0
 shopping_list.empty? # => false
 vegan_shopping_list.empty? # => true
 
-# Edge case
+# Edge cases
 { a: "qwe", b: "qwe", a: "another qwe"}.length # => 2 (warning: key :a is duplicated and overwritten on line 9)

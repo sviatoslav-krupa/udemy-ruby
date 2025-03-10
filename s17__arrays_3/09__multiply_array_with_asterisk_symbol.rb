@@ -6,7 +6,7 @@
 # with a String argument, equivalent to ary.join(str)
 [1, 2, 3] * "," #=> "1,2,3"
 
-# Edge cases
+# Edge cases:
 [1, [2, 3]] * 3 #=> [1, [2, 3], 1, [2, 3], 1, [2, 3]] (with nesting)
 [1, 2, 3] * true #=> no implicit conversion of true into Integer (TypeError)
 [1, 2, 3] * nil #=> no implicit conversion from nil to integer (TypeError)

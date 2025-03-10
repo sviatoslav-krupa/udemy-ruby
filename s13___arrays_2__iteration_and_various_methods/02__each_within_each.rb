@@ -25,7 +25,7 @@ OPTION: A band shirt and a solid color tie
 OPTION: A band shirt and a boring tie
 =end
 
-# Edge case
+# Edge cases
 
 shirts.each do |shirt|
   puts "OPTION: A #{shirt} shirt and a #{tie} tie" # undefined local variable or method 'tie' for main (NameError)

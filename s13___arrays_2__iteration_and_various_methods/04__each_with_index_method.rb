@@ -12,7 +12,7 @@ end # => ["red", "blue", "yellow", "orange"]
 3: Color orange
 =end
 
-# Edge case
+# Edge cases
 # start counting from 0, :index always is a second parameter
 
 colors.each_with_index do |index, color|

@@ -11,7 +11,7 @@ p numbers[3..6] # => [7, 9, 15, 21]
 # Get elements starting from 3rd index till 6th index exclusively
 p numbers[3...6] # => [7, 9, 15]
 
-# Edge cases
+# Edge cases:
 p numbers[3..3] # => [7]
 p numbers[3...3] # => [] (not [nil])
 p numbers[3...100] # => [7, 9, 15, 21, 18, 6] (just cut array at the end)

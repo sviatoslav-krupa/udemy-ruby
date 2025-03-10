@@ -19,5 +19,5 @@
 # .each - iterate through items is a core functionality
 # block specifies what we want to do each item
 
-# Edge case
+# Edge cases
 { |num| p num }.class # => syntax error, unexpected local variable or method, expecting `do' or '{' or '('

@@ -1,6 +1,6 @@
-# Notes
-#   * ruby files must have .rb extension
-#   * run ruby file by `$ ruby <filename>.rb`
+# Notes:
+#   * Ruby files must have .rb extension
+#   * Run ruby file by `$ ruby <filename>.rb`
 
 puts "Hello, World!" #=> nil
 # OUTPUT:

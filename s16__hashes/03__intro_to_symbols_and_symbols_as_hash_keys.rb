@@ -41,7 +41,7 @@ person[:handsome] #=> true
 person[:languages] #=> ["Ruby" "JavaScript"]
 person[:languages][0] #=> "Ruby"
 
-# Edge case
+# Edge cases
 person["name"] #=> nil
 
 
@@ -55,5 +55,5 @@ colors = { red:, green:, blue: } # the same as `color = { red: red, green: green
 colors # => {red: 230, green: 0, blue: 50}
 colors[:red] # => 230
 
-# Edge case
+# Edge cases
 colors = { red:, green:, blue:, orange: } # => undefined method 'orange' for main (NoMethodError)

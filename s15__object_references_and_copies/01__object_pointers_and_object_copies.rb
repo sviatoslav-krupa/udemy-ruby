@@ -41,7 +41,7 @@ a.push(4) # there is no new object, just a mutation of the original one
 a #=> [1, 2, 3, 4] (changed)
 b #=> [1, 2, 3, 4] (changed because it's the same object)
 
-# Edge case
+# Edge cases
 
 b = "Another object" # assigns new object to `b` variable (pointer), `a` variable (pointer) not changed
 

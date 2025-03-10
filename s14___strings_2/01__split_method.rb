@@ -16,7 +16,7 @@ sentence.split(" i") # => ["Hi, my name", "s Sviat. There are spaces here!"]
 # To get all characters separately (just pass an empty string)
 sentence.split("") # => ["H", "i", ",", " ", "m", "y", " ", "n", "a", "m", "e", " ", "i", "s", " ", "S", "v", "i", "a", "t", ".", " ", "T", "h", "e", "r", "e", " ", "a", "r", "e", " ", "s", "p", "a", "c", "e", "s", " ", "h", "e", "r", "e", "!"]
 
-# Edge case
+# Edge cases
 sentence.split(nil) # => ["Hi,", "my", "name", "is", "Sviat.", "There", "are", "spaces", "here!"] (the same as without parameter)
 sentence.split(3) # => wrong argument type Integer (expected Regexp) (TypeError)
 

@@ -17,7 +17,7 @@ p arr # => [1, 2, 3, 4, 5, 6, 7]
 p arr.length # => 7
 p removed_elements # => [8, 9]
 
-# Edge cases
+# Edge cases:
 [].pop # => returns nil
 [].pop(3) # => []
 

@@ -24,7 +24,7 @@ squares_alternative_proc.call(4) #=> 16
 squares_lambda.call(4) #=> 16
 squares_alternative_lambda.call(4) #=> 16
 
-# Edge case
+# Edge cases
 
 parameterless_lambda = ->() { "Testing!)" }
 parameterless_lambda.call #=> "Testing!)"
@@ -72,7 +72,7 @@ def proc_diet
 end
 proc_diet #=> "You gave in"
 
-# Edge case
+# Edge cases
 
 def another_lambda_diet
   status = lambda { "You gave in" }

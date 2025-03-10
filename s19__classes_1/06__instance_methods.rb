@@ -21,7 +21,7 @@ laptop = Gadget.new
 phone.info #=> "Gadget t-495 has the username User 63"
 laptop.info #=> "Gadget z-118 has the username User 19"
 
-# Edge case
+# Edge cases
 # `phone.methods` shows also instance methods
 phone.methods - Gadget.methods #=> [:info]
 

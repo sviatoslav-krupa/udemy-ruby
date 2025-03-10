@@ -53,7 +53,7 @@ Back inside the method
 result # => "Now I'm inside the block"
 
 
-# Edge case
+# Edge cases
 # No problem if there is no yield in method but block exists
 def another_pass_control
   puts "This is inside the method"

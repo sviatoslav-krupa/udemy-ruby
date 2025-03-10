@@ -22,6 +22,6 @@ nfl_roaster["Tony Romo"] # => "Dallas Cowboys"
 nba_roaster["Cleveland Cavaliers"] # => ["Lebron James", "Kevin Love", "Kyrie Irving"]
 nba_roaster["Cleveland Cavaliers"][1] # => "Kevin Love"
 
-# Edge case
+# Edge cases
 nfl_roaster["Donald Duck"] # => nil
 nfl_roaster["tom brady"] # => nil (case matters)

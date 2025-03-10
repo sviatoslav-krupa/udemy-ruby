@@ -7,19 +7,19 @@ a #=> 15
 
 # Shorthands
 a = a + 5
-a += 5 # shorthand
+a += 5
 
 a = a - 3
-a -= 3 # shorthand
+a -= 3
 
 a = a * 2
-a *= 2 # shorthand
+a *= 2
 
 a = a / 3
-a /= 3 # shorthand
+a /= 3
 
 a = a ** 3
-a **= 3 # shorthand
+a **= 3
 
 a = a % 6
-a %= 6 # shorthand
+a %= 6

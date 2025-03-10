@@ -36,7 +36,7 @@ Baboon
 Cheetah
 =end
 
-# Edge cases
+# Edge cases:
 
 i = 0
 while i < 10

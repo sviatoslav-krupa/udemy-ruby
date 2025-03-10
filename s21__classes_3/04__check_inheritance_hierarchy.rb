@@ -27,7 +27,7 @@ Manager < Employee #=> true
 Manager < Object #=> true
 Employee < Manager #=> false
 
-# Edge cases
+# Edge cases:
 Manager < Kernel #=> true (works with modules)
 Manager < Manager #=> false
 Manager < Worker #=> nil

@@ -21,6 +21,6 @@ b = %w[Skittles Starburst snickers]
 p a == b # => false
 p a != b # => true
 
-# Edge cases
+# Edge cases:
 p [1, 2] == [1, nil, 2] # => false
 p [1, 2] == [1, 2, nil] # => false

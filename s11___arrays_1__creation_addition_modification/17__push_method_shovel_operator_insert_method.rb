@@ -48,5 +48,5 @@ p letters # => ["a", "-", "b", "!", ":", "c", "d", "e"]
 letters.insert(2, %w[A B C])
 p letters # => ["a", "-", ["A", "B", "C"], "b", "!", ":", "c", "d", "e"]
 
-# Edge case
+# Edge cases
 letters.insert(15, "Z") # => ["a", "-", ["A", "B", "C"], "b", "!", ":", "c", "d", "e", nil, nil, nil, nil, nil, nil, "Z"]

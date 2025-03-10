@@ -7,7 +7,7 @@
 %w[a b b z] & %w[a b c] #=> ['a', 'b']
 %w[a b b z].&(%w[a b c]) #=> ['a', 'b']
 
-# Edge cases
+# Edge cases:
 [1, 1, 3, 5] & [10, 11, 12] #=> []
 [1, 1, 3, 5] & [3, 1, 6] & [1, 3, 10, 12] #=> [1, 3] (multiple arrays)
 

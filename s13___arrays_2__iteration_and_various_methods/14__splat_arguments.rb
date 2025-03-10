@@ -13,7 +13,7 @@ sum(1, 2) # => 3
 sum(3, 4, 6, 9) # => 21
 sum # => 0 (:nums == [])
 
-# Edge cases
+# Edge cases:
 # Splat arguments can be at the start, in the middle and at the end, it works without losing any params
 
 def test(a, b, *rest)

@@ -1,7 +1,7 @@
-# Notes
-#   Methods are functionalities
-#   Method is a message sent to the object that instructs it to do something, gives some command
-#   '.' - dot operator
+# Notes:
+#   * Methods are functionalities
+#   * Method is a message sent to the object that instructs it to do something, gives some command
+#   * '.' - dot operator
 
 "Hello, World!".length    #=> 13 (Integer)
 "Hello, World!".upcase    #=> "HELLO, WORLD!" (String)

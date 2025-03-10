@@ -19,5 +19,5 @@ end
 Dog.who_am_i #=> "The name if this class is Dog"
 Cat.who_am_i #=> "The name if this class is Cat"
 
-# Edge case
+# Edge cases
 Dog.new.who_am_i #=> undefined method `who_am_i' for #<Dog:0x00007f9bc315e6c0> (NoMethodError)

@@ -1,6 +1,6 @@
 # Notes:
-#   .inspect - converts an object to a string representation that is fit to debugging
-#   Available for ALL objects
+#   * .inspect - converts an object to a string representation that is fit to debugging
+#   * Available for ALL objects
 
 puts "Hello world\n" #=> nil
 # OUTPUT:

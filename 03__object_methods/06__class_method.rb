@@ -1,8 +1,8 @@
 # Notes:
-#   Class - a blueprint (template/schematic) for an object
-#   Object - an "instance" of the class
-#   Instantiation - a process of creating objects from classes
-#   .class available for ALL objects and returns the class of an object
+#   * Class - a blueprint (template/schematic) for an object
+#   * Object - an "instance" of the class
+#   * Instantiation - a process of creating objects from classes
+#   * .class available for ALL objects and returns the class of an object
 
 "hello".class       #=> String
 "Ruby is fun".class #=> String

@@ -6,7 +6,7 @@
 [1, 2, 3, 4, 5].include?(2) # => true
 [1, 2, 3, 4, 5].include?(6) # => false
 
-# Edge case
+# Edge cases
 [1, 2, 3, [4], 5].include?(4) # => false
 [1, 2, 3, [4], 5].include?([4]) # => true
 

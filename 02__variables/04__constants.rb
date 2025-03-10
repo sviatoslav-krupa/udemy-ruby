@@ -1,6 +1,6 @@
-# Notes
-#   Name starts with capital letter, best practice to make all letter capital
-#   Can be changed but warning will appear
+# Notes:
+#   * Name starts with capital letter, best practice to make all letter capital
+#   * Can be changed but warning will appear
 
 NAME = "Sviatoslav"
 Name = "Taras" # no warning due to case sensitivity

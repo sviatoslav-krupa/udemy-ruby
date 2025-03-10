@@ -21,7 +21,7 @@ p arr # => [4, 5, 6, 7, 8, 9, 10]
 p arr.length # => 7
 p removed_elements # => [2, 3]
 
-# Edge cases
+# Edge cases:
 [].shift # => nil
 [].shift(3) # => []
 

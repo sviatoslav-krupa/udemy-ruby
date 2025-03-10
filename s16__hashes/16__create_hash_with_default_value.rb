@@ -16,7 +16,7 @@ fruit_prices.default # => "Whoops! That doesn't exists here!"
 fruit_prices[:banana] # => 1.05
 fruit_prices[:orange] # => "Whoops! That doesn't exists here!"
 
-# Edge case
+# Edge cases
 test_hash = Hash.new("Not found")
 test_hash.default # => "Not found"
 test_hash[:test] # => "Not found"

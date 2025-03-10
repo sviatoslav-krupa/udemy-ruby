@@ -30,7 +30,7 @@ end # => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas:
   "arkansas - Little Rock"
 =end
 
-# Edge case
+# Edge cases
 capitals.each do |item| # it iterates through each key-value pair and returns it in `[key, value]` format
   p item
 end => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}

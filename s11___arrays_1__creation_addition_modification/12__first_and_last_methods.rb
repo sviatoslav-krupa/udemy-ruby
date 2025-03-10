@@ -18,7 +18,7 @@ p arr.last(2) # => [18, 6] (Array)
 p arr.last(0) # => [] (Array)
 p arr.last(100) # => [1, 3, 5, 7, 9, 15, 21, 18, 6] (Array)
 
-# Edge case
+# Edge cases
 
 arr = []
 

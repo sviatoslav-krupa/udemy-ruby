@@ -51,7 +51,7 @@ p fruits # => ["Another new fruit", "New fruit", "Kiwi"]
 fruits[0..1] = "Apple", "Banana"
 p fruits # => ["Apple", "Banana", "Kiwi"]
 
-# Edge cases
+# Edge cases:
 
 # Inserting nested array:
 fruits[0..1] = [%w[Coconut Mandarin]]

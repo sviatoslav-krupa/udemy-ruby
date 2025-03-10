@@ -14,7 +14,7 @@ bob # => ["Bob", 25, "male"]
 susan # => ["Susan", 21, "female"]
 larry # => ["Larry", 45, "male"]
 
-# Edge cases
+# Edge cases:
 test_1, test_2 = users
 test_1 # => ["Bob", 25, "male"]
 test_2 # => ["Susan", 21, "female"]

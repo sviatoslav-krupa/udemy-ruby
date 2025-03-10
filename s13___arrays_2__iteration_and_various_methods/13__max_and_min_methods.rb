@@ -15,7 +15,7 @@ fruits = %w[apple kiwi banana watermelon]
 fruits.max # => "watermelon"
 fruits.min # => "apple"
 
-# Edge cases
+# Edge cases:
 [true, true, false, nil].max # => comparison of TrueClass with false failed (ArgumentError)
 [1, 4, "qwe", 100].max # => comparison of String with 4 failed (ArgumentError)
 

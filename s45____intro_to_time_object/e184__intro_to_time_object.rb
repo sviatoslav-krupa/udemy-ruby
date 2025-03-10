@@ -24,7 +24,7 @@ Time.new(2015, 5, 18, 23, 45, 05) #=> 2015-05-18 23:45:05 +0300
 
 Time.now(2015) #=> wrong number of arguments (given 1, expected 0) (ArgumentError)
 
-# Edge cases
+# Edge cases:
 Time.new(2100) #=> 2100-01-01 00:00:00 +0200 (for future)
 Time.new(-1000) #=> -1000-01-01 00:00:00 +0300 (even with negative year)
 Time.new(2022, 30) #=> argument out of range (ArgumentError)

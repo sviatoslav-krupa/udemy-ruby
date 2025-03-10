@@ -25,7 +25,7 @@ p (1...5).last # => 5 (even if 5 is excluded)
 p (1...5).last(1) # => [4] (Array)
 p (1...5).last(3) # => [2, 3, 4] (without excluded value if use argument)
 
-# Edge cases
+# Edge cases:
 p 1..5.first # => undefined method `first' for 5:Integer (NoMethodError)
 p (1..5).first # => 1
 p (1..5).first(100) # => [1, 2, 3, 4, 5]

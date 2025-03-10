@@ -22,5 +22,5 @@ phone #=> #<Gadget:0x00007f81ca0b6a50 @password="topsecret", @production_number=
 laptop = Gadget.new(username: "Test user", password: "not-so-secret")
 laptop #=> #<Gadget:0x00007f81cf09b390 @password="not-so-secret", @production_number="t-462", @username="Test user">
 
-# Edge case
+# Edge cases
 tablet = Gadget.new #=> missing keywords: :username, :password (ArgumentError)

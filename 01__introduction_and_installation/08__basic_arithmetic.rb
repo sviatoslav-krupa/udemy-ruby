@@ -1,9 +1,8 @@
-# PEMDAS - Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
-# Operator precedence in Ruby - https://www.geeksforgeeks.org/operator-precedence-in-ruby/
-
-# Notes
-#   Multiplication operator '*' called asterisk
-#   (1 + 4) called expression
+# Notes:
+#   * PEMDAS - Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+#   * Multiplication operator '*' called asterisk
+#   * (1 + 4) called expression
+#   * Operator precedence in Ruby - https://www.geeksforgeeks.org/operator-precedence-in-ruby/
 
 # Addition
 1 + 4             #=> 5
@@ -31,6 +30,6 @@
 14 % 4  #=> 2
 6 % 2   #=> 0
 
-# Edge cases
+# Edge cases:
 4 + "qwe" #=> String can't be coerced into Integer (TypeError)
 .5 / 2    #=> syntax error found (SyntaxError)

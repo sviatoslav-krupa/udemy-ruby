@@ -45,7 +45,7 @@ Product.product_counter #=> 2
 Widget.widget_counter #=> 1
 Thingamajig.thingamajig_counter #=> 1
 
-# Edge cases
+# Edge cases:
 Widget.product_counter #=> 2 (Widget has access to :product_counter - class variable of superclass)
 Thingamajig.product_counter #=> 2 (Thingamajig has access to :product_counter - class variable of superclass)
 Product.widget_counter #=> undefined method `widget_counter' for Product:Class (NoMethodError)

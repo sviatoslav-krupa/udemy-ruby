@@ -17,6 +17,9 @@
 * _stdlib_ - standard library
 * `::class_method_name` - for class methods
 * `#instance_method_name` - for instance methods
+* `[R]` - for attributes with reader
+* `[W]` - for attributes with writer
+* `[RW]` - for attributes with both reader and writer
 
 ## Install rdoc
 * `$ gem install rdoc`

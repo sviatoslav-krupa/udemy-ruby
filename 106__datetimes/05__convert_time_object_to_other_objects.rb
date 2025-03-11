@@ -1,5 +1,5 @@
 # Notes:
-#   * .strftime (String from Time)
+#   * .strftime (String Format Time)
 #   * The result is String
 #   * %b - Abbreviated month name ("Jan")
 #   * %B - Full month name ("January")

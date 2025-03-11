@@ -22,6 +22,7 @@ class Album
 end
 
 thriller = Album.new
+
 thriller.add_song("Thriller")
 thriller.add_song("Billie Jean")
 

@@ -21,3 +21,6 @@
 ## Bundle
 * Bundle - is a pre-installed program that's going to look for a gem file in the current directory, find all the dependencies, including all of their sub dependencies, figure out everything you need to download and do that all in a single command
 * `$ bundle install` - to install gems from Gemfile
+
+## RubyGems
+* https://rubygems.org

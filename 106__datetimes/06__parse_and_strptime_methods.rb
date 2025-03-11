@@ -1,6 +1,6 @@
 # Notes:
 #   * .parse - uses default configuration
-#   * .strptime (String parse Time) - can configure, more flexible
+#   * .strptime (String Parse Time) - can configure, more flexible
 
 Time.parse("2016-01-01")                #=> undefined method `parse' for Time:Class (NoMethodError)
 Time.strptime("03-04-2000", "%m-%d-%Y") #=> undefined method `strptime' for Time:Class (NoMethodError)

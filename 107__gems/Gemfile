@@ -1,0 +1,5 @@
+source "https://rubygems.org" # telling the gem file where to fetch all the following dependencies from
+
+# Here we're going to specify dependencies (gems) for the project
+# Locking down the version to ensure consistency and stability over
+gem "faker", "~> 3.4", ">= 3.4.2" # `~> 3.4` means to allow ONLY higher minor versions of the gem to be installed, not major versions

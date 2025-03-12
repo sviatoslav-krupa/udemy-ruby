@@ -2,8 +2,10 @@
 #   * .sub (substitution) and .gsub (global substitution) - find and replace
 #   * .sub - replaces only first occurrence
 #   * .gsub - replaces all occurrences
-#   * syntax: `sub|gsub(what_to_find_and_remove, what_to_insert)`
 #   * methods with ! mutate object
+
+# Syntax:
+#   * `sub|gsub(what_to_find_and_remove, what_to_insert)`
 
 "whimper mmm".sub("m", "s")                                               #=> "whisper mmm"
 "whimper mmm".gsub("m", "s")                                              #=> "whisper sss"

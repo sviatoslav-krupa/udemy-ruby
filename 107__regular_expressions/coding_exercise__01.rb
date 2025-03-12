@@ -20,7 +20,7 @@
 
 def calculate_grocery_total(string)
   string
-    .scan(/\d+.\d+/)
-    .map(&:to_f)
-    .reduce(&:+)
+    .scan(/\$\d+.\d+/)
+    .map{ |price| price.sub("$", "").to_f }
+    .sum
 end

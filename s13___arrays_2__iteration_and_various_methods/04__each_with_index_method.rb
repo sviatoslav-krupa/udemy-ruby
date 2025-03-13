@@ -4,7 +4,7 @@ colors = %w[red blue yellow orange]
 
 colors.each_with_index do |color, index|
   puts "#{index}: Color #{color}"
-end # => ["red", "blue", "yellow", "orange"]
+end #=> ["red", "blue", "yellow", "orange"]
 =begin
 0: Color red
 1: Color blue
@@ -17,7 +17,7 @@ end # => ["red", "blue", "yellow", "orange"]
 
 colors.each_with_index do |index, color|
   puts "#{index}: Color #{color}"
-end # => ["red", "blue", "yellow", "orange"]
+end #=> ["red", "blue", "yellow", "orange"]
 =begin
 red: Color 0
 blue: Color 1

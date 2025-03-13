@@ -16,7 +16,7 @@ end
 
 numbers = [1, 2, 3, 4, 5]
 
-p sum_of_products(numbers) # => 40
+p sum_of_products(numbers) #=> 40
 
 
 # Second:

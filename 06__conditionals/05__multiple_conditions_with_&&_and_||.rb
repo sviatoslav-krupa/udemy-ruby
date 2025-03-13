@@ -21,7 +21,7 @@ end #=> "Congratulations, welcome to the show!"
 
 # Edge cases:
 # when all arguments are truthy
-3 && 5 && 8 # => 8 (return evaluation of last expression that is true)
+3 && 5 && 8 #=> 8 (return evaluation of last expression that is true)
 
 
 # ||

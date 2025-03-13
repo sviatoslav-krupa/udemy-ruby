@@ -20,7 +20,7 @@ end #=> nil
 
 if 0
   puts "That is true"
-end # => nil
+end #=> nil
 # OUTPUT:
 #   That is true
 

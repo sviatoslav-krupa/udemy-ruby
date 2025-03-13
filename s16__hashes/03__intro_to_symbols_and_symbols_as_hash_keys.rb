@@ -4,21 +4,21 @@
 
 # .methods - list of all available methods on an abject.
 
-:name # => :name
-:name.class # => Symbol
-:name.methods.length # => 90
+:name #=> :name
+:name.class #=> Symbol
+:name.methods.length #=> 90
 
-"name" # => "name"
-"name".class # => String
-"name".methods.length # => 195
+"name" #=> "name"
+"name".class #=> String
+"name".methods.length #=> 195
 
 str = "test"
 dup_str = "test"
-str.object_id == dup_str.object_id # => false
+str.object_id == dup_str.object_id #=> false
 
 sym = :test
 dup_sym = :test
-sym.object_id == dup_sym.object_id # => true (no copies for Symbol, just one object in memory)
+sym.object_id == dup_sym.object_id #=> true (no copies for Symbol, just one object in memory)
 
 person = {
   :name => "Sviat",
@@ -52,8 +52,8 @@ blue = 50
 
 colors = { red:, green:, blue: } # the same as `color = { red: red, green: green, blue: blue }`
 
-colors # => {red: 230, green: 0, blue: 50}
-colors[:red] # => 230
+colors #=> {red: 230, green: 0, blue: 50}
+colors[:red] #=> 230
 
 # Edge cases
-colors = { red:, green:, blue:, orange: } # => undefined method 'orange' for main (NoMethodError)
+colors = { red:, green:, blue:, orange: } #=> undefined method 'orange' for main (NoMethodError)

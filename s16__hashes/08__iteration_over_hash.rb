@@ -12,7 +12,7 @@ capitals = {
 
 capitals.each do |key, value| # Ruby technically keeps ordering from v1.9
   p "#{key} - #{value}"
-end # => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
+end #=> {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
 =begin
   "alabama - Montgomery"
   "alaska - Juneau"
@@ -22,7 +22,7 @@ end # => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas:
 
 capitals.each_pair do |key, value|
   p "#{key} - #{value}"
-end # => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
+end #=> {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
 =begin
   "alabama - Montgomery"
   "alaska - Juneau"
@@ -47,14 +47,14 @@ salaries = {
   ceo: 3000000
 }
 
-salaries.each_key { |key| p key } # => {director: 100000, producer: 200000, ceo: 3000000}
+salaries.each_key { |key| p key } #=> {director: 100000, producer: 200000, ceo: 3000000}
 =begin
   :director
   :producer
   :ceo
 =end
 
-salaries.each_value { |value| p value } # => {director: 100000, producer: 200000, ceo: 3000000}
+salaries.each_value { |value| p value } #=> {director: 100000, producer: 200000, ceo: 3000000}
 =begin
   100000
   200000
@@ -73,8 +73,8 @@ def values_array(hash)
   result
 end
 
-keys_array(salaries) # => [:director, :producer, :ceo]
-values_array(salaries) # => [100000, 200000, 3000000]
+keys_array(salaries) #=> [:director, :producer, :ceo]
+values_array(salaries) #=> [100000, 200000, 3000000]
 
 def keys_values_array(hash)
   keys = []
@@ -88,4 +88,4 @@ def keys_values_array(hash)
   [keys, values]
 end
 
-keys_values_array(salaries) # => [[:director, :producer, :ceo], [100000, 200000, 3000000]]
+keys_values_array(salaries) #=> [[:director, :producer, :ceo], [100000, 200000, 3000000]]

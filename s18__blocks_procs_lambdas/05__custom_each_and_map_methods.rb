@@ -36,5 +36,5 @@ def custom_map(array)
   result
 end
 
-custom_map([1, 2, 3]) { |num| num ** 2 } # => [1, 4, 9]
-custom_map(%w[Sviat Arnold Melissa]) { |name| name.upcase } # => ["SVIAT", "ARNOLD", "MELISSA"]
+custom_map([1, 2, 3]) { |num| num ** 2 } #=> [1, 4, 9]
+custom_map(%w[Sviat Arnold Melissa]) { |name| name.upcase } #=> ["SVIAT", "ARNOLD", "MELISSA"]

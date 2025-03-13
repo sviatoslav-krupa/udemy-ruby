@@ -9,9 +9,9 @@ def sum(*nums) # :nums is an array
   sum
 end
 
-sum(1, 2) # => 3
-sum(3, 4, 6, 9) # => 21
-sum # => 0 (:nums == [])
+sum(1, 2) #=> 3
+sum(3, 4, 6, 9) #=> 21
+sum #=> 0 (:nums == [])
 
 # Edge cases:
 # Splat arguments can be at the start, in the middle and at the end, it works without losing any params
@@ -29,7 +29,7 @@ test(1, 2, 3, 4, 5)
 [3, 4, 5]
 =end
 
-test(1) # => wrong number of arguments (given 1, expected 2+) (ArgumentError)
+test(1) #=> wrong number of arguments (given 1, expected 2+) (ArgumentError)
 
 test(1, 2)
 =begin
@@ -78,4 +78,4 @@ test(1, 2)
 2
 =end
 
-test(1) # => wrong number of arguments (given 1, expected 2+) (ArgumentError)
+test(1) #=> wrong number of arguments (given 1, expected 2+) (ArgumentError)

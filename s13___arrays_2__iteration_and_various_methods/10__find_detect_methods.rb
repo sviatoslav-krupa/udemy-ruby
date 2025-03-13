@@ -6,10 +6,10 @@
 
 words = %w[dictionary refrigerator platypus microwave]
 
-words.find { |word| word.length > 8 } # => "dictionary"
-words.detect { |word| word.length > 8 } # => "dictionary"
-words.select { |word| word.length > 8 } # => ["dictionary", "refrigerator", "microwave"]
+words.find { |word| word.length > 8 } #=> "dictionary"
+words.detect { |word| word.length > 8 } #=> "dictionary"
+words.select { |word| word.length > 8 } #=> ["dictionary", "refrigerator", "microwave"]
 
-words.find { |word| word.length > 80 } # => nil
-words.detect { |word| word.length > 80 } # => nil
-words.select { |word| word.length > 80 } # => []
+words.find { |word| word.length > 80 } #=> nil
+words.detect { |word| word.length > 80 } #=> nil
+words.select { |word| word.length > 80 } #=> []

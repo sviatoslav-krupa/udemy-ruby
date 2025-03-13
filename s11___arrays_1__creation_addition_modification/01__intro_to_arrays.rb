@@ -12,7 +12,7 @@
 # Notes:
 # * Homogeneous array or homogeneous data - stores elements of the same data type.
 
-p [] # => [] (empty array)
-p [].class # => Array
+p [] #=> [] (empty array)
+p [].class #=> Array
 
 numbers = []

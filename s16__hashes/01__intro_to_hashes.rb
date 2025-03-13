@@ -15,17 +15,17 @@
 
 # hash example
 empty_hash = {}
-empty_hash # => {}
-empty_hash.class # => Hash
+empty_hash #=> {}
+empty_hash.class #=> Hash
 
 another_hash = { a: "qwe", b: "another_qwe" }
-another_hash # => {a: "qwe", b: "another_qwe"}
-another_hash.class # => Hash
+another_hash #=> {a: "qwe", b: "another_qwe"}
+another_hash.class #=> Hash
 
 # Edge cases
 one_more_hash = { a: "qwe", a: "another_qwe" } # warning: key :a is duplicated and overwritten on line <...> (no errors)
-one_more_hash # => {a: "another_qwe"}
-one_more_hash.class # => Hash
+one_more_hash #=> {a: "another_qwe"}
+one_more_hash.class #=> Hash
 
 again_one_more_hash = { a: "qwe", "a": "another_qwe" } # no errors, no warnings
-again_one_more_hash # => {a: "another_qwe"}
+again_one_more_hash #=> {a: "another_qwe"}

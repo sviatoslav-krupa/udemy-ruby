@@ -18,7 +18,7 @@ add_two_numbers(8, 4) #=> 12
 
 # short form of a method definition
 def return_nothing; end
-return_nothing # => nil
+return_nothing #=> nil
 
 def return_string
   "Hello, World!"

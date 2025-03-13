@@ -9,12 +9,12 @@ hash_1 = { a: 100, b: 200 }
 hash_2 = { b: 254, c: 300 }
 
 result = hash_1.merge(hash_2)
-hash_1 # => {a: 100, b: 200}
-hash_2 # => {a: 100, b: 254, c: 300}
-result # => {a: 100, b: 254, c: 300}
+hash_1 #=> {a: 100, b: 200}
+hash_2 #=> {a: 100, b: 254, c: 300}
+result #=> {a: 100, b: 254, c: 300}
 
 result = hash_2.merge(hash_1)
-result # => {b: 200, c: 300, a: 100}
+result #=> {b: 200, c: 300, a: 100}
 
 def custom_merge(hash1, hash2)
   result = hash1.dup

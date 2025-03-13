@@ -34,4 +34,4 @@ praise_person(27, "Sviat") #=> undefined method 'upcase' for an instance of Inte
 def test_method_with_params name
   p name
 end
-test_method_with_params "Sviat" # => "Sviat"
+test_method_with_params "Sviat" #=> "Sviat"

@@ -20,4 +20,4 @@
 # block specifies what we want to do each item
 
 # Edge cases
-{ |num| p num }.class # => syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+{ |num| p num }.class #=> syntax error, unexpected local variable or method, expecting `do' or '{' or '('

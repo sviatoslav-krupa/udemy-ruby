@@ -33,7 +33,7 @@ The memo value is 60
 The current value is 40
 
 =end
-result # => 100
+result #=> 100
 
 # starting value is equal to first element if not passed
 result = [10, 20, 30, 40].reduce do |memo, current|
@@ -53,10 +53,10 @@ The memo value is 60
 The current value is 40
 
 =end
-result # => 100
+result #=> 100
 
 result = [3, 4, 5, 6, 7].reduce(1) { |memo, current| memo * current }
-result # => 2520
+result #=> 2520
 
 result = [3, 4, 5, 6, 7].reduce { |memo, current| memo * current } # starting value is equal to first element
-result # => 2520
+result #=> 2520

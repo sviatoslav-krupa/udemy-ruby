@@ -8,7 +8,7 @@ def pass_control
   puts "Now I'm back inside the method"
 end
 
-pass_control # => no block given (yield) (LocalJumpError)
+pass_control #=> no block given (yield) (LocalJumpError)
 pass_control { puts "Now I'm inside the block" }
 =begin
 This is inside the method
@@ -24,8 +24,8 @@ def who_am_i
   puts "I am very #{adjective}"
 end
 
-who_am_i { "handsome" } # => I am very handsome
-who_am_i { return "handsome" } # => unexpected return (LocalJumpError)
+who_am_i { "handsome" } #=> I am very handsome
+who_am_i { return "handsome" } #=> unexpected return (LocalJumpError)
 
 
 # Multiple yields
@@ -43,14 +43,14 @@ Now I'm inside the block
 Back inside the method
 Now I'm inside the block
 =end
-result # => nil (cause last evaluation of :multiple_pass is :yield => puts <...> => returns nil)
+result #=> nil (cause last evaluation of :multiple_pass is :yield => puts <...> => returns nil)
 
 result = multiple_pass { "Now I'm inside the block" }
 =begin
 Inside the method
 Back inside the method
 =end
-result # => "Now I'm inside the block"
+result #=> "Now I'm inside the block"
 
 
 # Edge cases

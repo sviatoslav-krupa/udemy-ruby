@@ -5,13 +5,13 @@
 
 hash = { a: 100, b: 200 }
 
-removed = hash.delete(:a) # => 100
-hash # => {b: 200}
-removed # => 100
+removed = hash.delete(:a) #=> 100
+hash #=> {b: 200}
+removed #=> 100
 
-removed = hash.delete(:z) # => nil
-hash # => {b: 200}
-removed # => nil
+removed = hash.delete(:z) #=> nil
+hash #=> {b: 200}
+removed #=> nil
 
 # Edge cases
 hash.delete(:b, :z) #=> wrong number of arguments (given 2, expected 1) (ArgumentError)

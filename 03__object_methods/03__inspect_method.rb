@@ -10,6 +10,6 @@ puts "Hello world\n".inspect #=> nil
 # OUTPUT:
 #   "Hello world\n"
 
-p "Hello world\n" # => "Hello world\n"
+p "Hello world\n" #=> "Hello world\n"
 # OUTPUT:
 #   "Hello world\n"

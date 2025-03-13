@@ -44,7 +44,7 @@ end #=> 5 (return value of the .times method is the integer itself)
 #   3. Hello, World!
 #   4. Hello, World!
 
-count # => undefined local variable or method `count' for main:Object (NameError)
+count #=> undefined local variable or method `count' for main:Object (NameError)
 
 # Edge cases:
 # Can include other block variables, they will be just equal to nil

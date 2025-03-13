@@ -6,11 +6,11 @@ menu = {
   chips: 0.5
 }
 
-menu[:taco] # => 5.96
-menu.fetch(:taco) # => 5.96
-menu.fetch(:taco, "Wrong option") # => 5.96
+menu[:taco] #=> 5.96
+menu.fetch(:taco) #=> 5.96
+menu.fetch(:taco, "Wrong option") #=> 5.96
 
-menu[:salad] # => nil
-menu.fetch(:salad) # => key not found: :salad (KeyError)
-menu.fetch(:salad, "Wrong option") # => "Wrong option"
-menu.fetch(:salad, nil) # => nil (like `menu[:salad]`)
+menu[:salad] #=> nil
+menu.fetch(:salad) #=> key not found: :salad (KeyError)
+menu.fetch(:salad, "Wrong option") #=> "Wrong option"
+menu.fetch(:salad, nil) #=> nil (like `menu[:salad]`)

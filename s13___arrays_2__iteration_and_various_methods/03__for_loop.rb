@@ -13,11 +13,11 @@ end
 7
 =end
 
-p num # => 7 (the last value from iterations, :num is not a block variable as with .each method, so it's available outside the loop)
+p num #=> 7 (the last value from iterations, :num is not a block variable as with .each method, so it's available outside the loop)
 
 for num in 1..5
   puts num
-end # => 1..5
+end #=> 1..5
 =begin
 1
 2

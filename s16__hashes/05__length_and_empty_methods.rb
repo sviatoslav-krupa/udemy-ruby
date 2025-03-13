@@ -9,12 +9,12 @@ shopping_list = {
 vegan_shopping_list = {}
 
 # .length - number of key-value pairs
-shopping_list.length # => 4
-vegan_shopping_list.length # => 0
+shopping_list.length #=> 4
+vegan_shopping_list.length #=> 0
 
 # .empty? - if length is 0
-shopping_list.empty? # => false
-vegan_shopping_list.empty? # => true
+shopping_list.empty? #=> false
+vegan_shopping_list.empty? #=> true
 
 # Edge cases
-{ a: "qwe", b: "qwe", a: "another qwe"}.length # => 2 (warning: key :a is duplicated and overwritten on line 9)
+{ a: "qwe", b: "qwe", a: "another qwe"}.length #=> 2 (warning: key :a is duplicated and overwritten on line 9)

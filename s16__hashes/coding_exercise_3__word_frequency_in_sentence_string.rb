@@ -20,4 +20,4 @@ end
 word_count(sentence) #=> {"Once"=>1, "upon"=>1, "a"=>2, "time"=>1, "in"=>1, "land"=>1, "far,"=>2, "away"=>1}
 
 # Or .tally (https://ruby-doc.org/core-2.7.2/Enumerable.html#method-i-tally)
-sentence.split.tally # => {"Once" => 1, "upon" => 1, "a" => 2, "time" => 1, "in" => 1, "land" => 1, "far" => 2, "away" => 1}
+sentence.split.tally #=> {"Once" => 1, "upon" => 1, "a" => 2, "time" => 1, "in" => 1, "land" => 1, "far" => 2, "away" => 1}

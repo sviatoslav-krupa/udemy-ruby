@@ -5,9 +5,9 @@
 # .compact - returns an array without nil elements
 # .compact! - modifies original array
 
-[1, 2, 3].compact # => [1, 2, 3]
-[1, nil, 2, 3, nil].compact # => [1, 2, 3]
-[1, nil, 2, false, 3, nil, false].compact # => [1, 2, false, 3, false]
+[1, 2, 3].compact #=> [1, 2, 3]
+[1, nil, 2, 3, nil].compact #=> [1, 2, 3]
+[1, nil, 2, false, 3, nil, false].compact #=> [1, 2, false, 3, false]
 
 def custom_compact(array)
   new_arr = []

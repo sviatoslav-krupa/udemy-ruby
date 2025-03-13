@@ -8,7 +8,7 @@
 surname = "Krupa"
 
 names = %w[Jack Jill John James Sviatoslav #{surname}]
-p names # => ["Jack", "Jill", "John", "James", "Sviatoslav", "\#{surname}"]
+p names #=> ["Jack", "Jill", "John", "James", "Sviatoslav", "\#{surname}"]
 
 names = %W[Jack Jill John James Sviatoslav #{surname}]
-p names # => ["Jack", "Jill", "John", "James", "Sviatoslav", "Krupa"]
+p names #=> ["Jack", "Jill", "John", "James", "Sviatoslav", "Krupa"]

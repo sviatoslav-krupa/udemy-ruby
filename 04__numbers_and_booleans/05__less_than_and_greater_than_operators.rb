@@ -25,9 +25,9 @@
 6 >= 6.0  #=> true
 
 # Here Integer, Float and String include Comparable module, so we can make a comparison even if the result is an error
-12 > "qwe"  # => comparison of Integer with String failed (ArgumentError)
-"qwe" > 12  # => comparison of String with 12 failed (ArgumentError)
-6.1 < nil   # => comparison of Float with nil failed (ArgumentError)
+12 > "qwe"  #=> comparison of Integer with String failed (ArgumentError)
+"qwe" > 12  #=> comparison of String with 12 failed (ArgumentError)
+6.1 < nil   #=> comparison of Float with nil failed (ArgumentError)
 
 # nil doesn't include Comparable module, so we can't compare nil with anything
 nil < 6.1 #=> undefined method `<' for nil:NilClass (NoMethodError)

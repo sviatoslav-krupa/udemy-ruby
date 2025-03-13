@@ -7,13 +7,13 @@
 
 a = [4, 5, 6]
 b = [7, 8, 9]
-[1, 2, 3].zip(a, b) # => [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+[1, 2, 3].zip(a, b) #=> [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 
 # Edge cases:
-[1, 2].zip(a, b) # => [[1, 4, 7], [2, 5, 8]]
+[1, 2].zip(a, b) #=> [[1, 4, 7], [2, 5, 8]]
 
 # If the size of any argument is less than the size of the initial array, nil values are supplied.
-a.zip([1, 2], [8]) # => [[4, 1, 8], [5, 2, nil], [6, nil, nil]]
+a.zip([1, 2], [8]) #=> [[4, 1, 8], [5, 2, nil], [6, nil, nil]]
 
 def custom_zip(arr1, arr2)
   new_arr = []

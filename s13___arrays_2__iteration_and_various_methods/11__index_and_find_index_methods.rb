@@ -8,11 +8,11 @@
 
 colors = %w[Red Blue Green Red]
 
-p colors.index("Blue") # => 1
-p colors.find_index("Blue") # => 1
+p colors.index("Blue") #=> 1
+p colors.find_index("Blue") #=> 1
 
-p colors.index("Red") # => 0 (returns only first occurrence)
-p colors.find_index("Red") # => 0 (returns only first occurrence)
+p colors.index("Red") #=> 0 (returns only first occurrence)
+p colors.find_index("Red") #=> 0 (returns only first occurrence)
 
-p colors.index("Orange") # => nil
-p colors.find_index("Orange") # => nil
+p colors.index("Orange") #=> nil
+p colors.find_index("Orange") #=> nil

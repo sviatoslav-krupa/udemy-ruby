@@ -37,7 +37,7 @@ end
 #   Finished in 0.000361s, 5540.1662 runs/s, 5540.1662 assertions/s.
 # 
 #     1) Failure:
-#   TestMathematics#test_sum_method_again [109__testing_with_minitests/01__intro_to_testing.rb:21]:
+#   TestMathematics#test_sum_method_again [23__testing_with_minitests/01__intro_to_testing.rb:21]:
 #   Expected: 7
 #     Actual: 8
 # 

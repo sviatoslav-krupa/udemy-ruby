@@ -58,18 +58,18 @@ end
 #   Finished in 0.000473s, 8456.6596 runs/s, 10570.8245 assertions/s.
 #
 #     1) Failure:
-#   TestPokemon#test_adding_new_power [109__testing_with_minitests/06__final_argument_to_assertion_methods.rb:38]:
+#   TestPokemon#test_adding_new_power [23__testing_with_minitests/06__final_argument_to_assertion_methods.rb:38]:
 #   The add_attack method did not correctly add a power to the Pokemon's attack collection.
 #   Expected ["Lightning Bolt", "Electric Shock", "Shock Treatment"] to include "Wrong attack".
 #
 #     2) Failure:
-#   TestPokemon#test_name [109__testing_with_minitests/06__final_argument_to_assertion_methods.rb:26]:
+#   TestPokemon#test_name [23__testing_with_minitests/06__final_argument_to_assertion_methods.rb:26]:
 #   The Pokemon object did not assign its name correctly.
 #   Expected: "Wrong name"
 #     Actual: "Pikachu"
 #
 #     3) Failure:
-#   TestPokemon#test_type [109__testing_with_minitests/06__final_argument_to_assertion_methods.rb:30]:
+#   TestPokemon#test_type [23__testing_with_minitests/06__final_argument_to_assertion_methods.rb:30]:
 #   The Pokemon object did not assign its type correctly.
 #   Expected: :wrong_type
 #     Actual: :electric

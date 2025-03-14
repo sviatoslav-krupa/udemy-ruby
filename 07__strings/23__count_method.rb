@@ -13,7 +13,7 @@
 
 "An amazing aadvark appeared".count("Aa") #=> 8
 
-# Edge cases
+# Edge cases:
 "Hello, World!".count #=> wrong number of arguments (given 0, expected 1+) (ArgumentError)
 
 def custom_count(string, search_characters)

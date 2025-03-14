@@ -37,7 +37,7 @@ puts words
 #   Just you watch.
 #   Goodbye!
 
-# Edge cases
+# Edge cases:
 new_words = <<MLS add text here #=> syntax error found (SyntaxError)
   This will be a multiline string
   when it is output.

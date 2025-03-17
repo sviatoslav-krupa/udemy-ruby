@@ -56,7 +56,7 @@ p "Steven Seagal" #=> "Steven Seagal"
 
 p "Hi there, this is a
 big line break" #=> "Hi there, this is a\nbig line break"
-# # OUTPUT:
+# OUTPUT:
 #   "Hi there, this is a\nbig line break"
 
 p "Hello, World!" #=> "Hello, World!"
@@ -77,7 +77,7 @@ puts "3" + "4"  #=> nil (string concatenation)
 #   34
 
 puts
-# OUTPUT: (OUTPUT:s nothing and adds line break):
+# OUTPUT: (outputs nothing and adds line break):
 #
 
 # It is a valid Ruby code, ';' is a terminator

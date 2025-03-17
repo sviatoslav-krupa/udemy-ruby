@@ -1,9 +1,7 @@
 # Notes:
 #   * .puts and .print return nil, .p returns passed value
 
-
-# PUTS - Ruby automatically adds line break at the end of the OUTPUT:
-
+# PUTS - Ruby automatically adds line break at the end of the output
 puts "Hello, World!" #=> nil
 # OUTPUT:
 #   Hello, World!
@@ -38,18 +36,14 @@ puts 3 + 4 #=> nil
 # OUTPUT:
 #   7
 
-
 # PRINT - the same as puts but doesn't create line break at the end
-
 print "hello" #=> nil
 print "world" #=> nil
 print "blah blah blah" #=> nil
 # OUTPUT:
 #   helloworldblah blah blah
 
-
-# P - more literal OUTPUT: with additional details, it adds line break at the end; the same as `puts <something>.inspect`
-
+# P - more literal output with additional details, it adds line break at the end; the same as `puts <something>.inspect`
 p "Steven Seagal" #=> "Steven Seagal"
 # OUTPUT:
 #   "Steven Seagal"
@@ -67,10 +61,9 @@ puts "Hello, World!".inspect #=> nil
 # OUTPUT:
 #   "Hello, World!"
 
-
 # Edge cases:
 puts "3" + 4    #=> "`+': no implicit conversion of Integer into String (TypeError)"
-puts 3 + "4"    #=> "`+': String can't be coerced into Integer (TypeError)
+puts 3 + "4"    #=> "`+': String can't be coerced into Integer (TypeError)"
 
 puts "3" + "4"  #=> nil (string concatenation)
 # OUTPUT:
@@ -92,6 +85,7 @@ puts 3, 4, 5
 #   3
 #   4
 #   5
+
 puts(3, 4, 5)
 # OUTPUT:
 #   3

@@ -1,7 +1,7 @@
 # Notes:
-#   * Every method returns a final value.
-#   * Explicit return - with :return keyword (returns evaluation near :return, method finishes it's work right after return).
-#   * Implicit return - without :return keyword (last, final evaluation returns).
+#   * Every method returns a final value
+#   * Explicit return - with :return keyword (returns evaluation near :return, method finishes it's work right after return)
+#   * Implicit return - without :return keyword (last, final evaluation returns)
 
 def add_two_numbers(num1, num2)
   puts "OK, I'm solving your math problem!"

@@ -1,5 +1,5 @@
 # Notes:
-#   * The order of methods definition doesn't matter!
+#   * The order of methods DEFINITION (not invocation) doesn't matter!
 
 def calculator(a, b, operation = "add")
   if operation == "add"

@@ -1,5 +1,5 @@
 # Notes:
-#   * .gets - (get String) collects input from a user, OUTPUT: value is always String
+#   * .gets - (get String) collects input from a user, output value is always String
 #   * .chomp - remove new line character at the end of the string
 
 name = gets # enter Sviat
@@ -13,7 +13,7 @@ puts "Thank you, #{name}. See you later!"
 #   Thank you, Sviat
 #   . See you later!
 
-name = gets.chomp # enter Sviat; method chaining: .gets returns String, call .chomp on returned String
+name = gets.chomp # enter "Sviat"; method chaining: .gets returns string, call .chomp on returned string
 
 p name #=> "Sviat"
 # OUTPUT:

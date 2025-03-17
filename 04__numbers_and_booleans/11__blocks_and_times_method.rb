@@ -1,12 +1,12 @@
 # Notes:
-#   * Block is grouped collection of ruby statements that immediately follows a method call.
-#   * Block is not an object and not a method. It's like an add-on to a method call that clarifies how the method should operate.
-#   * Block cannot exist without a method context.
-#   * Block add more details to a method, it's attached to a method.
-#   * Block can include block variable.
-#   * Block variable is a temporary variable that represents something in context of block's execution.
-#   * We have access to the variable only in a block.
-#   * Name of a block variable can be different.
+#   * Block is grouped collection of ruby statements that immediately follows a method call
+#   * Block is not an object and not a method. It's like an add-on to a method call that clarifies how the method should operate
+#   * Block cannot exist without a method context
+#   * Block add more details to a method, it's attached to a method
+#   * Block can include block variable
+#   * Block variable is a temporary variable that represents something in context of block's execution
+#   * We have access to the variable only in a block
+#   * Name of a block variable can be different
 
 # Docs:
 #   * https://ruby-doc.org/core-3.1.0/Integer.html#method-i-times
@@ -30,10 +30,15 @@
 end #=> 5 (return value of the .times method is the integer itself)
 # OUTPUT:
 #   Hello, World!
+#   This is a block.
 #   Hello, World!
+#   This is a block.
 #   Hello, World!
+#   This is a block.
 #   Hello, World!
+#   This is a block.
 #   Hello, World!
+#   This is a block.
 
 # count is a block variable, starts from 0 to 4
 5.times { |count| puts "#{count}. Hello, World!" } #=> 5

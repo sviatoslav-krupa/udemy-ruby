@@ -2,9 +2,7 @@
 #   * && - all conditions have to evaluate to true to give true in a result
 #   * || - at least one condition have to evaluate to true to give true in a result
 
-
 # &&
-
 age = 25
 ticket = "General Admission"
 id = true
@@ -23,9 +21,7 @@ end #=> "Congratulations, welcome to the show!"
 # when all arguments are truthy
 3 && 5 && 8 #=> 8 (return evaluation of last expression that is true)
 
-
 # ||
-
 price = 10
 budget = 5
 mood = "Happy"

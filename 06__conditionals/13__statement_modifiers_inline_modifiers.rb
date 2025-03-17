@@ -1,5 +1,4 @@
 # IF
-
 number = 5000
 verified = true
 
@@ -10,7 +9,6 @@ end #=> Huge number!
 "Huge number!" if number > 2500 && verified #=> Huge number!
 
 # UNLESS
-
 x = 8
 
 unless x > 10
@@ -18,7 +16,6 @@ unless x > 10
 end #=> x is not greater than 10
 
 "x is not greater than 10" unless x > 10 #=> x is not greater than 10
-
 
 # Edge cases:
 # when body has more than 1 line of code

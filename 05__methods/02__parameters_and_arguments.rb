@@ -11,9 +11,7 @@ praise_person "David", 35 #=> David (35 y.o.) is amazing!
 
 praise_person #=> wrong number of arguments (given 0, expected 1) (ArgumentError)
 
-
 # Manipulation Arguments
-
 def praise_person(name, age)
   puts "#{name.upcase} is amazing"
   puts "#{name} is charming"
@@ -23,7 +21,7 @@ end
 
 praise_person("Sviat", 27)
 # OUTPUT:
-#   Sviat is amazing
+#   SVIAT is amazing
 #   Sviat is charming
 #   Sviat is talented
 #   They are 32 years old.
@@ -32,6 +30,6 @@ praise_person(27, "Sviat") #=> undefined method 'upcase' for an instance of Inte
 
 # Method definition works even without parentheses
 def test_method_with_params name
-  p name
+  name
 end
 test_method_with_params "Sviat" #=> "Sviat"

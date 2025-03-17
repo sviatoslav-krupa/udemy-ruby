@@ -9,7 +9,7 @@
 10.8.ceil #=> 11
 10.3.ceil #=> 11
 
-# .round - rounds a float by mathematical rule, aArgument is optional
+# .round - rounds a float by mathematical rule, argument is optional
 10.8.round #=> 11
 10.3.round #=> 10
 
@@ -26,8 +26,9 @@
 -5.abs    #=> 5
 
 # Edge cases:
-5.floor           #=> 5
-6.ceil            #=> 6
-5.round           #=> 5
-5.round(2) #=> 5
-10.0.ceil         #=> 10
+10.floor           #=> 10
+10.ceil            #=> 10
+10.round           #=> 10
+10.round(2) #=> 10
+10.0.ceil          #=> 10
+10.0.floor         #=> 10

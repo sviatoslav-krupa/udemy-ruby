@@ -1,8 +1,7 @@
 # What is a conditional:
-#   * Statement that controls if a piece of code executes.
-#   * Evaluates to a Boolean: true or false.
-#   * If the condition is met, the code executes. Otherwise, it is skipped.
-
+#   * Statement that controls if a piece of code executes
+#   * Evaluates to a Boolean: true or false
+#   * If the condition is met, the code executes. Otherwise, it is skipped
 
 # Syntax:
 #   if condition
@@ -11,7 +10,6 @@
 
 if 5 < 7
   # Body of if statement
-
   puts "That math statement is true"
 end #=> nil (the result of last evaluation)
 # OUTPUT:

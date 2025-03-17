@@ -15,7 +15,6 @@ def rate_my_food(food)
     "I don't know about that food."
   end
 end
-
 rate_my_food("Steak")             #=> "Pass the steak sauce! That's delicious!"
 rate_my_food("Sushi")             #=> "Great choice! My favourite food!"
 rate_my_food("Tofu")              #=> "Great choice! My favourite food!"
@@ -33,7 +32,6 @@ def calculate_school_grade(grade)
   else "F"
   end
 end
-
 calculate_school_grade(95) #=> "A"
 calculate_school_grade(89) #=> "B"
 calculate_school_grade(72) #=> "C"

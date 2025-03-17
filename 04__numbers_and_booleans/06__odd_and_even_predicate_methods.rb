@@ -1,6 +1,6 @@
 # Notes:
-#   * Predicate methods - return true or false (simply ask the object a question about itself).
-#   * Best practice to end a name of predicate method with `?` symbol (no technically required).
+#   * Predicate methods - return true or false (simply ask the object a question about itself)
+#   * Best practice to end a name of predicate method with `?` symbol (no technically required)
 
 # .odd? (непарне?)
 1.odd? #=> true

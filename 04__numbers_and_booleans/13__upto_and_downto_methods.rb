@@ -1,6 +1,6 @@
 # Docs:
-# * https://ruby-doc.org/core-3.1.0/Integer.html#method-i-downto
-# * https://ruby-doc.org/core-3.1.0/Integer.html#method-i-upto
+#   * https://ruby-doc.org/core-3.1.0/Integer.html#method-i-downto
+#   * https://ruby-doc.org/core-3.1.0/Integer.html#method-i-upto
 
 # Iterates from 5 to 1 with step 1 (including 5 and 1)
 # Returns first value

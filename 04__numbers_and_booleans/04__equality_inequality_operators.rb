@@ -22,7 +22,6 @@ c == a #=> true
 a == b #=> false
 b == a #=> false
 
-
 # Comparison with the Inequality (!=) Operator
 # Checks if 2 values are different (reverse to ==)
 10 != 10                              #=> false

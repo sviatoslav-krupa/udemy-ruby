@@ -1,7 +1,6 @@
 # Notes:
 #   * .to_i, .to_f, .to_s don't mutate (change) object, they just return value
 
-
 # Convert Strings to Numbers
 str = "5"
 str       #=> "5"
@@ -23,7 +22,6 @@ num.class #=> Float
 "5.68qwe".to_f #=> 5.68
 "qwe5.68".to_i #=> 0 (non-digit symbols go first, so Ruby can't convert it to numeric)
 "qwe5.68".to_f #=> 0.0
-
 
 # Convert Numbers to Strings
 # Integer

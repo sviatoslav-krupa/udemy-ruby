@@ -1,5 +1,5 @@
 # Notes:
-#   * Every expression in Ruby returns something (return is the final OUTPUT:, result)
+#   * Every expression in Ruby returns something (return is the final output, result)
 #   * nil represents nothing, emptiness or blankness, absence of a value
 
 puts 5 + 2 #=> nil

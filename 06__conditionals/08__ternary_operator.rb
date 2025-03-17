@@ -1,5 +1,5 @@
 # Syntax:
-#   condition ? execute if true : execute if false
+#   `condition ? execute if true : execute if false`
 
 if 1 < 2
   "Yes, it is"
@@ -29,7 +29,6 @@ if pokemon == "Charizard"
 else
   "That is not Charizard!"
 end #=> That is not Charizard!
-
 pokemon == "Charizard" ? puts "Fireball!" : puts "That is not Charizard!"   #=> syntax error, unexpected ':', expecting end-of-input
 pokemon == "Charizard" ? puts("Fireball!") : puts("That is not Charizard!") #=> That is not Charizard!
 pokemon == "Charizard" ? "Fireball!" : "That is not Charizard!"             #=> That is not Charizard!

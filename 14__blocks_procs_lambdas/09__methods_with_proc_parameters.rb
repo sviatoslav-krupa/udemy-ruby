@@ -3,7 +3,7 @@
 
 def talk_about(name, &myprc)
   puts "Let me tell you about #{name}"
-  myprc.call(name)
+  myprc.call(name) # or `yield(name)`
 end
 
 good_thing = Proc.new { |name| puts "#{name} is a genius" }

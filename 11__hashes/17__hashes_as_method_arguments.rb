@@ -1,4 +1,4 @@
-# order of params matters
+# positional argument (position, order of params matters)
 def calculate_total_1(price, tip, tax)
   tax_amount = price * tax
   tip_amount = price * tip

@@ -1,10 +1,11 @@
 # Notes:
-#   * For arrays each object in each array is compared (using the <=> operator)
+#   * For arrays each object in each array is compared (using the <=>, spaceship, three-way comparison operator)
 
 # Docs:
 #   * https://ruby-doc.org/core-2.7.0/Array.html#method-i-3C-3D-3E
 
 # Explanation:
+#   * https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator
 #
 #   -1  0   1
 #   <   =   >
@@ -16,9 +17,6 @@
 #     if a = b then return  0
 #     if a > b then return  1
 #     if a and b are not comparable then return nil
-
-# More explanation:
-#   * https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator
 
 2 <=> 5         #=> -1
 5 <=> 5         #=> 0

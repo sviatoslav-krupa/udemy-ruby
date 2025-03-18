@@ -1,4 +1,4 @@
-# Coding Exercise 2: Creating a Hash from two arrays
+# Coding Exercise 2: Creating a hash from two arrays
 
 def hash_from_arrays(keys, values)
   result = {}

@@ -21,7 +21,7 @@ menu #=> {burger: 3.99, taco: 2.99, chips: 0.5, sandwich: 8.99, sushi: 10.5}
 menu.store(:sushi, 20.5)
 menu #=> {burger: 3.99, taco: 2.99, chips: 0.5, sandwich: 8.99, sushi: 20.5}
 
-# Edge casesЖ
+# Edge cases:
 menu["burger"] = 4.99
 menu #=> {burger: 3.99, taco: 2.99, chips: 0.5, sandwich: 8.99, sushi: 20, "burger" => 4.99}
 

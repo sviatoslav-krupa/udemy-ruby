@@ -20,7 +20,7 @@ fact #=> "I love blueberry pie"
 fact[7, 4] = "rasp"
 fact[7..10] = "rasp"
 fact[7...11] = "rasp"
-fact.slice(7...11) = "rasp" (syntax error, unexpected '=', expecting end-of-input (SyntaxError) fact.slice(7, 4) = "rasp")
+fact.slice(7...11) = "rasp" # syntax error found (SyntaxError)
 fact #=> "I love raspberry pie"
 
 fact[2..5] = "absolutely adore"

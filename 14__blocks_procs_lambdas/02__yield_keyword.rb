@@ -51,11 +51,9 @@ end
 another_pass_control
 # OUTPUT:
 #   This is inside the method
-#   Now I'm inside the block
 #   Now I'm back inside the method
 
 another_pass_control { puts "Now I'm inside the block" }
 # OUTPUT:
 #   This is inside the method
-#   Now I'm inside the block
 #   Now I'm back inside the method

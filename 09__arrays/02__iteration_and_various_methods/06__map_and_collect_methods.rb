@@ -18,7 +18,6 @@ celcius = fahrenheit.map do |temperature|
 end
 celcius #=> [41, 23, 4, -8, -19]
 
-
 def cubes(array)
   array.map { |number| number ** 3 }
 end

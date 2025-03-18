@@ -8,11 +8,13 @@ fruit_prices[:banana] = 1.05
 fruit_prices[:banana] #=> 1.05
 fruit_prices[:orange] #=> "Not found"
 
-# .default (https://ruby-doc.org/core-2.3.3/Hash.html#method-i-default)
-fruit_prices.default = "Whoops! That doesn't exists here!"
-fruit_prices.default  #=> "Whoops! That doesn't exists here!"
+# .default
+# Docs:
+#   * https://ruby-doc.org/core-2.3.3/Hash.html#method-i-default
+fruit_prices.default = "Whoops! That doesn't exist here!"
+fruit_prices.default  #=> "Whoops! That doesn't exist here!"
 fruit_prices[:banana] #=> 1.05
-fruit_prices[:orange] #=> "Whoops! That doesn't exists here!"
+fruit_prices[:orange] #=> "Whoops! That doesn't exist here!"
 
 # Edge cases:
 test_hash = Hash.new("Not found")
@@ -33,8 +35,8 @@ first_team_members["Buccaneers"] #=> [] (hash isn't modified yet)
 first_team_members["Buccaneers"] << "Tom Brady"
 
 first_team_members #=> {} (hash still isn't modified yet, we just modified the default value)
-first_team_members["Buccaneers"]  #=> ["Tom Brady"]
-first_team_members["Patriots"]    #=> ["Tom Brady"]
+first_team_members["Buccaneers"] #=> ["Tom Brady"]
+first_team_members["Patriots"]   #=> ["Tom Brady"]
 
 # Run the block each time we access a non-existing key and return block evaluation value as a default one
 second_team_members = Hash.new do |hash, key|
@@ -42,6 +44,7 @@ second_team_members = Hash.new do |hash, key|
   # But this approach will not modify an initial hash
   hash[key] = []
 end
+# The easier approach: `second_team_members = Hash.new { [] }` (just return new empty array for each non-existing key and don't store it in the hash)
 
 second_team_members["Buccaneers"] #=> [] (modify the hash in the block)
 second_team_members               #=> {"Buccaneers" => []}

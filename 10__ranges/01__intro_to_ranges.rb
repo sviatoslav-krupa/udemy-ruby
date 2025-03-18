@@ -19,7 +19,7 @@ nums.last       #=> 5 (Integer)
 nums.last(2)    #=> [4, 5] (Array)
 (1...5).last    #=> 5 (even if 5 is excluded)
 (1...5).last(1) #=> [4] (Array)
-(1...5).last(3) #=> [2, 3, 4] (without excluded value if use argument)
+(1...5).last(3) #=> [2, 3, 4] (without excluded value if argument is used)
 
 # Edge cases:
 1..5.first        #=> undefined method `first' for 5:Integer (NoMethodError)

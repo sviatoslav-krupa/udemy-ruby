@@ -2,10 +2,6 @@
 #   * Keyword arguments - a new feature in Ruby 2.0 that is conceptually similar to passing a hash, but with better error handling
 #   * allow the invocation of a method to specify which parameters the arguments correspond to
 
-
-
-
-
 def sum(a: 2, b:)
   # The order of required and optional arguments doesn't matter
   # :a is an optional argument (2 is a fallback value)

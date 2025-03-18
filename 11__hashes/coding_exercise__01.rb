@@ -1,4 +1,4 @@
-# Coding Exercise 1: Count of values in a Hash
+# Coding Exercise 1: Count of values in a hash
 
 def value_count(hash, value)
   hash.values.count(value)

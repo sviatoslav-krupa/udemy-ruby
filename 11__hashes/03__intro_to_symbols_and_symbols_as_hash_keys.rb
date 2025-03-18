@@ -40,7 +40,6 @@ person[:languages][0] #=> "Ruby"
 person["name"] #=> nil
 
 # Edge cases:
-
 # Shorthand syntax from Ruby 3.1 for hash when you have a variable name that also matches the key that you want to add to a hash
 red = 230
 green = 0

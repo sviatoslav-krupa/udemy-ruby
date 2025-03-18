@@ -1,5 +1,5 @@
 # Notes:
-#   * It doesn't need to initialize :num before, just an example of show overriding
+#   * It doesn't need to initialize :num before, just an example of overriding
 
 numbers = [3, 5, 7]
 num = 100
@@ -23,3 +23,5 @@ end #=> 1..5
 #   3
 #   4
 #   5
+
+num #=> 5 (available after loop execution)

@@ -1,6 +1,6 @@
 # Notes:
 #   * .merge - returns new hash containing the contents of other_hash and the contents of hash
-#   * The value for entries with duplicate keys will be that of other_hash
+#   * The value for entries with duplicate keys will be that of `other_hash`
 #   * .merge! - mutates original object
 
 hash_1 = { a: 100, b: 200 }

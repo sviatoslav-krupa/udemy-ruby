@@ -24,3 +24,9 @@ seasons.each { |season| p season } #=> #<Set: {"Fall", "Winter", "Spring", "Summ
 one_more_seasons = Set.new(%w[Fall Winter Spring Summer Fall Winter])
 one_more_seasons        #=> #<Set: {"Fall", "Winter", "Spring", "Summer"}> (no error, duplicated values were removed)
 one_more_seasons.length #=> 4
+one_more_seasons.each_with_index { |season, index| p "#{index} - #{season}" } #=> #<Set: {"Fall", "Winter", "Spring", "Summer"}>
+# OUTPUT:
+#   "0 - Fall"
+#   "1 - Winter"
+#   "2 - Spring"
+#   "3 - Summer"

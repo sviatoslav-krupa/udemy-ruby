@@ -2,8 +2,8 @@
 #   * .squeeze - removes characters that occurs more than once in a set ("yellow moon" - "yelow mon")
 #   * .squeeze! - modifies original variable
 #   * By default, .squeeze check all characters
-#   * Only characters from parameter will be checked
-#   * Takes each part of param separately
+#   * If params are passed - only characters from parameter will be checked
+#   * Takes each part of params separately
 #   * Order doesn't matter
 #   * Case sensitivity matters
 

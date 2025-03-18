@@ -29,7 +29,7 @@ result = number_evaluation(1, 2, 3) { |num1, num2, num3| num1 * num2 * num3 } #=
 #   Inside a method
 
 # Edge cases:
-# If no argument passed to the block:
+# If no argument passed to the block
 def speak_the_truth_one_more_time
   yield if block_given?
 end

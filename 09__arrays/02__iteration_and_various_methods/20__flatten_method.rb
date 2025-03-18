@@ -1,6 +1,6 @@
 # Notes:
 #   * Returns one dimensional array (by default)
-#   * The optional level argument determines the level of recursion to flatten (from the deepest array, bottom -> up)
+#   * The optional level argument determines the level of recursion to flatten
 #   * .flatten! - modifies existing array
 
 # Docs:

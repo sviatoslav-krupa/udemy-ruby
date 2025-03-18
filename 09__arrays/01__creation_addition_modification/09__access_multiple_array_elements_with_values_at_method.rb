@@ -1,5 +1,5 @@
 # Notes:
-#   * .values_at returns always an array
+#   * `values_at` always returns an array
 #   * Can pass duplicate arguments
 #   * Arguments have to be passed by comma (not in array)
 

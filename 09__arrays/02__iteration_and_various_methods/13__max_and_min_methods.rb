@@ -1,6 +1,6 @@
 # Docs:
 #   * .max:
-#       https://docs.ruby-lang.org/en/3.2/Array.html#method-i-max
+#     https://docs.ruby-lang.org/en/3.2/Array.html#method-i-max
 #   * .min:
 #     https://docs.ruby-lang.org/en/3.2/Array.html#method-i-min
 

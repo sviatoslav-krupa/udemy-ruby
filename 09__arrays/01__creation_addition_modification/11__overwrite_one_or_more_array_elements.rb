@@ -1,8 +1,6 @@
 # Notes:
 #   * There is no matter how many elements we want to remove and how many elements we need to insert
 #   * We just change left elements with right elements
-#   * When changing 1 element - inserts elements as nested array
-#   * When changing array of elements (even if length is 1) - inserts elements as a regular elements
 
 fruits = %w[Apple Orange Grape Banana]
 fruits #=> ["Apple", "Orange", "Grape", "Banana"]

@@ -9,9 +9,9 @@
 #     * Proc just assign :nil to block variables if they are not passed
 #   2. How they return values within a method:
 #     * lambda returns control back to the method
+#       lambda works as a method: run method body -> call lambda (as a method) -> run lambda body -> back to method -> run other method body
 #     * Proc returns from the entire method, doesn't return control back to the method
-#     * lambda works as a method: run method body -> call lambda (as a method) -> run lambda body -> back to method -> run other method body
-#     * Proc works as a block: run method body -> substitute Proc call with Proc body -> run Proc body as a part of a method -> run other method body
+#       Proc works as a block: run method body -> substitute Proc call with Proc body -> run Proc body as a part of a method -> run other method body
 
 squares_proc = Proc.new { |num| num ** 2 }
 squares_alternative_proc = proc { |num| num ** 2 }
@@ -67,18 +67,3 @@ def proc_diet
   "You completed the diet!"
 end
 proc_diet #=> "You gave in"
-
-# Edge cases:
-def another_lambda_diet
-  status = lambda { "You gave in" }
-  status.call
-  "You completed the diet!"
-end
-another_lambda_diet #=> "You completed the diet!"
-
-def another_proc_diet
-  status = Proc.new { "You gave in" }
-  status.call
-  "You completed the diet!"
-end
-another_proc_diet #=> "You completed the diet!" (no :return keyword)

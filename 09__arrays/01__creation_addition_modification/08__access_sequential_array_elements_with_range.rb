@@ -1,7 +1,7 @@
 # Notes:
 #   * Works the same as for String
 
-numbers = [1, 3, 5 ,7 ,9 ,15, 21, 18, 6]
+numbers = [1, 3, 5, 7, 9, 15, 21, 18, 6]
 
 # Get elements starting from 3rd index till 6th index inclusively
 numbers[3..6] #=> [7, 9, 15, 21]

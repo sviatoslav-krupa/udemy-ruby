@@ -40,6 +40,7 @@ escaped_result = "Let's add a line break\\nright here"
 puts escaped_result #=> nil
 # OUTPUT:
 #   "Let's add a line break\nright here"
+
 p escaped_result #=> "Let's add a line break\\nright here"
 # OUTPUT:
 #   "Let's add a line break\\nright here"

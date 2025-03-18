@@ -18,7 +18,6 @@ locations #=> ["House", "Airport", "Bar", "Restaurant", "Office", "Pub"]
 locations.push(["Library", "Church"]) # It adds a nested array to the end
 locations #=> ["House", "Airport", "Bar", "Restaurant", "Office", "Pub", ["Library", "Church"]]
 
-
 # shovel operator `<<`
 numbers = [1, 2, 3, 4, 5]
 
@@ -32,7 +31,6 @@ numbers #=> [1, 2, 3, 4, 5, 6, 7, 8]
 
 numbers << [9, 10]
 numbers #=> [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]]
-
 
 # .insert
 letters = %w[a b c d e]

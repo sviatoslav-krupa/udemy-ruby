@@ -11,12 +11,12 @@
 ## Gem Package Manager
 * `$ gem -v` - get installed version of Gem Package Manager
 * `$ gem update --system` - download and update the gem package manager for the active version of Ruby
-* `$ gem install gem_name` - download the latest version of Ruby Gem; set up the gem to be available for any program that happens to be using the current version of Ruby
-* `$ gem uninstall gem_name` - removes Ruby Gem
+* `$ gem install gem_name` - download the latest version of Ruby gem; set up the gem to be available for any program that happens to be using the current version of Ruby
+* `$ gem uninstall gem_name` - removes Ruby gem
 
 ## Gemfile
 * A plain text file or essentially a ruby file where we declare all of our project's dependencies
-* Gemfile.lock - is a more specific locked down version of dependencies. When you commit this project to source control and another developer downloads the code, the bundler is going to look for the Gemfile and the Gemfile.lock to determine what needs to download; this will ensure that multiple developers on the same team running bundle install will always get the exact same versions of dependencies, which will ensure that all developers are working with the same code. Should be added to the source control
+* Gemfile.lock - is a more specific locked down version of dependencies. When you commit this project to source control and another developer downloads the code, the bundler is going to look for the Gemfile and the Gemfile.lock to determine what needs to download; this will ensure that multiple developers on the same team running `bundle install` will always get the exact same versions of dependencies, which will ensure that all developers are working with the same code. Should be added to the source control
 
 ## Bundle
 * Bundle - is a pre-installed program that's going to look for a gem file in the current directory, find all the dependencies, including all of their sub dependencies, figure out everything you need to download and do that all in a single command

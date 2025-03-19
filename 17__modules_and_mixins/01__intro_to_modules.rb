@@ -5,7 +5,7 @@
 #   * Modules cannot be used to create instances
 #   * Modules can be mixed into classes to add behaviour
 
-# Syntax and Style:
+# Syntax and style:
 #   * Module names are written in PascalCase (UpperCamelCase)
 #   * Constants in modules should be written in ALL_CAPS
 #   * Access module methods with `.` (dot operator)

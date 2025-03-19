@@ -1,7 +1,7 @@
 # Notes:
 #   * The order that modules are included in class matters:
 #     * First of all, Ruby looks at the last module included in the class
-#     * If multiple modules mix in methods with the same name, the last modules included in the class will be used first
+#     * If multiple modules mix in methods with the same name, the last module included in the class will be used first
 
 module A
   def whatever

@@ -13,7 +13,7 @@ class OlympicMedal
     @type = type
   end
 
-  # Need to create spaceship operator method (`<=>`) to tell Ruby how to compare objects
+  # Need to override spaceship operator method (`<=>`) to tell Ruby how to compare objects
   def <=>(other)
     MEDAL_TYPES[type] <=> MEDAL_TYPES[other.type]
   end

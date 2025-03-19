@@ -1,6 +1,6 @@
 # Notes:
 #   * Best practice: modules end with "-able"
-#   * If you're defining methods that will eventually be mixed in as instance methods do not include the self keyword
+#   * If you're defining methods that will be eventually mixed in as instance methods do not include the self keyword
 
 module Purchasable
   def purchase(item)

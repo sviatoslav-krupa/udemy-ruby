@@ -24,7 +24,6 @@ a.push(4)
 a #=> [1, 2, 3, 4] (changed)
 b #=> [1, 2, 3] (not changed because it's the separate object)
 
-
 # :b is alias for :a; they both points to one array [1, 2, 3]
 a = [1, 2, 3]
 b = a

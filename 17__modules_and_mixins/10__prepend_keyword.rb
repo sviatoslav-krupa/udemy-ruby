@@ -15,5 +15,5 @@ class Bookstore
   end
 end
 
-Bookstore.ancestors                           #=> [Purchasable, Bookstore, Purchasable, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
+Bookstore.ancestors                           #=> [Purchasable, Bookstore, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
 Bookstore.new.purchase("Atlas Shrugged") #=> "Atlas Shrugged has been purchased!"

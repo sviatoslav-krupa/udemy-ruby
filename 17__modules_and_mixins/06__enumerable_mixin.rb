@@ -6,18 +6,19 @@
 
 # Modules (Mixins) vs Inheritance:
 #   * Class inheritance should be used for an "is-a" relationship
-#     E.g., Array is a type fo Object, Integer is a type of Numeric
+#     E.g., Array is a type of Object, Integer is a type of Numeric
 #   * Modules should be used for a "has-a" relationship
 #     E.g., String has a Comparable feature set
 
 # The method lookup path (.ancestors method shows a full path):
 #   1. Modules included with :prepend keyword
 #   2. Class definition
-#   3. Included modules (the order that modules are included in class matters)
-#     First of all, Ruby looks at the last module included in the class
-#     If multiple modules mix in methods with the same name, the last modules included in the class will be used first
+#   3. Included modules
+#       (the order that modules are included in class matters:
+#         first of all, Ruby looks at the last module included in the class
+#         if multiple modules mix in methods with the same name, the last module included in the class will be used first)
 #   4. Parent classes
-#   5. Ruby will throw an error if the method is not found in the class, the modules or any superclasses (:method_missing)
+#   5. Ruby will throw an error if the method is not found in the class, the modules or any superclasses (`method_missing`)
 
 # Why mix in modules to classes?
 #   * Different classes need similar functionalities

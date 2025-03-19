@@ -29,4 +29,4 @@ oven.bake("Pepperoni Pizza") #=> nil
 #   Baking Pepperoni Pizza
 
 new_oven = Oven.new
-new_oven.bake("Pepperoni Pizza") #=> Please turn the oven on first! (RuntimeError)
+new_oven.bake("Pepperoni Pizza") #=> RuntimeError: Please turn the oven on first!

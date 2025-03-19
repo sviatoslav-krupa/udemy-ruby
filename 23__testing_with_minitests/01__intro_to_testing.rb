@@ -3,8 +3,8 @@
 #   * MiniTest - is a built-in unit testing framework included in the Ruby standard library
 #   * Test class should inherit from Minitest::Test
 #   * Test methods should start with `test_`
-#   * Test methods run independently of each other. they are isolated from each other
-#   * Assertions - are methods that validate that a condition is true
+#   * Test methods run independently of each other. They are isolated from each other
+#   * Assertions are methods that validate that a condition is true
 #   * Run test files as a regular Ruby file: `ruby filename.rb`
 #   * `assert_equal` is used to check the equality
 

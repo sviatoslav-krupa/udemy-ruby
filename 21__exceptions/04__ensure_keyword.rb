@@ -1,5 +1,5 @@
 # Notes:
-#   * `ensure` - section of the code that ALWAYS run no matter what
+#   * `ensure` - section of the code that ALWAYS runs no matter what
 
 def sum(a, b)
   begin

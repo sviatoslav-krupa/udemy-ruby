@@ -4,7 +4,6 @@
 #   * DateTime class was the older version (deprecated) of this class
 #   * `Time.new` - can specify additional arguments, more flexible
 #   * `Time.now` - doesn't receive any arguments
-#
 
 # Docs:
 #   * https://ruby-doc.org/core-2.3.3/Time.html

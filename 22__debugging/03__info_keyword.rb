@@ -1,5 +1,5 @@
 # Notes:
-#   * info | i - see all variables and their values at once.
+#   * info | i - see all variables and their values at once
 
 require "debug"
 

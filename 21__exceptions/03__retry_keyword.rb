@@ -1,6 +1,6 @@
 # Notes:
 #   * `retry` - executes `begin` section one more time
-#   * Be careful!! There is a possibility of an infinite loop!!!
+#   * Be careful! There is a possibility of an infinite loop!!!
 
 def sum(a, b)
   begin

@@ -5,9 +5,9 @@
 #   * step | s - execute the current line and move on to the next line
 #   * info | i - see all variables and their values at once
 #   * quit | q - exit the debugging
+#   * Without `require` - undefined local variable or method 'debugger' for main (NameError)
+#   * The more you include when a Ruby program starts, the more memory that consumes
 
-# Without `require` - undefined local variable or method 'debugger' for main (NameError)
-# The more you include when a ruby program starts, the more memory that consumes.
 require "debug" # bring this program to make it available in this file
 
 candy = "Sour Patch Kids"

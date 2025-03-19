@@ -1,5 +1,5 @@
 # Notes:
-#   * step | s - execute the current line and move on to the next line.
+#   * step | s - execute the current line and move to the beginning of the next line
 
 require "debug"
 

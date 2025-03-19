@@ -1,6 +1,6 @@
 # Notes:
-#   * .load - accesses file in current directory by default, opens it and executes right now, transfers control to loaded file
-#   * .load can execute file multiple times
+#   * `load` - accesses file in current directory by default, opens it and executes right now, transfers control to loaded file
+#   * `load` can execute file multiple times
 #   * must provide an extension of the file in the end of the file path
 
 puts "This is the beginning!"

@@ -7,6 +7,7 @@
 #   * `\S` - any non-space character
 
 paragraph = "This is my essay. I deserve an A. I rank it a 5 out of 5."
+
 paragraph.scan(/./)   #=> ["T", "h", "i", ..., "5", "."]
 paragraph.scan(/\./)  #=> [".", ".", "."]
 paragraph.scan(/d/)   #=> ["d"]

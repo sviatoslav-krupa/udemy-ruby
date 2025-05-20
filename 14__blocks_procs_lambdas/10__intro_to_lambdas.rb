@@ -18,6 +18,9 @@ squares_alternative_proc = proc { |num| num ** 2 }
 squares_lambda = lambda { |num| num ** 2 }
 squares_alternative_lambda = ->(num) { num ** 2 } # "stabby" lambda
 
+squares_proc   #=> #<Proc:0x000000011f1945e0 (irb):1>
+squares_lambda #=> #<Proc:0x000000011fa1eb98 (irb):2 (lambda)> 
+
 squares_proc.class                #=> Proc
 squares_alternative_proc.class    #=> Proc
 squares_lambda.class              #=> Proc

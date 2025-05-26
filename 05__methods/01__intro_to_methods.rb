@@ -49,3 +49,6 @@ introduce_myself_2
 #   I am handsome!
 #   I am talented!
 #   I am brilliant!
+
+# Converting a method to an object:
+method(:introduce_myself) #=> #<Method: Object#introduce_myself() (irb):1>

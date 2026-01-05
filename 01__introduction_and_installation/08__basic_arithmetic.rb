@@ -1,15 +1,15 @@
 # Notes:
-#   * PEMDAS - Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+#   * PEMDAS - Parentheses, Exponents, (Multiplication, Division), (Addition, Subtraction)
 #   * Multiplication operator '*' called asterisk
 #   * (1 + 4) called expression
 #   * Operator precedence in Ruby - https://www.geeksforgeeks.org/operator-precedence-in-ruby/
-#   If there is a Float object from at least one side - the result is a Float object as well
+#   * If there is a Float object from at least one side - the result is a Float object as well
 
 # Addition
 1 + 4     #=> 5 (integer + integer => integer)
-1.0 + 4   #=> 5 (float + integer => float)
-1 + 4.0   #=> 5 (integer + float => float)
-1.0 + 4.0 #=> 5 (float + float => float)
+1.0 + 4   #=> 5.0 (float + integer => float)
+1 + 4.0   #=> 5.0 (integer + float => float)
+1.0 + 4.0 #=> 5.0 (float + float => float)
 "School" + "bus"  #=> "Schoolbus" (string concatenation)
 
 # Subtraction

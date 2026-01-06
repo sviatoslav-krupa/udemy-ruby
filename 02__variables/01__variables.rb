@@ -1,6 +1,6 @@
 # What is a variable:
 #   * It's a reference (pointers, identifiers) to an object; that object is subject to change
-#   * The variable itself os not an object, it's a placeholder
+#   * The variable itself is not an object, it's a placeholder
 #   * Ruby is dynamically typed: variable's types do not have to be declared, the same variable can be reassigned to an object of another data type
 
 # Variable syntax:

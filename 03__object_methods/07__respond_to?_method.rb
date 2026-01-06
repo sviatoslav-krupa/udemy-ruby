@@ -13,7 +13,7 @@ p num.next if num.respond_to?(:next) #=> 1001
 # OUTPUT:
 #   1001
 
-p num.next if num.respond_to?(:length) #=> nil
+p num.length if num.respond_to?(:length) #=> nil
 # OUTPUT: (outputs nothing)
 
 str = "Hello"

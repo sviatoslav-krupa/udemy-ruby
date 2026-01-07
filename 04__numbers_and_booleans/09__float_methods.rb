@@ -13,8 +13,8 @@
 10.8.round #=> 11
 10.3.round #=> 10
 
-10.8.round            #=> 11 (.round the same as .round(0))
-10.8.round(0)  #=> 11 (argument indicates how many digits should be after the comma)
+10.8.round       #=> 11 (.round the same as .round(0))
+10.8.round(0)    #=> 11 (argument indicates how many digits should be after the comma)
 3.14159.round(1) #=> 3.1
 3.14159.round(2) #=> 3.14
 3.14159.round(4) #=> 3.1416
@@ -26,9 +26,9 @@
 -5.abs    #=> 5
 
 # Edge cases:
-10.floor           #=> 10
-10.ceil            #=> 10
-10.round           #=> 10
+10.floor    #=> 10
+10.ceil     #=> 10
+10.round    #=> 10
 10.round(2) #=> 10
-10.0.ceil          #=> 10
-10.0.floor         #=> 10
+10.0.ceil   #=> 10
+10.0.floor  #=> 10

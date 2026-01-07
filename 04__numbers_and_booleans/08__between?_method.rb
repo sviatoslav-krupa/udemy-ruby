@@ -1,5 +1,5 @@
 # Notes:
-#   * .between includes :min and :max values
+#   * .between? includes :min and :max values
 
 20.between?(10, 30)     #=> true
 20.between? 10, 30      #=> true (parentheses are not required)

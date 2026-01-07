@@ -10,7 +10,7 @@
 1.+ 2   #=> 3 (parentheses are not required)
 
 10 - 5    #=> 5
-10.-( 5)  #=> 5
+10.-(5)  #=> 5
 10.- 5    #=> 5 (parentheses are not required)
 
 3 * 4   #=> 12

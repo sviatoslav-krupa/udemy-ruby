@@ -5,27 +5,27 @@
 1.next    #=> 2
 1.next()  #=> 2
 
-1 + 2         #=> 3
+1 + 2   #=> 3
 1.+( 2) #=> 3
 1.+ 2   #=> 3 (parentheses are not required)
 
-10 - 5          #=> 5
+10 - 5    #=> 5
 10.-( 5)  #=> 5
 10.- 5    #=> 5 (parentheses are not required)
 
-3 * 4         #=> 12
+3 * 4   #=> 12
 3.*(4)  #=> 12
 3.* 4   #=> 12 (parentheses are not required)
 
-10 / 5            #=> 2
-10./(5)     #=> 2
-10./ 5      #=> 2 (parentheses are not required)
+10 / 5    #=> 2
+10./(5)   #=> 2
+10./ 5    #=> 2 (parentheses are not required)
 10.div(5) #=> 2 (we can use .div method)
 10.div 5  #=> 2 (parentheses are not required as well)
 
 10 % 3        #=> 1
-10.%(3) #=> 1
-10.% 3  #=> 1 (parentheses are not required)
+10.%(3)       #=> 1
+10.% 3        #=> 1 (parentheses are not required)
 10.modulo(3)  #=> 1 (we can use .modulo method)
 10.modulo 3   #=> 1 (parentheses are not required as well)
 

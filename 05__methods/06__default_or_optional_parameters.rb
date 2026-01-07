@@ -8,8 +8,8 @@ def make_phone_call(number, international_code = 1, area_code = 646)
 end
 
 make_phone_call(1234567, 5, 999)  #=> Calling 5-999-1234567
-make_phone_call(1234567,4)                 #=> Calling 4-646-1234567
-make_phone_call(1234567)                                  #=> Calling 1-646-1234567
+make_phone_call(1234567,4)        #=> Calling 4-646-1234567
+make_phone_call(1234567)          #=> Calling 1-646-1234567
 
 # Edge cases:
 make_phone_call(1234567, nil, 5) #=> Calling -5-1234567

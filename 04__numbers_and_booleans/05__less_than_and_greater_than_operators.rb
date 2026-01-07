@@ -7,7 +7,7 @@
 # Less than or equal (<=)
 1 <= 5  #=> true
 1 <= 1  #=> true
-5 <= 10 #=> false
+10 <= 5 #=> false
 
 # Greater than (>)
 5 > 1   #=> true

@@ -11,13 +11,13 @@ y ||= 10 # y is not nil
 y #=> 5
 
 greeting = "Hello"
+
 extraction = 0
 letter = greeting[extraction]
+letter ||= "Not found"
 letter #=> "H"
 
 extraction = 100
 letter = greeting[extraction]
-letter #=> nil
-
 letter ||= "Not found"
 letter #=> "Not found"

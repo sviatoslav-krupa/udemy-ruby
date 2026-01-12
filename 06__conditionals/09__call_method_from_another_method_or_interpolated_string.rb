@@ -26,7 +26,7 @@ def multiply(a, b)
 end
 
 calculator(2, 3, "add")             #=> "The result of adding is 5"
-calculator(2, 3)                             #=> "The result of adding is 5" ("add" is a default parameter)
+calculator(2, 3)                    #=> "The result of adding is 5" ("add" is a default parameter)
 calculator(2, 3, "subtract")        #=> "The result of subtracting is -1"
 calculator(2, 3, "multiply")        #=> "The result of multiplying is 6"
 calculator(2, 3, "blah blah blah")  #=> "That's not a real math operation, genius!"

@@ -5,7 +5,7 @@ def rate_my_food(food)
   case food
   when "Steak"
     "Pass the steak sauce! That's delicious!"
-  when "Sushi", "Tofu" # Will return only this for "Tofu" (returns the first matching)
+  when "Sushi", "Tofu"
     "Great choice! My favourite food!"
   when "Tacos", "Burritos", "Quesadillas"
     "Cheesy and filling! The perfect combination!"
@@ -17,7 +17,7 @@ def rate_my_food(food)
 end
 rate_my_food("Steak")             #=> "Pass the steak sauce! That's delicious!"
 rate_my_food("Sushi")             #=> "Great choice! My favourite food!"
-rate_my_food("Tofu")              #=> "Great choice! My favourite food!"
+rate_my_food("Tofu")              #=> "Great choice! My favourite food!" (Will return only this for "Tofu", returns the first matching)
 rate_my_food("Brussels Sprouts")  #=> "Disgusting! Yuck!"
 rate_my_food("Yogurt")            #=> "I don't know about that food."
 

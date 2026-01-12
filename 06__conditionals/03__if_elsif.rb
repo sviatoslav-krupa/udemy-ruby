@@ -23,7 +23,7 @@ elsif true
   "That's a number in a middle" # Exit from if-end block after evaluating the first matching condition
 elsif another_number < 75
   "That's a big number" # Will not be evaluated even if condition is true
-end #=> That's a number in a middle (returns after evaluating body with condition == true)
+end #=> That's a number in a middle (returns after evaluating body with first condition == true)
 
 # Technically can check non-related conditions
 number = 10

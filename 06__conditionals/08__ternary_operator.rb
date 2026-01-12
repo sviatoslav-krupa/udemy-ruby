@@ -30,5 +30,7 @@ else
   "That is not Charizard!"
 end #=> That is not Charizard!
 pokemon == "Charizard" ? puts "Fireball!" : puts "That is not Charizard!"   #=> syntax error, unexpected ':', expecting end-of-input
-pokemon == "Charizard" ? puts("Fireball!") : puts("That is not Charizard!") #=> That is not Charizard!
-pokemon == "Charizard" ? "Fireball!" : "That is not Charizard!"             #=> That is not Charizard!
+pokemon == "Charizard" ? puts("Fireball!") : puts("That is not Charizard!") #=> nil
+# OUTPUT:
+#   That is not Charizard!
+pokemon == "Charizard" ? "Fireball!" : "That is not Charizard!" #=> That is not Charizard!

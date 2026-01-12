@@ -1,4 +1,4 @@
-# What is a conditional:
+# What is a condition:
 #   * Statement that controls if a piece of code executes
 #   * Evaluates to a Boolean: true or false
 #   * If the condition is met, the code executes. Otherwise, it is skipped

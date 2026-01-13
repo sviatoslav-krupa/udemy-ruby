@@ -1,5 +1,5 @@
 # Notes:
-#   * .reverse - reverses a string (read a string from back to front)l returns String object
+#   * .reverse - reverses a string (read a string from back to front); returns String object
 
 # Docs:
 #   * https://ruby-doc.org/core-2.4.0/String.html#method-i-reverse

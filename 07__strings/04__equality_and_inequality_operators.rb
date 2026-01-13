@@ -24,4 +24,4 @@ a != a        #=> false
 "Apple" > "Banana"  #=> false (alphabetical sorting)
 "hello" > "help"    #=> false
 "Help" > "banana"   #=> false (capital letters goes first)
-"Help" > "Banana"   #=> true (capital letters goes first)
+"Help" > "Banana"   #=> true (alphabetical sorting)

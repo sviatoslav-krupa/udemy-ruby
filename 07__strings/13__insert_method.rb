@@ -3,8 +3,8 @@
 #   * It mutates object
 
 typo = "GeorgWashington"
-typo.insert(5, "e ")  #=> "George Washington"
-typo                                  #=> "George Washington"
+typo.insert(5, "e ")
+typo #=> "George Washington"
 
 # Edge cases:
 typo.insert(100, "test")  #=> index 100 out of string (IndexError)

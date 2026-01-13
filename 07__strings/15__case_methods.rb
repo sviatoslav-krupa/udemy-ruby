@@ -20,8 +20,8 @@ uppercase = lowercase.upcase
 uppercase #=> "I'M PATIENT"
 
 # .downcase
-"SVIAT123".upcase       #=> sviat123
-"BLAH BLAH BLAH".upcase #=> blah blah blah
+"SVIAT123".downcase       #=> sviat123
+"BLAH BLAH BLAH".downcase #=> blah blah blah
 
 # .swapcase
 "SViatoSLav".swapcase #=> svIATOslAV

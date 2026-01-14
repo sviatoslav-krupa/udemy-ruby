@@ -19,7 +19,6 @@ end #=> nil
 #   7
 #   8
 #   9
-#   10
 i #=> 10
 
 # Inline syntax
@@ -34,7 +33,6 @@ i #=> 10
 #   7
 #   8
 #   9
-#   10
 
 status = true
 while status

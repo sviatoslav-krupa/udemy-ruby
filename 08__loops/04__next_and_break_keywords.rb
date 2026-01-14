@@ -58,7 +58,7 @@ while i < prizes.length
   else
     puts "#{current} is not gold!"
   end
-  i +=1
+  i += 1
 end
 # OUTPUT:
 #   Pyrite is not gold!

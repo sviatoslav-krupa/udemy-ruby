@@ -35,12 +35,12 @@ numbers === 100       #=> false
 (14.2..20.7).include?(20.7) #=> true
 (14.2..20.7).include?(20.8) #=> false
 
-("a".."m").include?("m")          #=> true
-("a".."m") === "m"                #=> true
-"a".."m".include?("m")  #=> bad value for range (ArgumentError)
-"a".."m" === "m"                  #=> bad value for range (ArgumentError)
+("a".."m").include?("m") #=> true
+("a".."m") === "m"       #=> true
+"a".."m".include?("m")   #=> bad value for range (ArgumentError)
+"a".."m" === "m"         #=> bad value for range (ArgumentError)
 
-("a"..."m").include?("m")           #=> false
-("a"..."m") === "m"                 #=> false
+("a"..."m").include?("m") #=> false
+("a"..."m") === "m"       #=> false
 "a"..."m".include?("m")   #=> bad value for range (ArgumentError)
-"a"..."m" === "m"                   #=> bad value for range (ArgumentError)
+"a"..."m" === "m"         #=> bad value for range (ArgumentError)

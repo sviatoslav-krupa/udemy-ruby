@@ -3,9 +3,9 @@
 #   * .rand method with an argument generates a random integer between 0 and that number exclusively
 #   * .rand method with a range selects a random value from that sequence of values
 
-rand                 #=> 0.7907232148270402 (random number between 0 and 1)
+rand          #=> 0.7907232148270402 (random number between 0 and 1)
 rand.round(2) #=> 0.57
-rand * 100           #=> 75.10413621936303 (random Float between 0 and 100)
+rand * 100    #=> 75.10413621936303 (random Float between 0 and 100)
 
 # .rand method with an argument
 rand(100)   #=> 70 (random Integer between 0 and 100 exclusively)

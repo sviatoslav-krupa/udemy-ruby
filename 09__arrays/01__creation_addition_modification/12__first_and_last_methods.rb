@@ -36,7 +36,7 @@ def custom_first(arr, num = 0)
   return arr[0] if num == 0
   arr[0, num]
 end
-custom_first(array)         #=> 1
+custom_first(array)    #=> 1
 custom_first(array, 1) #=> [1]
 custom_first(array, 5) #=> [1, 2, 3, 4, 5]
 
@@ -44,6 +44,6 @@ def custom_last(arr, num = 0)
   return arr[-1] if num == 0
   arr[0 - num, num]
 end
-custom_last(array)         #=> 6
+custom_last(array)    #=> 6
 custom_last(array, 1) #=> [6]
 custom_last(array, 5) #=> [2, 3, 4, 5, 6]

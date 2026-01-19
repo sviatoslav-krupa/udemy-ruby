@@ -11,10 +11,10 @@ words = %w[level selfless racecar dinosaur]
 palindromes = words.select { |word| word == word.reverse }
 palindromes #=> ["level", "racecar"]
 
+with_c = animals.select { |animal| animal.include?("c") }
+with_c #=> ["cheetah", "cat", "cow"]
+
 # .reject
 animals = %w[cheetah cat lion elephant dog cow]
 without_c = animals.reject { |animal| animal.include?("c") }
 without_c #=> ["lion", "elephant", "dog"]
-
-with_c = animals.select { |animal| animal.include?("c") }
-with_c #=> ["cheetah", "cat", "cow"]

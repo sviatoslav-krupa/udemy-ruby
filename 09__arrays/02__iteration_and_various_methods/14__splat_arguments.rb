@@ -11,7 +11,7 @@ def sum(*nums) # :nums is an array
 end
 sum(1, 2)       #=> 3
 sum(3, 4, 6, 9) #=> 21
-sum                   #=> 0 (:nums == [])
+sum             #=> 0 (:nums == [])
 
 # Edge cases:
 def test(a, b, *rest)

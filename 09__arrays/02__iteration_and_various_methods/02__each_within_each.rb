@@ -32,7 +32,7 @@ end
 
 shirts.each do |shirt|
   ties.each do |shirt| # the same block variable name
-    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 31) is used, shadows upper :shirt (line 29)
+    puts "OPTION: A #{shirt} shirt and a #{shirt} tie" # :shirt from ties (line 34) is used, shadows upper :shirt (line 33)
   end
 end
 # OUTPUT:

@@ -8,7 +8,7 @@ good = foods.select { |food| food.include?("Steak") }
 good #=> ["Steak", "Steak Burger", "Tuna Steaks"]
 
 bad = foods.reject { |food| food.include?("Steak") }
-bad#=> ["Vegetables", "Kale", "Tofu"]
+bad #=> ["Vegetables", "Kale", "Tofu"]
 
 #                                                                                 .select                              .reject
 good, bad = foods.partition { |food| food.include?("Steak") } #=> [["Steak", "Steak Burger", "Tuna Steaks"], ["Vegetables", "Kale", "Tofu"]]

@@ -40,12 +40,12 @@ end #=> [1, 2, 3, 4, 5]
 # Edge cases:
 list = [3, 5, 7]
 num = 10
-list.each { |num| p num } # shadowing :num on line 48
+list.each { |num| p num } # shadowing :num on line 42
 # OUTPUT:
 #   3
 #   5
 #   7
-num #=> 10 (from line 48)
+num #=> 10 (from line 42)
 
 numbers = 1..5
 numbers.each do |number|

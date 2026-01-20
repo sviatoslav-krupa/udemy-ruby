@@ -7,7 +7,7 @@
 
 sentence = "Hi, my name is Sviat. There are spaces here!"
 
-sentence.split                #=> ["Hi,", "my", "name", "is", "Sviat.", "There", "are", "spaces", "here!"]
+sentence.split        #=> ["Hi,", "my", "name", "is", "Sviat.", "There", "are", "spaces", "here!"]
 sentence.split(" ")   #=> ["Hi,", "my", "name", "is", "Sviat.", "There", "are", "spaces", "here!"]
 sentence.split(".")   #=> ["Hi, my name is Sviat", " There are spaces here!"]
 sentence.split("m")   #=> ["Hi, ", "y na", "e is Sviat. There are spaces here!"]

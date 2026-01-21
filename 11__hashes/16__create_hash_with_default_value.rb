@@ -46,12 +46,12 @@ second_team_members = Hash.new do |hash, key|
 end
 # The easier approach: `second_team_members = Hash.new { [] }` (just return new empty array for each non-existing key and don't store it in the hash)
 
-second_team_members["Buccaneers"] #=> [] (modify the hash in the block)
-second_team_members               #=> {"Buccaneers" => []}
+second_team_members["Buccaneers"] #=> []
+second_team_members               #=> {"Buccaneers" => []} (modify the hash in the block)
 
 second_team_members["Buccaneers"] << "Tom Brady"
 second_team_members["Buccaneers"] #=> ["Tom Brady"]
 second_team_members               #=> {"Buccaneers" => ["Tom Brady"]}
 
 second_team_members["Patriots"] #=> []
-second_team_members #=> {"Buccaneers" => ["Tom Brady"], "Patriots" => []}
+second_team_members             #=> {"Buccaneers" => ["Tom Brady"], "Patriots" => []}

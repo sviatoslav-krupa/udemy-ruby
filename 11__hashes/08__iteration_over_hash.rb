@@ -31,7 +31,7 @@ end #=> {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: 
 # Edge cases:
 capitals.each do |item| # it iterates through each key-value pair and returns it in `[key, value]` format
   p item
-end => {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
+end #=> {alabama: "Montgomery", alaska: "Juneau", arizona: "Phoenix", arkansas: "Little Rock"}
 # OUTPUT:
 #   [:alabama, "Montgomery"]
 #   [:alaska, "Juneau"]
@@ -60,14 +60,14 @@ def keys_array(hash)
   hash.each_key { |key| result << key }
   result
 end
-keys_array(salaries)    #=> [:director, :producer, :ceo]
+keys_array(salaries) #=> [:director, :producer, :ceo]
 
 def values_array(hash)
   result = []
   hash.each_value { |value| result << value }
   result
 end
-values_array(salaries)  #=> [100000, 200000, 3000000]
+values_array(salaries) #=> [100000, 200000, 3000000]
 
 def keys_values_array(hash)
   keys = []

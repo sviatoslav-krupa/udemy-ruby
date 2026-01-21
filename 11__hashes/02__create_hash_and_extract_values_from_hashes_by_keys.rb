@@ -13,7 +13,7 @@ nba_roaster = {
   "Golden State Warriors" => ["Stephen Curry", "Klay Thompson", "Kevin Durant"]
 }
 
-nfl_roaster #=> {"Tom Brady"=>"New England Patriots", "Tony Romo"=>"Dallas Cowboys", "Rob Gronkowski"=>"New England Patriots"}
+nfl_roaster                           #=> {"Tom Brady"=>"New England Patriots", "Tony Romo"=>"Dallas Cowboys", "Rob Gronkowski"=>"New England Patriots"}
 nfl_roaster["Tom Brady"]              #=> "New England Patriots"
 nfl_roaster["Tony Romo"]              #=> "Dallas Cowboys"
 nba_roaster["Cleveland Cavaliers"]    #=> ["Lebron James", "Kevin Love", "Kyrie Irving"]

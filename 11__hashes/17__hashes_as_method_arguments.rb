@@ -15,7 +15,7 @@ def calculate_total_2(info)
 end
 calculate_total_2({ price: 24.99, tip: 0.18, tax: 0.07 }) #=> 31.24
 calculate_total_2({ tip: 0.18, tax: 0.07, price: 24.99 }) #=> 31.24
-calculate_total_2({ price: 24.99, tip: 0.18 }) #=> nil can't be coerced into Float (TypeError) (no ArgumentError, nil can be handled in the method)
+calculate_total_2({ price: 24.99, tip: 0.18 })            #=> nil can't be coerced into Float (TypeError) (no ArgumentError, nil can be handled in the method)
 
 # Shorthand version of :calculate_total_2
 def calculate_total_3(price:, tax:, tip:) # extract `info` keys
@@ -26,4 +26,4 @@ end
 # we can omit `{}` if hash is the last argument
 calculate_total_3(price: 24.99, tip: 0.18, tax: 0.07) #=> 31.24
 calculate_total_3(tip: 0.18, tax: 0.07, price: 24.99) #=> 31.24
-calculate_total_3(price: 24.99, tip: 0.18) #=> missing keyword: :tax (ArgumentError)
+calculate_total_3(price: 24.99, tip: 0.18)            #=> missing keyword: :tax (ArgumentError)

@@ -3,9 +3,6 @@
 #   * Sets solve the problem of duplication
 #   * Ruby 3.2 autoloads Set class when code uses it; in earlier versions, we need to require "set" file
 
-# Source code:
-#   * https://github.com/ruby/ruby/blob/master/lib/set.rb
-
 require "set"
 
 seasons = Set.new(%w[Fall Winter Spring Summer])

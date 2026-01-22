@@ -2,7 +2,7 @@
 #   * `-` - removes any items that also appear in other array (with duplicates)
 
 # removes all 1, 2 and 4 from left array
-[1, 1, 2, 2, 3, 3, 4, 5] - [1, 2, 4]        #=> [3, 3, 5]
+[1, 1, 2, 2, 3, 3, 4, 5] - [1, 2, 4]  #=> [3, 3, 5]
 [1, 1, 2, 2, 3, 3, 4, 5].-([1, 2, 4]) #=> [3, 3, 5]
 
 # Edge cases:

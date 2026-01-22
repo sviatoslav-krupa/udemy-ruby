@@ -9,10 +9,10 @@
 require "set"
 
 seasons = Set.new(%w[Fall Winter Spring Summer])
-seasons.length                                  #=> 4
-seasons[0]                                      #=> undefined method '[]' for an instance of Set (NoMethodError)
-seasons.include?("Winter")                      #=> true
-seasons.include?("winter")                      #=> false
+seasons.length                     #=> 4
+seasons[0]                         #=> undefined method '[]' for an instance of Set (NoMethodError)
+seasons.include?("Winter")         #=> true
+seasons.include?("winter")         #=> false
 seasons.each { |season| p season } #=> #<Set: {"Fall", "Winter", "Spring", "Summer"}>
 # OUTPUT:
 #   "Fall"

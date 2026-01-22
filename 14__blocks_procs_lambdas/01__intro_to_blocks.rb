@@ -15,6 +15,6 @@
 # Example:
 # .each:
 #   * .each - iterate through items is a core functionality
-#   * block specifies what we want to do each item
+#   * block specifies what we want to do with each item
 [3, 5, 7, 9].each { |num| p num ** 2 }
 { |num| p num }.class #=> syntax error, unexpected local variable or method, expecting `do' or '{' or '('

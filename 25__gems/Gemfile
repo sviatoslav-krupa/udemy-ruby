@@ -1,5 +1,9 @@
-source "https://rubygems.org" # telling the gem file where to fetch all the following dependencies from
+# Notes:
+#   * >= 3.4.2 - allows any version greater than or equal to 3.4.2 (no upper limit unless combined with other constraints, works like mathematical operators)
+#   * ~> 3.4.2 - allows versions >= 3.4.2 and < 3.5.0 — permits safe updates, blocks breaking changes (allows changing all version parts to the right of the last specified digit)
+
+source "https://rubygems.org" # telling Bundler where to fetch all the following dependencies from
 
 # Here we're going to specify dependencies (gems) for the project
 # Locking down the version to ensure consistency and stability over
-gem "faker", "~> 3.4", ">= 3.4.2" # `~> 3.4` means to allow ONLY higher minor versions of the gem to be installed, not major versions
+gem "faker", "~> 3.4", ">= 3.4.2"

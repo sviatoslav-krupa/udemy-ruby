@@ -13,7 +13,6 @@ class Gadget
   end
 
   # You can overwrite default :attr_accessor, :attr_reader and :attr_writer
-  # Overriding should placed lower in the code than initial declaration
   def password=(new_password)
     @password = new_password if validate_password(new_password)
   end

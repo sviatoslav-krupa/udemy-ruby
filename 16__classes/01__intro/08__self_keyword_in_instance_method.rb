@@ -26,7 +26,7 @@ class Gadget
   end
 
   def class_details
-    # We need to set .self explicitly cause `class` is a keyword (here, we need .class, not `class`)
+    # We need to set .self explicitly cause `class` is a keyword
     puts "It is made from the #{self.class} class."
   end
 end

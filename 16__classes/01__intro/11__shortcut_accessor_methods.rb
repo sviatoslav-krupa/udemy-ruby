@@ -29,6 +29,6 @@ phone.username = "New Username"
 phone.username #=> "New Username"
 
 phone.password = "new password"
-phone.password #=>  undefined method `password' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  password=
+phone.password #=> undefined method `password' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  password=
 
 phone.production_number = "New production number" #=> undefined method `production_number=' for #<Gadget:0x00007f81cb841800 @username="New Username", @password="new password", @production_number="w-519"> (NoMethodError) Did you mean?  production_number

@@ -30,7 +30,7 @@ end
 john.play_game #=> "Winner!" (always)
 
 bob.singleton_class   #=> #<Class:#<Player:0x00007fe4a5a37ac8>>
-bob.singleton_methods   #=> []
+bob.singleton_methods #=> []
 
-john.singleton_class  #=> #<Class:#<Player:0x00007fe4aa8ce9c0>>
-john.singleton_methods  #=> [:cheat]
+john.singleton_class   #=> #<Class:#<Player:0x00007fe4aa8ce9c0>>
+john.singleton_methods #=> [:cheat, :play_game]

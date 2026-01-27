@@ -12,10 +12,10 @@ end
 
 # In case of positional arguments, order matters:
 #   * senator = Candidate.new(53, "Mr. Smith", "Banker", "Kentucky", "Fishing")
-#   * senator.name #=> 53
-#   * senator.age #=> "Mr. Smith"
+#   * senator.name       #=> 53
+#   * senator.age        #=> "Mr. Smith"
 #   * senator.occupation #=> "Banker"
-#   * senator.hobby #=> "Kentucky"
+#   * senator.hobby      #=> "Kentucky"
 #   * senator.birthplace #=> "Fishing"
 
 info = {

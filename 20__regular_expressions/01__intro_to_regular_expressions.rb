@@ -2,7 +2,7 @@
 #   * A regular expression is another Ruby object. The class is Regexp
 #   * Regular expressions are used to match patterns in strings
 #   * Regular expressions are created with two forward slashes `//` syntax
-#   * The condition is places between the two forward slashes `//`
+#   * The condition is placed between the two forward slashes `//`
 
 # Notes:
 #   * The `=~` syntax will return the index position of the FIRST match: `string =~ //`

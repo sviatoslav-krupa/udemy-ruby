@@ -61,4 +61,4 @@ bodega.each { |snack| p "#{snack} is delicious" }
 bodega.any? { |snack| snack.length > 10 } #=> true
 bodega.all? { |snack| snack.length > 10 } #=> false
 bodega.map { |snack| snack.upcase }       #=> ["DORITOS", "JOLLY RANCHERS", "SLIM JIM"]
-bodega.sort                                     #=> ["Doritos", "Jolly Ranchers", "Slim Jim"]
+bodega.sort                               #=> ["Doritos", "Jolly Ranchers", "Slim Jim"]

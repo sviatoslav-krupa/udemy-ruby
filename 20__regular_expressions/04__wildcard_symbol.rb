@@ -3,7 +3,7 @@
 #   * `\.` - just a dot symbol
 
 phrase = "The Ruby programming language is amazing and awe-inspiring."
-phrase =~ /./                     #=> 0
+phrase =~ /./       #=> 0
 phrase.scan(/.am/)  #=> ["ram", " am"]
 phrase.scan(/.ing/) #=> ["ming", "zing", "ring"]
 phrase.scan(/a.e/)  #=> ["age", "awe"]

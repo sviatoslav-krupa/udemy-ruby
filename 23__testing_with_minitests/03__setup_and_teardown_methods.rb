@@ -1,8 +1,6 @@
 # Notes:
-#   * `setup` method is called before each test
-#   * `teardown` method is called after each test
-#   * `setup` is used to create objects and set up the environment for the test
-#   * `teardown` is used to clean up the environment after the test
+#   * `setup` method is called before each test; is used to create objects and set up the environment for the test
+#   * `teardown` method is called after each test; is used to clean up the environment after the test
 
 require "minitest/autorun"
 

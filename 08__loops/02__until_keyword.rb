@@ -3,7 +3,7 @@
 
 i = 1
 until i > 9
-  # Evaluates body of a loop til condition is true
+  # Evaluates body of a loop till condition is true
   puts i
   i += 1
 end #=> nil

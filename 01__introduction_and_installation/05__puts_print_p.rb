@@ -58,8 +58,8 @@ puts "Hello, World!".inspect #=> nil
 #   "Hello, World!"
 
 # Edge cases:
-puts "3" + 4    #=> "`+': no implicit conversion of Integer into String (TypeError)"
-puts 3 + "4"    #=> "`+': String can't be coerced into Integer (TypeError)"
+puts "3" + 4 #=> `+': no implicit conversion of Integer into String (TypeError)
+puts 3 + "4" #=> `+': String can't be coerced into Integer (TypeError)
 
 puts "3" + "4"  #=> nil (string concatenation)
 # OUTPUT:

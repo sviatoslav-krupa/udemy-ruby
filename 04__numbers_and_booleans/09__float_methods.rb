@@ -21,7 +21,7 @@
 
 # .abs (absolute value) - always positive
 10.8.abs  #=> 10.8
--10.3.abs #=> 10.8
+-10.8.abs #=> 10.8
 5.abs     #=> 5
 -5.abs    #=> 5
 

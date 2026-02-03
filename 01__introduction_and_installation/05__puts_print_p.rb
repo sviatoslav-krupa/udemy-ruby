@@ -14,10 +14,6 @@ puts "I bought 5 dollars at the store." #=> nil
 # OUTPUT:
 #   I bought 5 dollars at the store.
 
-puts "I made $65 dollars pr a profit of 25%." #=> nil
-# OUTPUT:
-#   I made $65 dollars pr a profit of 25%.
-
 puts "Hi there, this is a
 big line break" #=> nil
 # OUTPUT:

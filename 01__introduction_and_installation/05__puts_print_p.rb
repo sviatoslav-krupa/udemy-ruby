@@ -75,7 +75,7 @@ puts "Hello, World!"; puts "I'm alive and well!"
 #   Hello, World!
 #   I'm alive and well!
 
-# We can pass multiple variable by comma in p, puts and print methods
+# We can pass multiple variables by comma in p, puts and print methods
 puts 3, 4, 5
 # OUTPUT:
 #   3

@@ -26,6 +26,6 @@ def custom_join(strings, delimiter = "")
 
   result
 end
-custom_join(names)                #=> "JoeMoeBob"
+custom_join(names)        #=> "JoeMoeBob"
 custom_join(names, " ")   #=> "Joe Moe Bob"
 custom_join(names, " - ") #=> "Joe - Moe - Bob

@@ -26,4 +26,4 @@ numbers_array[2]    #=> 3
 (3.14..10).to_a     #=> can't iterate from Float (TypeError)
 (3.14..10.1).to_a   #=> can't iterate from Float (TypeError)
 (3..10.1).to_a      #=> [3, 4, 5, 6, 7, 8, 9, 10]
-(true...false).to_a #=> can't iterate from TrueClass (TypeError)
+(true...false).to_a #=> bad value for range (ArgumentError)

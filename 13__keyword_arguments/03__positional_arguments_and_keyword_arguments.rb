@@ -6,7 +6,7 @@ end
 
 sum(3, b: 5)  #=> 8
 sum(4)        #=> 5
-sum(4, 9)     #=> wrong number of arguments (given 2, expected 1) (ArgumentError) (keyword argument wasn't provided)
+sum(4, 9)     #=> wrong number of arguments (given 2, expected 1) (ArgumentError)
 sum(b: 5, 3)  #=> syntax errors found (SyntaxError) (positional argument must go first)
 
 # Edge cases:

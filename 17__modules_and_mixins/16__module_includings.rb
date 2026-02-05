@@ -18,10 +18,6 @@ module Example
   included do
     p "included"
   end
-
-  def hello
-    p "hello"
-  end
 end
 
 class A

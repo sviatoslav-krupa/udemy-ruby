@@ -21,15 +21,14 @@ nba_roaster["Cleveland Cavaliers"]    #=> ["Lebron James", "Kevin Love", "Kyrie 
 nba_roaster["Cleveland Cavaliers"][1] #=> "Kevin Love"
 
 # .dig
-h = { foo: {bar: {baz: 1}}}
-
+h = { foo: { bar: { baz: 1 } } }
 h.dig(:foo, :bar, :baz) #=> 1
 h.dig(:foo, :zot, :xyz)  #=> nil (no errors for :zot)
 
 g = { foo: [10, 11, 12] }
 g.dig(:foo, 1)    #=> 11
-g.dig(:foo, 1, 0) #=> TypeError: Integer does not have #dig method
-g.dig(:foo, :bar) #=> TypeError: no implicit conversion of Symbol into Integer
+g.dig(:foo, 1, 0) #=> Integer does not have #dig method (TypeError)
+g.dig(:foo, :bar) #=> no implicit conversion of Symbol into Integer (TypeError)
 
 # Edge cases:
 nfl_roaster["Donald Duck"]  #=> nil

@@ -1,7 +1,7 @@
 # Notes:
 #   * Literal notation: `{ key => value }`
 #   * `=>` - hash rocket symbol, rocket operator
-#   * .dig - extracts the nested value specified by the sequence of key objects by calling dig at each step, returning nil if any intermediate step is nil.
+#   * .dig - extracts the nested value specified by the sequence of key objects by calling dig at each step, returning nil if any intermediate step is nil
 
 nfl_roaster = {
   "Tom Brady" => "New England Patriots",

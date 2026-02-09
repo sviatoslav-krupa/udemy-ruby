@@ -61,3 +61,19 @@ puts 'Insert a line break\n right here' #=> nil
 puts '\tInsert a tab right here' #=> nil
 # OUTPUT:
 #   \tInsert a tab right here
+
+# Ruby technicaly keeps special characters in string; print, puts and p just process it differently
+test_string = "\t Hello, World" # (with a tab at the beginning)
+
+print test_string #=> nil
+# OUTPUT:
+#	    Hello, World
+
+puts test_string #=> nil
+# OUTPUT:
+#     Hello, World
+
+p test_string #=> nil
+# OUTPUT:
+#   "\t Hello, World"
+

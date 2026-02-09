@@ -6,6 +6,7 @@
 * Returned value indicates with `=>` (rocket)
 * Exit by `> quit` or `> exit`
 * Once you closed IRB, all work is gone
+* `command + k` - clear IRB
 
 ## Notes
 * `$ irb` is not the same as `$ ruby`

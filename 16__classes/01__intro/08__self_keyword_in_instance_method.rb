@@ -17,12 +17,12 @@ class Gadget
   def to_s
     "Gadget #{@production_number} has the username #{@username}. It is made from the #{self.class} class and it has the id #{object_id}"
 
-    # This produces syntax error because of a `class` keyword
+    # This produces syntax error because of a `class` keyword (explicit `self` needed)
     # "Gadget #{@production_number} has the username #{@username}. It is made from the #{class} class and it has the id #{object_id}"
   end
 
   def details
-    # For methods, if you omit .self, Ruby will try find it in the current object (implicit self)
+    # For methods, if you omit .self, Ruby will try find it in the current object (implicit `self`)
     nil_details   #=> the same as `self.nil_details`
     class_details #=> the same as `self.class_details`
   end

@@ -87,3 +87,11 @@ puts(3, 4, 5)
 #   3
 #   4
 #   5
+
+# `print`, `puts`, `p` are called on `self` implicitly (everything is an object in Ruby): `puts "test"` == `self.puts "test"`
+self.puts "test" #=> nil
+# OUTPUT:
+#   test
+
+self       #=> main
+self.class #=> Object

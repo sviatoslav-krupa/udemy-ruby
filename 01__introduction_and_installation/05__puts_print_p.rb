@@ -93,5 +93,5 @@ self.puts "test" #=> nil
 # OUTPUT:
 #   test
 
-self       #=> main
+self       #=> main (for global scope)
 self.class #=> Object

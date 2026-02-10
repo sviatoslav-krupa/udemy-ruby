@@ -1,11 +1,17 @@
 # Notes:
-#   * self - refers to a current object
+#   * self - refers to a current object (current scope)
+
+self #=> main
 
 class Gadget
+  self #=> Gadget
+
   def initialize
     @username = "User #{rand(1..100)}"
     @password = "topsecret"
     @production_number = "#{("a".."z").to_a.sample}-#{rand(1..999)}"
+
+    self #=> #<Gadget:0x00000001246bbf78>
   end
 
   def to_s

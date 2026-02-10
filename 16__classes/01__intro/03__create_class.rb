@@ -5,6 +5,7 @@ class Gadget
   # Body of the class
 end
 
+Gadget.class #=> Class (class itself is an instance of class Class)
 Gadget.ancestors #=> [Gadget, Object, JSON::Ext::Generator::GeneratorMethods::Object, PP::ObjectMixin, Kernel, BasicObject]
 
 phone = Gadget.new      #=> #<Gadget:0x00007f80ef0d5c60>

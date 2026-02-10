@@ -22,7 +22,7 @@ class Gadget
   end
 
   def details
-    # For methods, if you omit .self, Ruby will try find it in the current object
+    # For methods, if you omit .self, Ruby will try find it in the current object (implicit self)
     nil_details   #=> the same as `self.nil_details`
     class_details #=> the same as `self.class_details`
   end

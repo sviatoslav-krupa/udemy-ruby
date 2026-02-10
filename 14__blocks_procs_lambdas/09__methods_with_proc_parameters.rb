@@ -1,7 +1,7 @@
 # Notes:
 #   * Proc argument should be at the end of parameters list
 #   * ONLY 1 block parameter is allowed; otherwise - syntax errors found (SyntaxError): multiple block parameters; only one block is allowed
-#   * If block isn't provided and `block.call` is used: `undefined method 'call' for nil:NilClass (NoMethodError)`
+#   * If block isn't provided and `block.call` is used: `undefined method 'call' for nil:NilClass (NoMethodError)` (not ArgumentError)
 #   * If block isn't provided and `yield` is used: `no block given (yield) (LocalJumpError)`
 
 def talk_about(name, &myprc)

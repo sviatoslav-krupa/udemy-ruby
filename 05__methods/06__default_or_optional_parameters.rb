@@ -1,7 +1,7 @@
 # Notes:
 #   * Arguments are passed in the same order as parameters
 #   * We can't skip first optional parameter and fill only second
-#   * Ruby is smart enough to work with optional parameters, so it's not obvious to push default parameters to the end
+#   * Ruby is smart enough to work with optional parameters, so it's not obvious to push default parameters to the end (pretty similar to sponge operator)
 #   * Multiple optional parameters must be placed together
 
 def make_phone_call(number, international_code = 1, area_code = 646)

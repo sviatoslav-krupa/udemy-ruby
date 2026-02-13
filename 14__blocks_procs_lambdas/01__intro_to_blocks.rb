@@ -18,3 +18,6 @@
 #   * block specifies what we want to do with each item
 [3, 5, 7, 9].each { |num| p num ** 2 }
 { |num| p num }.class #=> syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+
+# `it` was introduced in Ruby 3.4 - a default block parameter
+[1, 2, 3].map { it * 2 } #=> 2, 4, 6
